@@ -5,6 +5,7 @@ import {
   resourceExists,
   resolveTemplate,
   composeDocument,
+  renderDocument,
 } from "../../content/common/js/render.js";
 
 function makeDoc(bodyHtml) {
@@ -128,5 +129,60 @@ describe("composeDocument", () => {
         { appName: "a", docId: "d" }
       )
     ).toThrowError(/wymaganego slotu/);
+  });
+});
+
+describe("renderDocument (integracja override.css/template.html — TASK-004/REQ-007)", () => {
+  const baseTemplate =
+    '<main><h1 data-doc-title></h1><div data-doc-slot></div></main>';
+
+  function makeWindow({ overrideCssExists, appTemplateExists }) {
+    document.head.querySelectorAll("link[rel=stylesheet]").forEach((l) => l.remove());
+    document.body.innerHTML =
+      '<template id="doc-content" data-doc-title="Privacy Policy"><p>Treść</p></template>';
+    const fetchImpl = vi.fn((url) => {
+      const href = String(url);
+      if (href.endsWith("template/override.css")) {
+        return Promise.resolve({ ok: overrideCssExists });
+      }
+      if (href.endsWith("template/template.html")) {
+        return Promise.resolve({ ok: appTemplateExists, text: () => Promise.resolve(baseTemplate) });
+      }
+      if (href.endsWith("templates/base.html")) {
+        return Promise.resolve({ ok: true, text: () => Promise.resolve(baseTemplate) });
+      }
+      return Promise.resolve({ ok: false });
+    });
+    return {
+      document,
+      fetch: fetchImpl,
+      location: { href: "https://example.test/content/sample-app/en/privacy-policy.html", pathname: "/content/sample-app/en/privacy-policy.html" },
+    };
+  }
+
+  it("ładuje base.css zawsze jako pierwszy, override.css po nim, gdy istnieje", async () => {
+    const win = makeWindow({ overrideCssExists: true, appTemplateExists: false });
+    await renderDocument(win);
+    const hrefs = Array.from(document.head.querySelectorAll("link[rel=stylesheet]")).map(
+      (l) => l.getAttribute("href")
+    );
+    expect(hrefs[0]).toContain("common/css/base.css");
+    expect(hrefs[1]).toContain("template/override.css");
+  });
+
+  it("nie dodaje override.css, gdy aplikacja go nie dostarcza", async () => {
+    const win = makeWindow({ overrideCssExists: false, appTemplateExists: false });
+    await renderDocument(win);
+    const hrefs = Array.from(document.head.querySelectorAll("link[rel=stylesheet]")).map(
+      (l) => l.getAttribute("href")
+    );
+    expect(hrefs).toHaveLength(1);
+    expect(hrefs[0]).toContain("common/css/base.css");
+  });
+
+  it("renderuje treść do finalnego DOM niezależnie od źródła szablonu", async () => {
+    const win = makeWindow({ overrideCssExists: false, appTemplateExists: true });
+    await renderDocument(win);
+    expect(document.body.querySelector("[data-doc-slot]").innerHTML).toContain("Treść");
   });
 });
