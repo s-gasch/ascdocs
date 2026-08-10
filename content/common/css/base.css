@@ -1,0 +1,158 @@
+/*
+ * Styl bazowy (TASK-003, REQ-006/REQ-007/REQ-014/REQ-015/REQ-016).
+ *
+ * Mobile-first: reguły bazowe dotyczą wąskiego viewportu (od 320px), media queries
+ * rozszerzają layout progresywnie dla szerszych ekranów (REQ-015).
+ *
+ * Zmienne CSS na poziomie :root są punktem rozszerzenia dla override per aplikacja
+ * (content/<app-name>/template/override.css, TASK-004/REQ-007) — nadpisanie wyłącznie
+ * tych właściwości zmienia wygląd bez duplikowania reguł strukturalnych.
+ *
+ * Wydajność (REQ-016): pojedynczy, mały plik CSS bez importów zewnętrznych; brak web
+ * fontów blokujących renderowanie (font-family oparty o stos systemowy) — minimalizacja
+ * ryzyka layout shift (CLS) i opóźnienia LCP.
+ */
+
+:root {
+  --asc-color-bg: #ffffff;
+  --asc-color-text: #1a1a1a;
+  --asc-color-muted: #5a5a5a;
+  --asc-color-accent: #0060df;
+  --asc-color-border: #dcdcdc;
+  --asc-font-heading: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --asc-font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --asc-max-width: 46rem;
+  --asc-spacing-unit: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--asc-color-bg);
+  color: var(--asc-color-text);
+  font-family: var(--asc-font-body);
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+.asc-skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--asc-color-accent);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+}
+
+.asc-skip-link:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+.asc-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.asc-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--asc-color-border);
+}
+
+.asc-header__brand {
+  font-weight: 700;
+  font-family: var(--asc-font-heading);
+  font-size: 1.125rem;
+}
+
+.asc-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+}
+
+.asc-nav a {
+  color: var(--asc-color-accent);
+  text-decoration: none;
+  padding: 0.25rem 0;
+}
+
+.asc-nav a:hover,
+.asc-nav a:focus-visible {
+  text-decoration: underline;
+}
+
+.asc-nav a.is-active {
+  font-weight: 700;
+  border-bottom: 2px solid var(--asc-color-accent);
+}
+
+.asc-main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--asc-max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.asc-doc-title {
+  font-family: var(--asc-font-heading);
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0 0 1rem;
+}
+
+.asc-doc-content h2 {
+  font-family: var(--asc-font-heading);
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+.asc-doc-content p,
+.asc-doc-content li {
+  color: var(--asc-color-text);
+}
+
+.asc-doc-content a {
+  color: var(--asc-color-accent);
+}
+
+.asc-footer {
+  padding: 1rem;
+  border-top: 1px solid var(--asc-color-border);
+  color: var(--asc-color-muted);
+  font-size: 0.875rem;
+}
+
+@media (min-width: 48rem) {
+  .asc-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+  }
+
+  .asc-main {
+    padding: 2.5rem 2rem 4rem;
+  }
+
+  .asc-doc-title {
+    font-size: 1.875rem;
+  }
+
+  .asc-footer {
+    padding: 1rem 2rem;
+  }
+}

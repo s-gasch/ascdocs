@@ -1,0 +1,31 @@
+<!--
+  Szablon bazowy (TASK-003, REQ-004/REQ-006/REQ-014/REQ-015).
+
+  Kontrakt (wspólny dla szablonu bazowego i ewentualnego override aplikacji, TASK-004):
+  - dokładnie jeden element z atrybutem `data-doc-slot` — tu wstawiana jest treść dokumentu;
+  - opcjonalne elementy z `data-doc-title`, `data-doc-app-name`, `data-doc-year` — wypełniane
+    automatycznie przez silnik renderujący (content/common/js/render.js);
+  - opcjonalne linki z `data-doc-nav="<doc-id>"` — link odpowiadający bieżącemu dokumentowi
+    otrzymuje `aria-current="page"` i klasę `is-active`.
+
+  Semantyczne landmarki (REQ-014): header/nav/main/footer, hierarchia nagłówków h1 jedyny
+  poziom najwyższy wewnątrz <main>.
+-->
+<div class="asc-page">
+  <a class="asc-skip-link" href="#asc-main">Przejdź do treści głównej</a>
+  <header class="asc-header">
+    <span class="asc-header__brand" data-doc-app-name></span>
+    <nav class="asc-nav" aria-label="Dokumenty">
+      <a data-doc-nav="privacy-policy" href="privacy-policy.html">Privacy Policy</a>
+      <a data-doc-nav="terms-of-use" href="terms-of-use.html">Terms of Use</a>
+      <a data-doc-nav="support" href="support.html">Support</a>
+    </nav>
+  </header>
+  <main id="asc-main" class="asc-main">
+    <h1 class="asc-doc-title" data-doc-title></h1>
+    <div class="asc-doc-content" data-doc-slot></div>
+  </main>
+  <footer class="asc-footer">
+    <p>&copy; <span data-doc-year></span> <span data-doc-app-name></span></p>
+  </footer>
+</div>
