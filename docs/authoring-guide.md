@@ -104,6 +104,7 @@ renderującego, jeśli plik nie znajduje się w `content/<app-name>/<lang>/`, or
     <meta charset="utf-8" />
     <title>Nazwa dokumentu — Nazwa aplikacji</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
     <script type="module" src="../../common/js/render.js"></script>
   </head>
   <body>
