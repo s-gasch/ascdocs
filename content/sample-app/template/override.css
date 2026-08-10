@@ -1,9 +1,13 @@
 /*
- * Override stylu aplikacji "sample-app" (TASK-008, demonstracja REQ-007).
- * Nadpisuje wyłącznie zmienne CSS zdefiniowane w content/common/css/base.css — bez
- * duplikowania jego reguł strukturalnych. Ładowany zawsze *po* base.css (zob. render.js).
+ * Override stylu aplikacji "sample-app" (TASK-008 — wersja bazowa; TASK-009 — pełny override,
+ * demonstracja REQ-007). Nadpisuje wyłącznie zmienne CSS zdefiniowane w
+ * content/common/css/base.css — bez duplikowania jego reguł strukturalnych. Ładowany zawsze *po*
+ * base.css (zob. render.js).
  */
 :root {
   --asc-color-accent: #d9006c;
+  --asc-color-border: #f0d6e3;
+  --asc-color-muted: #7a5468;
   --asc-font-heading: Georgia, "Times New Roman", serif;
+  --asc-max-width: 42rem;
 }

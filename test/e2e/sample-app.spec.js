@@ -88,3 +88,51 @@ test("nawigacja oznacza aktywny dokument (aria-current)", async ({ page }) => {
     "page"
   );
 });
+
+test.describe("TASK-009 — rozszerzenie sample-app: drugi język (de), pełny override", () => {
+  test("de/privacy-policy.html renderuje się poprawnie (drugi, kompletny język)", async ({ page }) => {
+    const response = await page.goto("/content/sample-app/de/privacy-policy.html");
+    expect(response.ok()).toBe(true);
+    await expect(page.locator("[data-doc-slot]")).not.toBeEmpty();
+    await expect(page.locator("h1[data-doc-title]")).toHaveText("Datenschutzerklärung");
+  });
+
+  test("pełny override.css zmienia dodatkowe zmienne stylu (--asc-max-width, REQ-007)", async ({
+    page,
+  }) => {
+    await page.goto("/content/sample-app/en/privacy-policy.html");
+    await expect(page.locator("[data-doc-slot]")).not.toBeEmpty();
+    const maxWidth = await page.locator(".asc-main").evaluate((el) => getComputedStyle(el).maxWidth);
+    expect(maxWidth).toBe("672px"); // 42rem @ 16px
+  });
+});
+
+test.describe("TASK-009 — fallback językowy (REQ-010): pl/ celowo niekompletny", () => {
+  test("pl/support.html nie istnieje jako źródło — plik jest kopią en/ wygenerowaną przez fallback", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const target = path.join(process.cwd(), "content/sample-app/pl/support.html");
+    const html = fs.readFileSync(target, "utf-8");
+    expect(html.startsWith("<!-- fallback: en -->")).toBe(true);
+  });
+
+  test("otwarcie pl/support.html (po fallbacku) renderuje treść zamiast błędu 404", async ({
+    page,
+  }) => {
+    const response = await page.goto("/content/sample-app/pl/support.html");
+    expect(response.ok()).toBe(true);
+    await expect(page.locator("[data-doc-slot]")).not.toBeEmpty();
+    await expect(page.locator("h1[data-doc-title]")).toHaveText("Support");
+  });
+});
+
+test.describe("TASK-009 — rozszerzalność typów dokumentów (REQ-008)", () => {
+  test("marketing-disclosure.html (nowy typ dokumentu) renderuje się bez zmian w content/common/", async ({
+    page,
+  }) => {
+    const response = await page.goto("/content/sample-app/en/marketing-disclosure.html");
+    expect(response.ok()).toBe(true);
+    await expect(page.locator("[data-doc-slot]")).not.toBeEmpty();
+    await expect(page.locator("h1[data-doc-title]")).toHaveText("Marketing Disclosure");
+  });
+});
