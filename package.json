@@ -1,0 +1,20 @@
+{
+  "name": "ascdocs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Narzędzia deweloperskie/testowe ASCDocs (bez zależności runtime w kodzie produkcyjnym, REQ-017). Projekt docelowy jest w pełni statyczny (content/) i nie wymaga kroku build.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "fallback:languages": "node scripts/fallback-languages.js",
+    "serve": "node scripts/dev-server.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.48.0",
+    "happy-dom": "^15.7.4",
+    "vitest": "^2.1.4"
+  }
+}
