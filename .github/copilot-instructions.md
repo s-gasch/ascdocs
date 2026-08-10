@@ -13,10 +13,10 @@ niejednoznaczności, lokalizacja artefaktów w `docs/dev/`).
 **Aktualny stan projektu i spis treści `docs/dev/` żyje w [`docs/readme.md`](../docs/readme.md) —
 zawsze zaglądaj tam po bieżący status rejestrów wymagań/planu, zamiast polegać na tym pliku.**
 
-Wymagania (REQ-001–REQ-016) i plan pracy (TASK-001–TASK-009) dla pierwszego przyrostu
+Wymagania (REQ-001–REQ-017) i plan pracy (TASK-001–TASK-009) dla pierwszego przyrostu
 ("Ujednolicenie dokumentów App Store Connect") zostały przygotowane na podstawie
 `docs/dev/draft.md` — zob. `docs/dev/requirements/` i `docs/dev/plan/`. Implementacja (Scenariusz 4)
-jeszcze się nie rozpoczęła.
+zakończona — zob. `docs/dev/log.md` i `docs/readme.md`.
 
 ## Working here
 
