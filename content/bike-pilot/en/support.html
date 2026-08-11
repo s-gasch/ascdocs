@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Support — BikePilot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <script type="module" src="../../common/js/render.js"></script>
+  </head>
+  <body>
+    <template id="doc-content" data-doc-title="Support">
+      <p><em>Last updated: 2026-08-11</em></p>
+
+      <p>
+        Need help with BikePilot? This page covers common questions, troubleshooting steps, and
+        how to reach us for further support.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If your question isn't answered below, email us and we'll get back to you as soon as we
+        can:
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:sebastian.gasch@outlook.com">sebastian.gasch@outlook.com</a>
+      </p>
+      <p>Please include the following when reporting an issue, so we can help you faster:</p>
+      <ul>
+        <li>App version (Settings → About in the App)</li>
+        <li>Your iOS version and device model</li>
+        <li>Steps to reproduce the issue</li>
+        <li>Screenshots or screen recordings, if applicable</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>GPS and location tracking</h3>
+      <p><strong>My speed/distance/route seems inaccurate.</strong></p>
+      <p>
+        GPS accuracy depends on your device, weather, and surroundings (tall buildings, tunnels,
+        dense tree cover, etc. can degrade the signal). Make sure Location access is set to "While
+        Using the App" or "Always" in iOS Settings → Privacy &amp; Security → Location Services →
+        BikePilot, and that Location Services is enabled system-wide.
+      </p>
+      <p>
+        <strong
+          >The App stopped tracking my ride when I locked my phone / switched apps.</strong
+        >
+      </p>
+      <p>
+        BikePilot uses background location updates to keep recording while your device is locked
+        or you're using another app. Make sure Location permission is granted and that Low Power
+        Mode isn't aggressively limiting background activity, which can affect GPS update
+        frequency on some devices.
+      </p>
+
+      <h3>Bluetooth sensors</h3>
+      <p><strong>My heart rate / speed &amp; cadence / temperature sensor won't connect.</strong></p>
+      <ol>
+        <li>Make sure the sensor is powered on and within range (usually 1–2 meters during pairing).</li>
+        <li>
+          Confirm Bluetooth is enabled in iOS Settings and that BikePilot has Bluetooth permission
+          (Settings → Privacy &amp; Security → Bluetooth → BikePilot).
+        </li>
+        <li>
+          Some sensors can only be connected to one app at a time — disconnect the sensor from any
+          other app (e.g. another cycling or fitness app) before connecting it in BikePilot.
+        </li>
+        <li>
+          Try restarting the sensor (remove and reinsert the battery, if applicable) and
+          re-scanning from the App's sensor settings.
+        </li>
+      </ol>
+      <p><strong>My sensor keeps disconnecting mid-ride.</strong></p>
+      <p>
+        This is usually caused by low sensor battery, distance from the device, or Bluetooth
+        interference. Replacing the sensor battery and keeping your phone within range typically
+        resolves this.
+      </p>
+
+      <h3>Altitude and grade</h3>
+      <p><strong>Altitude/grade readings look off.</strong></p>
+      <p>
+        BikePilot uses your device's barometer along with GPS to estimate altitude and slope
+        grade. Barometric readings can drift slightly over time or be affected by rapid weather
+        changes; this is a hardware limitation rather than an App malfunction.
+      </p>
+
+      <h3>GPX import/export</h3>
+      <p><strong>How do I export a ride?</strong></p>
+      <p>
+        Open the ride from your ride history and use the share/export option to save it as a
+        <code>.gpx</code> file, which you can then save to the Files app, AirDrop to another
+        device, or share via email or another app.
+      </p>
+      <p><strong>How do I import a GPX track (e.g. for navigation)?</strong></p>
+      <p>
+        Use the import option in the App and choose a <code>.gpx</code> file from the Files app
+        (Documents/Downloads folder access is required — you'll be prompted the first time).
+      </p>
+
+      <h3>BikePilot PRO subscription</h3>
+      <p><strong>How do I subscribe to / cancel BikePilot PRO?</strong></p>
+      <p>
+        Subscriptions are managed entirely through your Apple ID. To subscribe, use the upgrade
+        prompt inside the App. To view, change, or cancel your subscription, go to iOS Settings →
+        [your name] → Subscriptions, or the App Store app → your profile icon → Subscriptions.
+      </p>
+      <p><strong>I subscribed but PRO features aren't unlocked.</strong></p>
+      <p>
+        Try using the "Restore Purchases" option in the App's settings/upgrade screen. If the
+        issue persists after restarting the App, contact us with your Apple ID email (do not share
+        your Apple ID password) and the approximate purchase date so we can help investigate.
+      </p>
+      <p><strong>I was charged but didn't intend to renew / want a refund.</strong></p>
+      <p>
+        Refunds and billing are handled directly by Apple, not by the Developer. You can request a
+        refund at
+        <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> or via Settings →
+        [your name] → Subscriptions on your device.
+      </p>
+
+      <h3>Privacy</h3>
+      <p>
+        BikePilot stores all your ride data locally on your device and does not operate a backend
+        server. See our <a href="privacy-policy.html">Privacy Policy</a> for full details on what
+        data the App accesses and how it's used.
+      </p>
+
+      <h3>General troubleshooting</h3>
+      <ul>
+        <li>Make sure you're running the latest version of BikePilot from the App Store.</li>
+        <li>
+          Restarting the App or your device resolves many transient issues (e.g. sensor connection
+          problems, GPS lock delays).
+        </li>
+        <li>
+          If the App crashes or behaves unexpectedly, please email us a description of what
+          happened along with your device model and iOS version so we can investigate.
+        </li>
+      </ul>
+
+      <h2>Feature Requests and Feedback</h2>
+      <p>
+        We'd love to hear your ideas for new features or improvements. Send suggestions to
+        <a href="mailto:sebastian.gasch@outlook.com">sebastian.gasch@outlook.com</a> — we read
+        every message.
+      </p>
+    </template>
+  </body>
+</html>
