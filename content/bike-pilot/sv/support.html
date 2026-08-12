@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <title>Support — BikePilot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <script type="module" src="../../common/js/render.js"></script>
+  </head>
+  <body>
+    <template id="doc-content" data-doc-title="Support">
+      <p><em>Senast uppdaterad: 2026-08-11</em></p>
+
+      <p>
+        Behöver du hjälp med BikePilot? Den här sidan tar upp vanliga frågor, felsökningssteg och hur du kontaktar oss om du behöver ytterligare support.
+      </p>
+
+      <h2>Kontakt</h2>
+
+      <p>
+        Om du inte hittar svaret på din fråga nedan kan du mejla oss, så återkommer vi så snart vi kan:
+      </p>
+
+      <p>
+        <strong>E-post:</strong> <a href="mailto:sebastian.gasch@outlook.com">sebastian.gasch@outlook.com</a>
+      </p>
+
+      <p>
+        Ta gärna med följande när du rapporterar ett problem, så kan vi hjälpa dig snabbare:
+      </p>
+
+      <ul>
+        <li>Appversion (Inställningar → Om i appen)</li>
+        <li>Din iOS-version och enhetsmodell</li>
+        <li>Steg för att återskapa problemet</li>
+        <li>Skärmbilder eller skärminspelningar, om det är relevant</li>
+      </ul>
+
+      <h2>Vanliga frågor</h2>
+
+      <h3>GPS och platsspårning</h3>
+
+      <p><strong>Min hastighet/sträcka/rutt verkar vara felaktig.</strong></p>
+
+      <p>
+        GPS-noggrannheten beror på din enhet, vädret och omgivningen (höga byggnader, tunnlar, tät trädkrona osv. kan försämra signalen). Kontrollera att åtkomst till plats är inställd på "När appen används" eller "Alltid" i iOS-inställningar → Integritet och säkerhet → Platstjänster → BikePilot, och att Platstjänster är aktiverat i hela systemet.
+      </p>
+
+      <p><strong>Appen slutade registrera min tur när jag låste telefonen / bytte app.</strong></p>
+
+      <p>
+        BikePilot använder platsuppdateringar i bakgrunden för att fortsätta registrera när enheten är låst eller när du använder en annan app. Kontrollera att platsbehörighet har beviljats och att strömsparläge inte begränsar bakgrundsaktivitet alltför aggressivt, eftersom det på vissa enheter kan påverka hur ofta GPS uppdateras.
+      </p>
+
+      <h3>Bluetooth-sensorer</h3>
+
+      <p><strong>Min puls- / hastighets- och kadens- / temperatursensor ansluter inte.</strong></p>
+
+      <ol>
+        <li>Kontrollera att sensorn är påslagen och inom räckhåll (vanligtvis 1–2 meter vid parkoppling).</li>
+        <li>Bekräfta att Bluetooth är aktiverat i iOS-inställningar och att BikePilot har Bluetooth- behörighet (Inställningar → Integritet och säkerhet → Bluetooth → BikePilot).</li>
+        <li>Vissa sensorer kan bara vara anslutna till en app i taget — koppla bort sensorn från andra appar (t.ex. en annan cykel- eller träningsapp) innan du ansluter den i BikePilot.</li>
+        <li>Försök att starta om sensorn (ta ur och sätt tillbaka batteriet, om det är möjligt) och skanna igen från appens sensorinställningar.</li>
+      </ol>
+
+      <p><strong>Min sensor kopplas från hela tiden mitt under turen.</strong></p>
+
+      <p>
+        Det beror oftast på låg batterinivå i sensorn, avståndet till enheten eller Bluetooth-störningar. Att byta sensorbatteri och hålla telefonen inom räckhåll brukar lösa problemet.
+      </p>
+
+      <h3>Höjd och lutning</h3>
+
+      <p><strong>Höjd-/lutningsvärdena verkar fel.</strong></p>
+
+      <p>
+        BikePilot använder enhetens barometer tillsammans med GPS för att uppskatta höjd och lutning. Barometriska avläsningar kan driva något över tid eller påverkas av snabba väderomslag; detta är en begränsning i hårdvaran snarare än ett fel i appen.
+      </p>
+
+      <h3>GPX-import/export</h3>
+
+      <p><strong>Hur exporterar jag en tur?</strong></p>
+
+      <p>
+        Öppna turen i din turhistorik och använd alternativet för att dela/exportera den som en <code>.gpx</code>-fil, som du sedan kan spara i appen Filer, skicka via AirDrop till en annan enhet eller dela via e-post eller en annan app.
+      </p>
+
+      <p><strong>Hur importerar jag ett GPX-spår (t.ex. för navigering)?</strong></p>
+
+      <p>
+        Använd importalternativet i appen och välj en <code>.gpx</code>-fil från appen Filer (åtkomst till mapparna Dokument/Hämtade filer krävs — du blir ombedd första gången).
+      </p>
+
+      <h3>BikePilot PRO-prenumeration</h3>
+
+      <p><strong>Hur börjar jag prenumerera på / avslutar jag BikePilot PRO?</strong></p>
+
+      <p>
+        Prenumerationer hanteras helt via ditt Apple ID. Om du vill börja prenumerera använder du uppmaningen att uppgradera i appen. För att visa, ändra eller avsluta din prenumeration går du till Inställningar → [ditt namn] → Prenumerationer eller App Store-appen → din profilikon → Prenumerationer.
+      </p>
+
+      <p><strong>Jag har tecknat en prenumeration men PRO-funktionerna är inte upplåsta.</strong></p>
+
+      <p>
+        Prova att använda alternativet "Restore Purchases" på appens inställnings-/uppgraderingsskärm. Om problemet kvarstår efter att du har startat om appen kontaktar du oss med den e-postadress som är kopplad till ditt Apple ID (dela inte lösenordet till ditt Apple ID) och ungefärligt inköpsdatum så att vi kan hjälpa till att undersöka saken.
+      </p>
+
+      <p><strong>Jag debiterades men ville inte förnya / vill ha återbetalning.</strong></p>
+
+      <p>
+        Återbetalningar och fakturering hanteras direkt av Apple, inte av utvecklaren. Du kan begära återbetalning på <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> eller via Inställningar → [ditt namn] → Prenumerationer på din enhet.
+      </p>
+
+      <h3>Integritet</h3>
+
+      <p>
+        BikePilot lagrar alla dina turdata lokalt på din enhet och driver ingen backendserver. Se vår <a href="privacy-policy.html">integritetspolicy</a> för fullständig information om vilka data appen får åtkomst till och hur de används.
+      </p>
+
+      <h3>Allmän felsökning</h3>
+
+      <ul>
+        <li>Se till att du använder den senaste versionen av BikePilot från App Store.</li>
+        <li>Att starta om appen eller enheten löser många tillfälliga problem (t.ex. problem med sensoranslutning eller fördröjd GPS-låsning).</li>
+        <li>Om appen kraschar eller beter sig oväntat får du gärna mejla oss en beskrivning av vad som hände, tillsammans med din enhetsmodell och iOS-version, så att vi kan undersöka det.</li>
+      </ul>
+
+      <h2>Funktionsönskemål och feedback</h2>
+
+      <p>
+        Vi tar gärna emot dina idéer om nya funktioner eller förbättringar. Skicka dina förslag till <a href="mailto:sebastian.gasch@outlook.com">sebastian.gasch@outlook.com</a> — vi läser varje meddelande.
+      </p>
+    </template>
+  </body>
+</html>

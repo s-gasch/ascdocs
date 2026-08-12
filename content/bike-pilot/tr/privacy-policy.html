@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gizlilik Politikası — BikePilot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <script type="module" src="../../common/js/render.js"></script>
+  </head>
+  <body>
+    <template id="doc-content" data-doc-title="Gizlilik Politikası">
+      <p><em>Son güncelleme: 2026-08-11</em></p>
+
+      <p>
+        Bu Gizlilik Politikası, BikePilot'u ("Uygulama", "biz") kullandığınızda bilgilerin nasıl işlendiğini açıklar. BikePilot, Sebastian Gasch ("Geliştirici") tarafından geliştirilmekte ve yayımlanmaktadır.
+      </p>
+
+      <h2>Özet</h2>
+
+      <p>
+        BikePilot, tamamen cihazınız üzerinde çalışacak şekilde tasarlanmıştır. Herhangi bir arka uç sunucusu işletmeyiz, analiz verisi toplamayız ve kişisel verilerinizi üçüncü taraflara satmayız veya paylaşmayız. Uygulama, sizi başka şirketlere ait uygulamalar veya web siteleri arasında izlemez.
+      </p>
+
+      <h2>Uygulamanın Eriştiği Bilgiler</h2>
+
+      <p>
+        BikePilot, temel bisiklet bilgisayarı işlevlerini sunabilmek için aşağıdaki cihaz özelliklerine erişim ister. Erişim yalnızca gerektiğinde ve yalnızca standart iOS izin istemleri üzerinden verdiğiniz onayla talep edilir.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Veri / İzin</th>
+            <th>Amaç</th>
+            <th>Nerede saklanır</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Konum (GPS)</strong> ("Uygulamayı Kullanırken")</td>
+            <td>Bir sürüş sırasında hız, mesafe, irtifa ve eğimi ölçmek ve rotanızı harita üzerinde kaydetmek.</td>
+            <td>Yalnızca cihazınızda, yerel sürüş geçmişinizin bir parçası olarak.</td>
+          </tr>
+          <tr>
+            <td><strong>Hareket ve Fitness (barometre)</strong></td>
+            <td>Sürüş sırasında irtifa değişimlerini ve eğimi tahmin etmek.</td>
+            <td>Yalnızca cihazınızda; ham sensör verisi olarak mevcut oturumun ötesinde saklanmaz.</td>
+          </tr>
+          <tr>
+            <td><strong>Bluetooth</strong></td>
+            <td>Canlı sürüş verilerini göstermek için size ait Bluetooth Low Energy (BLE) sensörlerine — nabız bandı, hız ve kadans sensörü, sıcaklık sensörü — bağlanmak.</td>
+            <td>Sensör okumaları cihazınızda gerçek zamanlı olarak işlenir ve sürüş verilerinizin bir parçası olarak yerel biçimde saklanır; BikePilot sensör verilerini hiçbir yere iletmez.</td>
+          </tr>
+          <tr>
+            <td><strong>Dosyalar (Belgeler/İndirilenler klasörü erişimi)</strong></td>
+            <td>Açıkça seçtiğiniz <code>.gpx</code> rota dosyalarını içe aktarmanıza ve kaydedilmiş sürüşlerinizi <code>.gpx</code> dosyaları olarak dışa aktarmanıza (ör. paylaşmak veya yedeklemek için) olanak tanımak.</td>
+            <td>İçe aktarmayı seçtiğiniz dosyalar cihazınızda okunur; dışa aktarılan dosyalar, standart iOS paylaşım sayfası kullanılarak seçtiğiniz konuma (ör. Dosyalar uygulaması, AirDrop, Mail) yazılır.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Toplamadığımız Veriler</h2>
+
+      <ul>
+        <li>Herhangi bir analiz, reklam veya çökme raporlama SDK'sı kullanmayız.</li>
+        <li>Kendi sunucularımızı işletmeyiz ve Uygulama, sürüşlerinizi, konum geçmişinizi, sensör okumalarınızı veya başka herhangi bir kişisel veriyi ne bize ne de herhangi bir üçüncü tarafa göndermez.</li>
+        <li>İzleme teknolojileri kullanmayız (Apple'ın App Tracking Transparency çerçevesinde tanımlandığı şekliyle) ve izleme izni istemeyiz.</li>
+        <li>Hesap oluşturma veya oturum açma gerektirmediği için BikePilot kapsamında hesap bilgisi toplamıyor veya saklamıyoruz.</li>
+      </ul>
+
+      <h2>Veri Saklama ve Saklama Süresi</h2>
+
+      <p>
+        Tüm sürüş verileri (GPS izleri, hız/kadans/nabız/sıcaklık okumaları, ayarlar ve kaydedilmiş sürüşler) Apple'ın cihaz içi standart depolama mekanizmaları (<code>UserDefaults</code> ve yerel uygulama depolaması) kullanılarak cihazınızda yerel olarak saklanır. Bu veriler, cihazınızın kendi iCloud aygıt yedeklemesinin Uygulamanın yerel verilerini sistem düzeyindeki bir yedeklemenin parçası olarak içermesi durumu dışında, Uygulamanın kendisi tarafından iCloud veya başka herhangi bir bulut hizmetiyle eşitlenmez; bu durum BikePilot tarafından değil, iOS ayarlarınız tarafından kontrol edilir.
+      </p>
+
+      <p>
+        Yerel olarak saklanan tüm sürüş verilerini, Uygulama içinden kaydedilmiş sürüşleri silerek veya Uygulamayı cihazınızdan kaldırarak dilediğiniz zaman silebilirsiniz. Bu işlem, standart iOS uygulama silme davranışına uygun olarak tüm yerel verileri kaldırır.
+      </p>
+
+      <h2>GPX İçe/Dışa Aktarma</h2>
+
+      <p>
+        BikePilot, seçtiğiniz <code>.gpx</code> dosyalarını içe aktarmanıza ve kaydedilmiş sürüşlerinizi iOS paylaşım sayfasını kullanarak <code>.gpx</code> dosyaları olarak dışa aktarmanıza olanak tanır. Dışa aktardığınız bir dosyayla ne yapacağınız (ör. üçüncü taraf bir hizmetle paylaşmanız), sizin tercihinizdir ve bu Politika değil, ilgili üçüncü tarafın kendi gizlilik uygulamaları kapsamında değerlendirilir.
+      </p>
+
+      <h2>Abonelikler (BikePilot PRO)</h2>
+
+      <p>
+        BikePilot, ek özelliklerin kilidini açan isteğe bağlı, otomatik yenilenen bir abonelik ("BikePilot PRO") sunar. Abonelik satın alma, yenileme ve geri yükleme işlemlerinin tamamı Apple'ın StoreKit sistemi ve Apple ID / App Store hesabınız üzerinden yürütülür. Ödeme bilgilerinizi biz almaz veya saklamayız — satın alma ve faturalandırma verileri Apple tarafından <a href="https://www.apple.com/legal/privacy/">Apple'ın Gizlilik Politikası</a> uyarınca işlenir ve saklanır.
+      </p>
+
+      <h2>Çocukların Gizliliği</h2>
+
+      <p>
+        BikePilot çocuklara yönelik değildir ve çocuklardan bilerek kişisel veri toplamaz. Uygulama zaten başlangıçtan itibaren bize kişisel veri toplamadığı veya iletmediği için, çocuklar dâhil hiçbir kullanıcıya ait veri Geliştirici tarafından saklanmaz.
+      </p>
+
+      <h2>Haklarınız</h2>
+
+      <p>
+        BikePilot kullanımıyla oluşturulan tüm kişisel veriler (konum geçmişi, sürüş verileri, sensör okumaları) cihazınızda kaldığı ve bize hiçbir zaman iletilmediği için, bunlar üzerindeki tam kontrol her zaman sizdedir: verileri doğrudan Uygulama içinde görüntüleyebilir, dışa aktarabilir veya silebilir ya da Uygulamayı kaldırabilirsiniz. Sistemlerimizde kişisel verilerinizi bulundurmadığımız için, bu verilere ilişkin olarak bize ayrıca veri erişimi, düzeltme veya silme talebi iletmeniz gereken ayrı bir süreç yoktur.
+      </p>
+
+      <p>
+        Bu Politika veya Uygulamanın cihaz izinlerini nasıl kullandığı hakkında sorularınız varsa, aşağıdaki iletişim bilgilerini kullanarak bizimle iletişime geçebilirsiniz.
+      </p>
+
+      <h2>Bu Politikadaki Değişiklikler</h2>
+
+      <p>
+        Bu Gizlilik Politikasını zaman zaman, örneğin Uygulamaya eklenen yeni özellikleri yansıtmak için güncelleyebiliriz. Bu belgenin üst kısmındaki "Son güncelleme" tarihi, Politikanın en son ne zaman revize edildiğini gösterir. Uygulamayı bir değişiklikten sonra kullanmaya devam etmeniz, güncellenmiş Politikayı kabul ettiğiniz anlamına gelir.
+      </p>
+
+      <h2>İletişim</h2>
+
+      <p>
+        Sebastian Gasch<br />
+        Email: <a href="mailto:sebastian.gasch@outlook.com">sebastian.gasch@outlook.com</a>
+      </p>
+    </template>
+  </body>
+</html>
