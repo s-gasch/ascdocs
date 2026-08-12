@@ -1,0 +1,18 @@
+/*
+ * Override stylu aplikacji "bike-pilot" — tryb ciemny (dark mode).
+ * Nadpisuje wyłącznie zmienne CSS zdefiniowane w content/common/css/base.css — bez
+ * duplikowania jego reguł strukturalnych. Ładowany zawsze *po* base.css (zob. render.js).
+ *
+ * Paleta: prawie czarne, ciemno-granatowe tło o stonowanym nasyceniu, biały tekst.
+ */
+:root {
+  --asc-color-bg: #0a0e17;
+  --asc-color-text: #f5f7fa;
+  --asc-color-muted: #a8b0bd;
+  --asc-color-accent: #5b9dff;
+  --asc-color-border: #232a38;
+}
+
+html {
+  color-scheme: dark;
+}
