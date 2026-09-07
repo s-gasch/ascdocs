@@ -1,4 +1,390 @@
 {
   "title": "Destek",
-  "html": "<p><em>Son güncelleme: 2026-08-11</em></p>\n\n      <p>\n        BikePilot ile ilgili yardıma mı ihtiyacınız var? Bu sayfada sık sorulan sorular, sorun giderme adımları ve daha fazla destek için bize nasıl ulaşabileceğiniz yer alır.\n      </p>\n\n      <h2>İletişim</h2>\n\n      <p>\n        Sorunuzun yanıtını aşağıda bulamazsanız bize e-posta gönderin; size mümkün olan en kısa sürede geri dönüş yaparız:\n      </p>\n\n      <p>\n        <strong>Email:</strong> <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>\n\n      <p>\n        Bir sorunu bildirirken, size daha hızlı yardımcı olabilmemiz için lütfen aşağıdakileri ekleyin:\n      </p>\n\n      <ul>\n        <li>Uygulama sürümü (Uygulama içindeki Ayarlar → Hakkında)</li>\n        <li>iOS sürümünüz ve cihaz modeliniz</li>\n        <li>Sorunu yeniden oluşturma adımları</li>\n        <li>Uygunsa ekran görüntüleri veya ekran kayıtları</li>\n      </ul>\n\n      <h2>Sık Sorulan Sorular</h2>\n\n      <h3>GPS ve konum takibi</h3>\n\n      <p><strong>Hızım/mesafem/rotam hatalı görünüyor.</strong></p>\n\n      <p>\n        GPS doğruluğu cihazınıza, hava koşullarına ve çevreye bağlıdır (yüksek binalar, tüneller, yoğun ağaç örtüsü vb. sinyali zayıflatabilir). iOS'ta Ayarlar → Gizlilik ve Güvenlik → Konum Servisleri → BikePilot bölümünde Konum erişiminin \"Uygulamayı Kullanırken\" veya \"Her Zaman\" olarak ayarlı olduğundan ve Konum Servisleri'nin sistem genelinde etkin olduğundan emin olun.\n      </p>\n\n      <p><strong>Telefonumu kilitlediğimde / uygulama değiştirdiğimde Uygulama sürüşümü kaydetmeyi durdurdu.</strong></p>\n\n      <p>\n        BikePilot, cihazınız kilitliyken veya başka bir uygulama kullanırken kayda devam edebilmek için arka plan konum güncellemelerini kullanır. Konum izninin verildiğinden ve Düşük Güç Modu'nun arka plan etkinliğini aşırı derecede kısıtlamadığından emin olun; bazı cihazlarda bu durum GPS güncelleme sıklığını etkileyebilir.\n      </p>\n\n      <h3>Bluetooth sensörleri</h3>\n\n      <p><strong>Nabız / hız ve kadans / sıcaklık sensörüm bağlanmıyor.</strong></p>\n\n      <ol>\n        <li>Sensörün açık ve kapsama alanında olduğundan emin olun (eşleştirme sırasında genellikle 1–2 metre).</li>\n        <li>Bluetooth'un iOS Ayarları'nda etkin olduğunu ve BikePilot için Bluetooth izninin verildiğini doğrulayın (Ayarlar → Gizlilik ve Güvenlik → Bluetooth → BikePilot).</li>\n        <li>Bazı sensörler aynı anda yalnızca tek bir uygulamaya bağlanabilir — sensörü BikePilot'ta bağlamadan önce başka uygulamalarla (ör. başka bir bisiklet veya fitness uygulaması) olan bağlantısını kesin.</li>\n        <li>Sensörü yeniden başlatmayı deneyin (uygunsa pili çıkarıp tekrar takın) ve Uygulamanın sensör ayarlarından yeniden tarama yapın.</li>\n      </ol>\n\n      <p><strong>Sensörüm sürüş sırasında sürekli bağlantıyı kesiyor.</strong></p>\n\n      <p>\n        Bu durum genellikle sensör pilinin zayıf olması, cihazdan uzaklık veya Bluetooth paraziti nedeniyle oluşur. Çoğu durumda sensör pilini değiştirmek ve telefonunuzu sensöre yakın tutmak sorunu çözer.\n      </p>\n\n      <h3>İrtifa ve eğim</h3>\n\n      <p><strong>İrtifa/eğim okumaları hatalı görünüyor.</strong></p>\n\n      <p>\n        BikePilot, irtifayı ve eğimi tahmin etmek için cihazınızın barometresini GPS ile birlikte kullanır. Barometrik okumalar zaman içinde bir miktar sapabilir veya hızlı hava değişimlerinden etkilenebilir; bu, Uygulama arızasından ziyade donanımsal bir sınırlamadır.\n      </p>\n\n      <h3>GPX içe/dışa aktarma</h3>\n\n      <p><strong>Bir sürüşü nasıl dışa aktarırım?</strong></p>\n\n      <p>\n        Sürüş geçmişinizden ilgili sürüşü açın ve paylaşma/dışa aktarma seçeneğini kullanarak <code>.gpx</code> dosyası olarak kaydedin. Ardından bu dosyayı Dosyalar uygulamasına kaydedebilir, başka bir cihaza AirDrop ile gönderebilir veya e-posta ya da başka bir uygulama üzerinden paylaşabilirsiniz.\n      </p>\n\n      <p><strong>Bir GPX rotasını (ör. navigasyon için) nasıl içe aktarırım?</strong></p>\n\n      <p>\n        Uygulamadaki içe aktarma seçeneğini kullanın ve Dosyalar uygulamasından bir <code>.gpx</code> dosyası seçin (Belgeler/İndirilenler klasörü erişimi gerekir — ilk kullanımda sizden izin istenir).\n      </p>\n\n      <h3>BikePilot PRO aboneliği</h3>\n\n      <p><strong>BikePilot PRO aboneliğine nasıl başlarım / nasıl iptal ederim?</strong></p>\n\n      <p>\n        Abonelikler tamamen Apple ID hesabınız üzerinden yönetilir. Abone olmak için Uygulama içindeki yükseltme istemini kullanın. Aboneliğinizi görüntülemek, değiştirmek veya iptal etmek için iOS'ta Ayarlar → [adınız] → Abonelikler ya da App Store → profil simgeniz → Abonelikler yolunu izleyin.\n      </p>\n\n      <p><strong>Abone oldum ama PRO özelliklerinin kilidi açılmadı.</strong></p>\n\n      <p>\n        Uygulamanın ayarlar/yükseltme ekranındaki \"Satın Alımları Geri Yükle\" seçeneğini deneyin. Sorun, Uygulamayı yeniden başlattıktan sonra da devam ederse Apple ID e-posta adresinizle (Apple ID parolanızı paylaşmayın) ve yaklaşık satın alma tarihinizle birlikte bize ulaşın; incelememize yardımcı olalım.\n      </p>\n\n      <p><strong>Ücret alındı ancak yenilemeyi istemiyordum / para iadesi istiyorum.</strong></p>\n\n      <p>\n        Para iadesi ve faturalandırma işlemleri Geliştirici tarafından değil, doğrudan Apple tarafından yürütülür. <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> üzerinden veya cihazınızda Ayarlar → [adınız] → Abonelikler yoluyla para iadesi talebinde bulunabilirsiniz.\n      </p>\n\n      <h3>Gizlilik</h3>\n\n      <p>\n        BikePilot, tüm sürüş verilerinizi cihazınızda yerel olarak saklar ve herhangi bir arka uç sunucusu işletmez. Uygulamanın hangi verilere eriştiği ve bunları nasıl kullandığına ilişkin tüm ayrıntılar için <a href=\"privacy-policy.html\">Gizlilik Politikamıza</a> bakabilirsiniz.\n      </p>\n\n      <h3>Genel sorun giderme</h3>\n\n      <ul>\n        <li>App Store'dan indirilen BikePilot'ın en güncel sürümünü kullandığınızdan emin olun.</li>\n        <li>Uygulamayı veya cihazınızı yeniden başlatmak, birçok geçici sorunu çözer (ör. sensör bağlantı problemleri, GPS kilidi gecikmeleri).</li>\n        <li>Uygulama çökerse veya beklenmedik şekilde davranırsa, sorunu inceleyebilmemiz için lütfen ne olduğunu, cihaz modelinizi ve iOS sürümünüzü açıklayan bir e-posta gönderin.</li>\n      </ul>\n\n      <h2>Özellik İstekleri ve Geri Bildirim</h2>\n\n      <p>\n        Yeni özellikler veya iyileştirmeler hakkındaki fikirlerinizi duymaktan memnuniyet duyarız. Önerilerinizi <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a> adresine gönderin — gelen her mesajı okuyoruz.\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Son güncelleme: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot ile ilgili yardıma mı ihtiyacınız var? Bu sayfada sık sorulan sorular, sorun giderme adımları ve daha fazla destek için bize nasıl ulaşabileceğiniz yer alır."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "İletişim"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Sorunuzun yanıtını aşağıda bulamazsanız bize e-posta gönderin; size mümkün olan en kısa sürede geri dönüş yaparız:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Email:"
+        },
+        {
+          "text": " "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Bir sorunu bildirirken, size daha hızlı yardımcı olabilmemiz için lütfen aşağıdakileri ekleyin:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Uygulama sürümü (Uygulama içindeki Ayarlar → Hakkında)"
+          }
+        ],
+        [
+          {
+            "text": "iOS sürümünüz ve cihaz modeliniz"
+          }
+        ],
+        [
+          {
+            "text": "Sorunu yeniden oluşturma adımları"
+          }
+        ],
+        [
+          {
+            "text": "Uygunsa ekran görüntüleri veya ekran kayıtları"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sık Sorulan Sorular"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "GPS ve konum takibi"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Hızım/mesafem/rotam hatalı görünüyor."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "GPS doğruluğu cihazınıza, hava koşullarına ve çevreye bağlıdır (yüksek binalar, tüneller, yoğun ağaç örtüsü vb. sinyali zayıflatabilir). iOS'ta Ayarlar → Gizlilik ve Güvenlik → Konum Servisleri → BikePilot bölümünde Konum erişiminin \"Uygulamayı Kullanırken\" veya \"Her Zaman\" olarak ayarlı olduğundan ve Konum Servisleri'nin sistem genelinde etkin olduğundan emin olun."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Telefonumu kilitlediğimde / uygulama değiştirdiğimde Uygulama sürüşümü kaydetmeyi durdurdu."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot, cihazınız kilitliyken veya başka bir uygulama kullanırken kayda devam edebilmek için arka plan konum güncellemelerini kullanır. Konum izninin verildiğinden ve Düşük Güç Modu'nun arka plan etkinliğini aşırı derecede kısıtlamadığından emin olun; bazı cihazlarda bu durum GPS güncelleme sıklığını etkileyebilir."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bluetooth sensörleri"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Nabız / hız ve kadans / sıcaklık sensörüm bağlanmıyor."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Sensörün açık ve kapsama alanında olduğundan emin olun (eşleştirme sırasında genellikle 1–2 metre)."
+          }
+        ],
+        [
+          {
+            "text": "Bluetooth'un iOS Ayarları'nda etkin olduğunu ve BikePilot için Bluetooth izninin verildiğini doğrulayın (Ayarlar → Gizlilik ve Güvenlik → Bluetooth → BikePilot)."
+          }
+        ],
+        [
+          {
+            "text": "Bazı sensörler aynı anda yalnızca tek bir uygulamaya bağlanabilir — sensörü BikePilot'ta bağlamadan önce başka uygulamalarla (ör. başka bir bisiklet veya fitness uygulaması) olan bağlantısını kesin."
+          }
+        ],
+        [
+          {
+            "text": "Sensörü yeniden başlatmayı deneyin (uygunsa pili çıkarıp tekrar takın) ve Uygulamanın sensör ayarlarından yeniden tarama yapın."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Sensörüm sürüş sırasında sürekli bağlantıyı kesiyor."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Bu durum genellikle sensör pilinin zayıf olması, cihazdan uzaklık veya Bluetooth paraziti nedeniyle oluşur. Çoğu durumda sensör pilini değiştirmek ve telefonunuzu sensöre yakın tutmak sorunu çözer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "İrtifa ve eğim"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "İrtifa/eğim okumaları hatalı görünüyor."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot, irtifayı ve eğimi tahmin etmek için cihazınızın barometresini GPS ile birlikte kullanır. Barometrik okumalar zaman içinde bir miktar sapabilir veya hızlı hava değişimlerinden etkilenebilir; bu, Uygulama arızasından ziyade donanımsal bir sınırlamadır."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "GPX içe/dışa aktarma"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Bir sürüşü nasıl dışa aktarırım?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Sürüş geçmişinizden ilgili sürüşü açın ve paylaşma/dışa aktarma seçeneğini kullanarak "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " dosyası olarak kaydedin. Ardından bu dosyayı Dosyalar uygulamasına kaydedebilir, başka bir cihaza AirDrop ile gönderebilir veya e-posta ya da başka bir uygulama üzerinden paylaşabilirsiniz."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Bir GPX rotasını (ör. navigasyon için) nasıl içe aktarırım?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Uygulamadaki içe aktarma seçeneğini kullanın ve Dosyalar uygulamasından bir "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " dosyası seçin (Belgeler/İndirilenler klasörü erişimi gerekir — ilk kullanımda sizden izin istenir)."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "BikePilot PRO aboneliği"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "BikePilot PRO aboneliğine nasıl başlarım / nasıl iptal ederim?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Abonelikler tamamen Apple ID hesabınız üzerinden yönetilir. Abone olmak için Uygulama içindeki yükseltme istemini kullanın. Aboneliğinizi görüntülemek, değiştirmek veya iptal etmek için iOS'ta Ayarlar → [adınız] → Abonelikler ya da App Store → profil simgeniz → Abonelikler yolunu izleyin."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Abone oldum ama PRO özelliklerinin kilidi açılmadı."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Uygulamanın ayarlar/yükseltme ekranındaki \"Satın Alımları Geri Yükle\" seçeneğini deneyin. Sorun, Uygulamayı yeniden başlattıktan sonra da devam ederse Apple ID e-posta adresinizle (Apple ID parolanızı paylaşmayın) ve yaklaşık satın alma tarihinizle birlikte bize ulaşın; incelememize yardımcı olalım."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Ücret alındı ancak yenilemeyi istemiyordum / para iadesi istiyorum."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Para iadesi ve faturalandırma işlemleri Geliştirici tarafından değil, doğrudan Apple tarafından yürütülür. "
+        },
+        {
+          "href": "https://reportaproblem.apple.com",
+          "text": "reportaproblem.apple.com"
+        },
+        {
+          "text": " üzerinden veya cihazınızda Ayarlar → [adınız] → Abonelikler yoluyla para iadesi talebinde bulunabilirsiniz."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gizlilik"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot, tüm sürüş verilerinizi cihazınızda yerel olarak saklar ve herhangi bir arka uç sunucusu işletmez. Uygulamanın hangi verilere eriştiği ve bunları nasıl kullandığına ilişkin tüm ayrıntılar için "
+        },
+        {
+          "href": "privacy-policy.html",
+          "text": "Gizlilik Politikamıza"
+        },
+        {
+          "text": " bakabilirsiniz."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Genel sorun giderme"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "App Store'dan indirilen BikePilot'ın en güncel sürümünü kullandığınızdan emin olun."
+          }
+        ],
+        [
+          {
+            "text": "Uygulamayı veya cihazınızı yeniden başlatmak, birçok geçici sorunu çözer (ör. sensör bağlantı problemleri, GPS kilidi gecikmeleri)."
+          }
+        ],
+        [
+          {
+            "text": "Uygulama çökerse veya beklenmedik şekilde davranırsa, sorunu inceleyebilmemiz için lütfen ne olduğunu, cihaz modelinizi ve iOS sürümünüzü açıklayan bir e-posta gönderin."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Özellik İstekleri ve Geri Bildirim"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Yeni özellikler veya iyileştirmeler hakkındaki fikirlerinizi duymaktan memnuniyet duyarız. Önerilerinizi "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        },
+        {
+          "text": " adresine gönderin — gelen her mesajı okuyoruz."
+        }
+      ]
+    }
+  ]
 }

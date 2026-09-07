@@ -1,4 +1,390 @@
 {
   "title": "Support",
-  "html": "<p><em>Sidst opdateret: 2026-08-11</em></p>\n\n      <p>\n        Har du brug for hjælp til BikePilot? Denne side dækker almindelige spørgsmål, fejlfindingstrin og hvordan du kan kontakte os for yderligere support.\n      </p>\n\n      <h2>Kontakt</h2>\n\n      <p>\n        Hvis du ikke finder svar på dit spørgsmål nedenfor, kan du sende os en e-mail, så vender vi tilbage så hurtigt som muligt:\n      </p>\n\n      <p>\n        <strong>Email:</strong> <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>\n\n      <p>\n        Medtag gerne følgende, når du rapporterer et problem, så vi hurtigere kan hjælpe dig:\n      </p>\n\n      <ul>\n        <li>App-version (Settings → About i Appen)</li>\n        <li>Din iOS-version og enhedsmodel</li>\n        <li>Trin til at genskabe problemet</li>\n        <li>Skærmbilleder eller skærmoptagelser, hvis det er relevant</li>\n      </ul>\n\n      <h2>Ofte stillede spørgsmål</h2>\n\n      <h3>GPS og lokalitetssporing</h3>\n\n      <p><strong>Min hastighed/distance/rute virker unøjagtig.</strong></p>\n\n      <p>\n        GPS-nøjagtighed afhænger af din enhed, vejret og dine omgivelser (høje bygninger, tunneler, tæt trædække osv. kan forringe signalet). Sørg for, at adgang til lokalitet er sat til \"While Using the App\" eller \"Always\" under iOS Settings → Privacy &amp; Security → Location Services → BikePilot, og at Location Services er aktiveret på systemniveau.\n      </p>\n\n      <p><strong>Appen stoppede med at registrere min tur, da jeg låste min telefon / skiftede app.</strong></p>\n\n      <p>\n        BikePilot bruger lokalitetsopdateringer i baggrunden til at fortsætte registreringen, mens din enhed er låst, eller mens du bruger en anden app. Sørg for, at lokalitetstilladelse er givet, og at Low Power Mode ikke begrænser baggrundsaktivitet for aggressivt, da det på nogle enheder kan påvirke hyppigheden af GPS-opdateringer.\n      </p>\n\n      <h3>Bluetooth-sensorer</h3>\n\n      <p><strong>Min puls- / fart- og kadence- / temperatursensor vil ikke oprette forbindelse.</strong></p>\n\n      <ol>\n        <li>Sørg for, at sensoren er tændt og inden for rækkevidde (normalt 1–2 meter under parring).</li>\n        <li>Bekræft, at Bluetooth er aktiveret i iOS Settings, og at BikePilot har Bluetooth-tilladelse (Settings → Privacy &amp; Security → Bluetooth → BikePilot).</li>\n        <li>Nogle sensorer kan kun være forbundet til én app ad gangen — afbryd sensoren fra andre apps (f.eks. en anden cykel- eller fitnessapp), før du forbinder den i BikePilot.</li>\n        <li>Prøv at genstarte sensoren (fjern og indsæt batteriet igen, hvis relevant), og scan derefter på ny fra Appens sensorindstillinger.</li>\n      </ol>\n\n      <p><strong>Min sensor mister forbindelsen midt under turen.</strong></p>\n\n      <p>\n        Det skyldes som regel lavt batteriniveau i sensoren, afstand til enheden eller Bluetooth-forstyrrelser. Udskiftning af sensorbatteriet og det at holde telefonen inden for rækkevidde løser typisk problemet.\n      </p>\n\n      <h3>Højde og stigningsprocent</h3>\n\n      <p><strong>Målingerne for højde/stigningsprocent ser forkerte ud.</strong></p>\n\n      <p>\n        BikePilot bruger enhedens barometer sammen med GPS til at estimere højde og stigningsprocent. Barometriske målinger kan drive en smule over tid eller blive påvirket af hurtige vejrskift; det er en hardwarebegrænsning snarere end en fejl i Appen.\n      </p>\n\n      <h3>GPX-import/-eksport</h3>\n\n      <p><strong>Hvordan eksporterer jeg en tur?</strong></p>\n\n      <p>\n        Åbn turen i din turhistorik, og brug delings-/eksportmuligheden for at gemme den som en <code>.gpx</code>-fil, som du derefter kan gemme i appen Filer, sende via AirDrop til en anden enhed eller dele via e-mail eller en anden app.\n      </p>\n\n      <p><strong>Hvordan importerer jeg et GPX-spor (f.eks. til navigation)?</strong></p>\n\n      <p>\n        Brug importfunktionen i Appen, og vælg en <code>.gpx</code>-fil fra appen Filer (adgang til mappen Dokumenter/Downloads er påkrævet — du bliver bedt om tilladelse første gang).\n      </p>\n\n      <h3>BikePilot PRO-abonnement</h3>\n\n      <p><strong>Hvordan abonnerer jeg på / opsiger jeg BikePilot PRO?</strong></p>\n\n      <p>\n        Abonnementer administreres udelukkende via dit Apple ID. For at abonnere skal du bruge opgraderingsprompten i Appen. For at se, ændre eller opsige dit abonnement skal du gå til iOS Settings → [your name] → Subscriptions eller App Store-appen → dit profilikon → Subscriptions.\n      </p>\n\n      <p><strong>Jeg har tegnet et abonnement, men PRO-funktionerne er ikke låst op.</strong></p>\n\n      <p>\n        Prøv at bruge indstillingen \"Restore Purchases\" i Appens indstillinger/opgraderingsskærm. Hvis problemet fortsætter efter genstart af Appen, kan du kontakte os med den e-mailadresse, der er knyttet til dit Apple ID (del ikke din Apple ID-adgangskode), samt den omtrentlige købsdato, så vi kan hjælpe med at undersøge sagen.\n      </p>\n\n      <p><strong>Jeg blev opkrævet, men havde ikke tænkt mig at forny / ønsker en refusion.</strong></p>\n\n      <p>\n        Refusioner og fakturering håndteres direkte af Apple, ikke af Udvikleren. Du kan anmode om en refusion på <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> eller via Settings → [your name] → Subscriptions på din enhed.\n      </p>\n\n      <h3>Privatliv</h3>\n\n      <p>\n        BikePilot gemmer alle dine turdata lokalt på din enhed og driver ingen backendserver. Se vores <a href=\"privacy-policy.html\">privatlivspolitik</a> for alle detaljer om, hvilke data Appen har adgang til, og hvordan de bruges.\n      </p>\n\n      <h3>Generel fejlfinding</h3>\n\n      <ul>\n        <li>Sørg for, at du bruger den nyeste version af BikePilot fra App Store.</li>\n        <li>Genstart af Appen eller din enhed løser mange forbigående problemer (f.eks. problemer med sensorforbindelse eller forsinkelser ved GPS-låsning).</li>\n        <li>Hvis Appen crasher eller opfører sig uventet, er du velkommen til at sende os en e-mail med en beskrivelse af, hvad der skete, sammen med din enhedsmodel og iOS-version, så vi kan undersøge det.</li>\n      </ul>\n\n      <h2>Funktionsønsker og feedback</h2>\n\n      <p>\n        Vi hører meget gerne dine idéer til nye funktioner eller forbedringer. Send dine forslag til <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a> — vi læser hver eneste besked.\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Sidst opdateret: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Har du brug for hjælp til BikePilot? Denne side dækker almindelige spørgsmål, fejlfindingstrin og hvordan du kan kontakte os for yderligere support."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kontakt"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Hvis du ikke finder svar på dit spørgsmål nedenfor, kan du sende os en e-mail, så vender vi tilbage så hurtigt som muligt:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Email:"
+        },
+        {
+          "text": " "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Medtag gerne følgende, når du rapporterer et problem, så vi hurtigere kan hjælpe dig:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "App-version (Settings → About i Appen)"
+          }
+        ],
+        [
+          {
+            "text": "Din iOS-version og enhedsmodel"
+          }
+        ],
+        [
+          {
+            "text": "Trin til at genskabe problemet"
+          }
+        ],
+        [
+          {
+            "text": "Skærmbilleder eller skærmoptagelser, hvis det er relevant"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ofte stillede spørgsmål"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "GPS og lokalitetssporing"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Min hastighed/distance/rute virker unøjagtig."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "GPS-nøjagtighed afhænger af din enhed, vejret og dine omgivelser (høje bygninger, tunneler, tæt trædække osv. kan forringe signalet). Sørg for, at adgang til lokalitet er sat til \"While Using the App\" eller \"Always\" under iOS Settings → Privacy & Security → Location Services → BikePilot, og at Location Services er aktiveret på systemniveau."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Appen stoppede med at registrere min tur, da jeg låste min telefon / skiftede app."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot bruger lokalitetsopdateringer i baggrunden til at fortsætte registreringen, mens din enhed er låst, eller mens du bruger en anden app. Sørg for, at lokalitetstilladelse er givet, og at Low Power Mode ikke begrænser baggrundsaktivitet for aggressivt, da det på nogle enheder kan påvirke hyppigheden af GPS-opdateringer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bluetooth-sensorer"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Min puls- / fart- og kadence- / temperatursensor vil ikke oprette forbindelse."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Sørg for, at sensoren er tændt og inden for rækkevidde (normalt 1–2 meter under parring)."
+          }
+        ],
+        [
+          {
+            "text": "Bekræft, at Bluetooth er aktiveret i iOS Settings, og at BikePilot har Bluetooth-tilladelse (Settings → Privacy & Security → Bluetooth → BikePilot)."
+          }
+        ],
+        [
+          {
+            "text": "Nogle sensorer kan kun være forbundet til én app ad gangen — afbryd sensoren fra andre apps (f.eks. en anden cykel- eller fitnessapp), før du forbinder den i BikePilot."
+          }
+        ],
+        [
+          {
+            "text": "Prøv at genstarte sensoren (fjern og indsæt batteriet igen, hvis relevant), og scan derefter på ny fra Appens sensorindstillinger."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Min sensor mister forbindelsen midt under turen."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Det skyldes som regel lavt batteriniveau i sensoren, afstand til enheden eller Bluetooth-forstyrrelser. Udskiftning af sensorbatteriet og det at holde telefonen inden for rækkevidde løser typisk problemet."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Højde og stigningsprocent"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Målingerne for højde/stigningsprocent ser forkerte ud."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot bruger enhedens barometer sammen med GPS til at estimere højde og stigningsprocent. Barometriske målinger kan drive en smule over tid eller blive påvirket af hurtige vejrskift; det er en hardwarebegrænsning snarere end en fejl i Appen."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "GPX-import/-eksport"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Hvordan eksporterer jeg en tur?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Åbn turen i din turhistorik, og brug delings-/eksportmuligheden for at gemme den som en "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": "-fil, som du derefter kan gemme i appen Filer, sende via AirDrop til en anden enhed eller dele via e-mail eller en anden app."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Hvordan importerer jeg et GPX-spor (f.eks. til navigation)?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Brug importfunktionen i Appen, og vælg en "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": "-fil fra appen Filer (adgang til mappen Dokumenter/Downloads er påkrævet — du bliver bedt om tilladelse første gang)."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "BikePilot PRO-abonnement"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Hvordan abonnerer jeg på / opsiger jeg BikePilot PRO?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Abonnementer administreres udelukkende via dit Apple ID. For at abonnere skal du bruge opgraderingsprompten i Appen. For at se, ændre eller opsige dit abonnement skal du gå til iOS Settings → [your name] → Subscriptions eller App Store-appen → dit profilikon → Subscriptions."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Jeg har tegnet et abonnement, men PRO-funktionerne er ikke låst op."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Prøv at bruge indstillingen \"Restore Purchases\" i Appens indstillinger/opgraderingsskærm. Hvis problemet fortsætter efter genstart af Appen, kan du kontakte os med den e-mailadresse, der er knyttet til dit Apple ID (del ikke din Apple ID-adgangskode), samt den omtrentlige købsdato, så vi kan hjælpe med at undersøge sagen."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Jeg blev opkrævet, men havde ikke tænkt mig at forny / ønsker en refusion."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Refusioner og fakturering håndteres direkte af Apple, ikke af Udvikleren. Du kan anmode om en refusion på "
+        },
+        {
+          "href": "https://reportaproblem.apple.com",
+          "text": "reportaproblem.apple.com"
+        },
+        {
+          "text": " eller via Settings → [your name] → Subscriptions på din enhed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Privatliv"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot gemmer alle dine turdata lokalt på din enhed og driver ingen backendserver. Se vores "
+        },
+        {
+          "href": "privacy-policy.html",
+          "text": "privatlivspolitik"
+        },
+        {
+          "text": " for alle detaljer om, hvilke data Appen har adgang til, og hvordan de bruges."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Generel fejlfinding"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Sørg for, at du bruger den nyeste version af BikePilot fra App Store."
+          }
+        ],
+        [
+          {
+            "text": "Genstart af Appen eller din enhed løser mange forbigående problemer (f.eks. problemer med sensorforbindelse eller forsinkelser ved GPS-låsning)."
+          }
+        ],
+        [
+          {
+            "text": "Hvis Appen crasher eller opfører sig uventet, er du velkommen til at sende os en e-mail med en beskrivelse af, hvad der skete, sammen med din enhedsmodel og iOS-version, så vi kan undersøge det."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Funktionsønsker og feedback"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Vi hører meget gerne dine idéer til nye funktioner eller forbedringer. Send dine forslag til "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        },
+        {
+          "text": " — vi læser hver eneste besked."
+        }
+      ]
+    }
+  ]
 }

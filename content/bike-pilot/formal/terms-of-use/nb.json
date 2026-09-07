@@ -1,4 +1,337 @@
 {
   "title": "Bruksvilkår",
-  "html": "<p><em>Sist oppdatert: 2026-08-11</em></p>\n\n      <p>\n        Disse bruksvilkårene (\"Vilkårene\") regulerer din bruk av mobilapplikasjonen BikePilot (\"appen\"), som er utviklet og publisert av Sebastian Gasch (\"Utvikleren\", \"vi\", \"oss\"). Ved å laste ned, installere eller bruke appen samtykker du i å være bundet av disse Vilkårene og av Apples <a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\">Licensed Application End User License Agreement (EULA)</a>, som gjelder i tillegg til disse Vilkårene. Hvis du ikke samtykker, må du ikke bruke appen.\n      </p>\n\n      <h2>1. Lisens</h2>\n\n      <p>\n        Forutsatt at du overholder disse Vilkårene, gir Utvikleren deg en begrenset, ikke-eksklusiv, ikke-overførbar og tilbakekallelig lisens til å bruke appen på Apple-merkede enheter som du eier eller kontrollerer, utelukkende til personlig og ikke-kommersiell bruk, i samsvar med bruksreglene i App Store og Apples standard EULA som det er vist til ovenfor.\n      </p>\n\n      <h2>2. Beskrivelse av appen</h2>\n\n      <p>\n        BikePilot er en sykkelcomputer-app som bruker enhetens GPS, barometer og valgfrie Bluetooth Low Energy (BLE)-sensorer (puls, hastighet og kadens, temperatur) til å vise og registrere turdata som fart, distanse, høyde, stigningsgrad og rute på et kart. Enkelte funksjoner er bare tilgjengelige med et valgfritt abonnement med automatisk fornyelse (\"BikePilot PRO\"), som beskrevet nedenfor.\n      </p>\n\n      <h2>3. Ikke en sikkerhets- eller medisinsk enhet</h2>\n\n      <p>\n        BikePilot tilbys kun til informasjons- og fritidsformål. Den er <strong>ikke</strong> medisinsk utstyr og er <strong>ikke</strong> ment å diagnostisere, behandle, kurere eller forebygge sykdom eller helsetilstander, og heller ikke å erstatte profesjonelle medisinske, navigasjonsmessige eller sikkerhetsmessige vurderinger. GPS-, barometer- og Bluetooth-sensoravlesninger (inkludert puls) kan være unøyaktige, forsinkede eller utilgjengelige på grunn av maskinvarebegrensninger, miljøforhold, vær eller tilkoblingsproblemer.\n      </p>\n\n      <p>\n        <strong>Du er selv eneansvarlig for sikkerheten din når du sykler.</strong> Hold alltid hovedoppmerksomheten på veien, trafikken og omgivelsene dine. Ikke bruk appen som eneste kilde til navigasjon eller fysiologisk overvåking, og rådfør deg med kvalifisert helsepersonell før du gjennomfører anstrengende fysisk aktivitet, særlig hvis du har en eksisterende helsetilstand.\n      </p>\n\n      <h2>4. Ditt innhold og dine data</h2>\n\n      <p>\n        Turregistreringer, GPS-spor og sensordata som du oppretter ved hjelp av appen, lagres lokalt på enheten din, slik det er beskrevet i vår <a href=\"privacy-policy.html\">Personvernerklæring</a>. Du er selv ansvarlig for å opprettholde egne sikkerhetskopier (for eksempel ved å eksportere turer som <code>.gpx</code>-filer) — Utvikleren er ikke ansvarlig for tap av turdata som skyldes tap eller skade på enheten, sletting av appen eller endringer i operativsystemet.\n      </p>\n\n      <p>\n        Hvis du importerer <code>.gpx</code>-filer til appen, erklærer du at du har rett til å bruke disse dataene, og at dette ikke krenker rettighetene til noen tredjepart.\n      </p>\n\n      <h2>5. Abonnementer (BikePilot PRO)</h2>\n\n      <ul>\n        <li>BikePilot tilbyr et valgfritt abonnement med automatisk fornyelse som låser opp flere funksjoner (\"BikePilot PRO\"), tilgjengelig som måneds- eller årsabonnement.</li>\n        <li>Betaling belastes Apple ID-kontoen din når kjøpet bekreftes.</li>\n        <li>Abonnementer fornyes automatisk for samme varighet og til den til enhver tid gjeldende prisen, med mindre automatisk fornyelse slås av minst 24 timer før slutten av gjeldende periode.</li>\n        <li>Apple ID-kontoen din vil bli belastet for fornyelse innen 24 timer før gjeldende periode utløper.</li>\n        <li>Du kan administrere abonnementet og slå av automatisk fornyelse når som helst i innstillingene for Apple ID-kontoen din, i samsvar med Apples regler; Utvikleren har ikke tilgang til å si opp eller endre abonnementet ditt direkte.</li>\n        <li>Eventuell ubrukt del av en gratis prøveperiode, dersom en slik tilbys, går tapt når du kjøper et abonnement, der dette er relevant.</li>\n        <li>Alle betalinger, refusjoner og faktureringstvister håndteres av Apple i samsvar med <a href=\"https://www.apple.com/legal/internet-services/itunes/\">Apple Media Services Terms and Conditions</a>. Utvikleren behandler ikke betalinger direkte og kan ikke utstede refusjoner.</li>\n      </ul>\n\n      <h2>6. Tillatt bruk</h2>\n\n      <p>\n        Du samtykker i at du ikke skal:\n      </p>\n\n      <ul>\n        <li>bruke appen til ulovlige formål eller på en måte som bryter med gjeldende lov eller forskrift;</li>\n        <li>forsøke å dekompilere, reversere eller trekke ut kildekoden til appen, med mindre slik begrensning er forbudt etter gjeldende lov;</li>\n        <li>forstyrre eller avbryte driften av appen eller forsøke å få uautorisert tilgang til systemer som er knyttet til appen.</li>\n      </ul>\n\n      <h2>7. Immaterielle rettigheter</h2>\n\n      <p>\n        Appen, inkludert design, kode, grafikk og varemerker, eies av Utvikleren og er beskyttet av gjeldende immaterialrettslig lovgivning. Disse Vilkårene gir deg ingen rettigheter til Utviklerens varemerker, logoer eller merkevareelementer utover det som er nødvendig for å bruke appen slik den er ment å brukes.\n      </p>\n\n      <h2>8. Ansvarsfraskrivelse for garantier</h2>\n\n      <p>\n        APPEN LEVERES \"SOM DEN ER\" OG \"SOM TILGJENGELIG\", UTEN GARANTIER AV NOE SLAG, VERKEN UTTRYKKELIGE ELLER UNDERFORSTÅTTE, HERUNDER, MEN IKKE BEGRENSET TIL, UNDERFORSTÅTTE GARANTIER OM SALGBARHET, EGNETHET FOR ET BESTEMT FORMÅL OG AT APPEN IKKE KRENKER TREDJEPARTS RETTIGHETER. UTVIKLEREN GIR INGEN GARANTI FOR AT APPEN VIL VÆRE UAVBRUTT ELLER FEILFRI, ELLER AT SENSORAVLESNINGER (INKLUDERT GPS-, BAROMETER- ELLER BLUETOOTH-DATA) VIL VÆRE NØYAKTIGE ELLER TILGJENGELIGE TIL ENHVER TID.\n      </p>\n\n      <h2>9. Ansvarsbegrensning</h2>\n\n      <p>\n        I DEN UTSTREKNING DET ER TILLATT ETTER GJELDENDE LOV, SKAL UTVIKLEREN IKKE VÆRE ANSVARLIG FOR INDIREKTE, TILFELDIGE, SÆRSKILTE, AVLEDEDE ELLER STRAFFELIGNENDE TAP, ELLER FOR TAP AV DATA, INNTEKTER ELLER FORTJENESTE, SOM OPPSTÅR SOM FØLGE AV ELLER I FORBINDELSE MED DIN BRUK AV (ELLER MANGLENDE MULIGHET TIL Å BRUKE) APPEN, HERUNDER ENHVER SKADE ELLER ULYKKE SOM OPPSTÅR UNDER SYKLING. INGENTING I DISSE VILKÅRENE BEGRENSER ANSVAR SOM IKKE KAN UTELUKKES ELLER BEGRENSES ETTER GJELDENDE LOV.\n      </p>\n\n      <h2>10. Tjenester fra tredjeparter</h2>\n\n      <p>\n        Appen er kun tilgjengelig for nedlasting gjennom Apples App Store og er avhengig av Apple-rammeverk (Core Location, Core Motion, Core Bluetooth, StoreKit). Din bruk av disse underliggende plattforms­tjenestene er også underlagt Apples egne vilkår og retningslinjer.\n      </p>\n\n      <h2>11. Opphør</h2>\n\n      <p>\n        Du kan når som helst slutte å bruke appen ved å slette den fra enheten din. Utvikleren forbeholder seg retten til å avvikle eller endre appen, helt eller delvis, når som helst, med forbehold om Apples App Store-retningslinjer og gjeldende lov.\n      </p>\n\n      <h2>12. Endringer i disse Vilkårene</h2>\n\n      <p>\n        Vi kan oppdatere disse Vilkårene fra tid til annen, for eksempel for å gjenspeile nye appfunksjoner eller rettslige krav. Datoen for \"Sist oppdatert\" ovenfor viser når disse Vilkårene sist ble revidert. Fortsatt bruk av appen etter en endring innebærer at du aksepterer de oppdaterte Vilkårene.\n      </p>\n\n      <h2>13. Lovvalg</h2>\n\n      <p>\n        Disse Vilkårene er underlagt lovene som gjelder i landet der Utvikleren er bosatt, uten hensyn til lovvalgsprinsipper, med mindre ufravikelige forbrukervernregler i landet der du er bosatt, sier noe annet.\n      </p>\n\n      <h2>14. Kontakt</h2>\n\n      <p>\n        Sebastian Gasch<br />\n        Email: <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Sist oppdatert: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Disse bruksvilkårene (\"Vilkårene\") regulerer din bruk av mobilapplikasjonen BikePilot (\"appen\"), som er utviklet og publisert av Sebastian Gasch (\"Utvikleren\", \"vi\", \"oss\"). Ved å laste ned, installere eller bruke appen samtykker du i å være bundet av disse Vilkårene og av Apples "
+        },
+        {
+          "href": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+          "text": "Licensed Application End User License Agreement (EULA)"
+        },
+        {
+          "text": ", som gjelder i tillegg til disse Vilkårene. Hvis du ikke samtykker, må du ikke bruke appen."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Lisens"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Forutsatt at du overholder disse Vilkårene, gir Utvikleren deg en begrenset, ikke-eksklusiv, ikke-overførbar og tilbakekallelig lisens til å bruke appen på Apple-merkede enheter som du eier eller kontrollerer, utelukkende til personlig og ikke-kommersiell bruk, i samsvar med bruksreglene i App Store og Apples standard EULA som det er vist til ovenfor."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Beskrivelse av appen"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot er en sykkelcomputer-app som bruker enhetens GPS, barometer og valgfrie Bluetooth Low Energy (BLE)-sensorer (puls, hastighet og kadens, temperatur) til å vise og registrere turdata som fart, distanse, høyde, stigningsgrad og rute på et kart. Enkelte funksjoner er bare tilgjengelige med et valgfritt abonnement med automatisk fornyelse (\"BikePilot PRO\"), som beskrevet nedenfor."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Ikke en sikkerhets- eller medisinsk enhet"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot tilbys kun til informasjons- og fritidsformål. Den er "
+        },
+        {
+          "bold": true,
+          "text": "ikke"
+        },
+        {
+          "text": " medisinsk utstyr og er "
+        },
+        {
+          "bold": true,
+          "text": "ikke"
+        },
+        {
+          "text": " ment å diagnostisere, behandle, kurere eller forebygge sykdom eller helsetilstander, og heller ikke å erstatte profesjonelle medisinske, navigasjonsmessige eller sikkerhetsmessige vurderinger. GPS-, barometer- og Bluetooth-sensoravlesninger (inkludert puls) kan være unøyaktige, forsinkede eller utilgjengelige på grunn av maskinvarebegrensninger, miljøforhold, vær eller tilkoblingsproblemer."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Du er selv eneansvarlig for sikkerheten din når du sykler."
+        },
+        {
+          "text": " Hold alltid hovedoppmerksomheten på veien, trafikken og omgivelsene dine. Ikke bruk appen som eneste kilde til navigasjon eller fysiologisk overvåking, og rådfør deg med kvalifisert helsepersonell før du gjennomfører anstrengende fysisk aktivitet, særlig hvis du har en eksisterende helsetilstand."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Ditt innhold og dine data"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Turregistreringer, GPS-spor og sensordata som du oppretter ved hjelp av appen, lagres lokalt på enheten din, slik det er beskrevet i vår "
+        },
+        {
+          "href": "privacy-policy.html",
+          "text": "Personvernerklæring"
+        },
+        {
+          "text": ". Du er selv ansvarlig for å opprettholde egne sikkerhetskopier (for eksempel ved å eksportere turer som "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": "-filer) — Utvikleren er ikke ansvarlig for tap av turdata som skyldes tap eller skade på enheten, sletting av appen eller endringer i operativsystemet."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Hvis du importerer "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": "-filer til appen, erklærer du at du har rett til å bruke disse dataene, og at dette ikke krenker rettighetene til noen tredjepart."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. Abonnementer (BikePilot PRO)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "BikePilot tilbyr et valgfritt abonnement med automatisk fornyelse som låser opp flere funksjoner (\"BikePilot PRO\"), tilgjengelig som måneds- eller årsabonnement."
+          }
+        ],
+        [
+          {
+            "text": "Betaling belastes Apple ID-kontoen din når kjøpet bekreftes."
+          }
+        ],
+        [
+          {
+            "text": "Abonnementer fornyes automatisk for samme varighet og til den til enhver tid gjeldende prisen, med mindre automatisk fornyelse slås av minst 24 timer før slutten av gjeldende periode."
+          }
+        ],
+        [
+          {
+            "text": "Apple ID-kontoen din vil bli belastet for fornyelse innen 24 timer før gjeldende periode utløper."
+          }
+        ],
+        [
+          {
+            "text": "Du kan administrere abonnementet og slå av automatisk fornyelse når som helst i innstillingene for Apple ID-kontoen din, i samsvar med Apples regler; Utvikleren har ikke tilgang til å si opp eller endre abonnementet ditt direkte."
+          }
+        ],
+        [
+          {
+            "text": "Eventuell ubrukt del av en gratis prøveperiode, dersom en slik tilbys, går tapt når du kjøper et abonnement, der dette er relevant."
+          }
+        ],
+        [
+          {
+            "text": "Alle betalinger, refusjoner og faktureringstvister håndteres av Apple i samsvar med "
+          },
+          {
+            "href": "https://www.apple.com/legal/internet-services/itunes/",
+            "text": "Apple Media Services Terms and Conditions"
+          },
+          {
+            "text": ". Utvikleren behandler ikke betalinger direkte og kan ikke utstede refusjoner."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. Tillatt bruk"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Du samtykker i at du ikke skal:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "bruke appen til ulovlige formål eller på en måte som bryter med gjeldende lov eller forskrift;"
+          }
+        ],
+        [
+          {
+            "text": "forsøke å dekompilere, reversere eller trekke ut kildekoden til appen, med mindre slik begrensning er forbudt etter gjeldende lov;"
+          }
+        ],
+        [
+          {
+            "text": "forstyrre eller avbryte driften av appen eller forsøke å få uautorisert tilgang til systemer som er knyttet til appen."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. Immaterielle rettigheter"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Appen, inkludert design, kode, grafikk og varemerker, eies av Utvikleren og er beskyttet av gjeldende immaterialrettslig lovgivning. Disse Vilkårene gir deg ingen rettigheter til Utviklerens varemerker, logoer eller merkevareelementer utover det som er nødvendig for å bruke appen slik den er ment å brukes."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. Ansvarsfraskrivelse for garantier"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "APPEN LEVERES \"SOM DEN ER\" OG \"SOM TILGJENGELIG\", UTEN GARANTIER AV NOE SLAG, VERKEN UTTRYKKELIGE ELLER UNDERFORSTÅTTE, HERUNDER, MEN IKKE BEGRENSET TIL, UNDERFORSTÅTTE GARANTIER OM SALGBARHET, EGNETHET FOR ET BESTEMT FORMÅL OG AT APPEN IKKE KRENKER TREDJEPARTS RETTIGHETER. UTVIKLEREN GIR INGEN GARANTI FOR AT APPEN VIL VÆRE UAVBRUTT ELLER FEILFRI, ELLER AT SENSORAVLESNINGER (INKLUDERT GPS-, BAROMETER- ELLER BLUETOOTH-DATA) VIL VÆRE NØYAKTIGE ELLER TILGJENGELIGE TIL ENHVER TID."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. Ansvarsbegrensning"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "I DEN UTSTREKNING DET ER TILLATT ETTER GJELDENDE LOV, SKAL UTVIKLEREN IKKE VÆRE ANSVARLIG FOR INDIREKTE, TILFELDIGE, SÆRSKILTE, AVLEDEDE ELLER STRAFFELIGNENDE TAP, ELLER FOR TAP AV DATA, INNTEKTER ELLER FORTJENESTE, SOM OPPSTÅR SOM FØLGE AV ELLER I FORBINDELSE MED DIN BRUK AV (ELLER MANGLENDE MULIGHET TIL Å BRUKE) APPEN, HERUNDER ENHVER SKADE ELLER ULYKKE SOM OPPSTÅR UNDER SYKLING. INGENTING I DISSE VILKÅRENE BEGRENSER ANSVAR SOM IKKE KAN UTELUKKES ELLER BEGRENSES ETTER GJELDENDE LOV."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. Tjenester fra tredjeparter"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Appen er kun tilgjengelig for nedlasting gjennom Apples App Store og er avhengig av Apple-rammeverk (Core Location, Core Motion, Core Bluetooth, StoreKit). Din bruk av disse underliggende plattforms­tjenestene er også underlagt Apples egne vilkår og retningslinjer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. Opphør"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Du kan når som helst slutte å bruke appen ved å slette den fra enheten din. Utvikleren forbeholder seg retten til å avvikle eller endre appen, helt eller delvis, når som helst, med forbehold om Apples App Store-retningslinjer og gjeldende lov."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. Endringer i disse Vilkårene"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Vi kan oppdatere disse Vilkårene fra tid til annen, for eksempel for å gjenspeile nye appfunksjoner eller rettslige krav. Datoen for \"Sist oppdatert\" ovenfor viser når disse Vilkårene sist ble revidert. Fortsatt bruk av appen etter en endring innebærer at du aksepterer de oppdaterte Vilkårene."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. Lovvalg"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Disse Vilkårene er underlagt lovene som gjelder i landet der Utvikleren er bosatt, uten hensyn til lovvalgsprinsipper, med mindre ufravikelige forbrukervernregler i landet der du er bosatt, sier noe annet."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. Kontakt"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Sebastian Gasch"
+        },
+        {
+          "break": true
+        },
+        {
+          "text": " Email: "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    }
+  ]
 }

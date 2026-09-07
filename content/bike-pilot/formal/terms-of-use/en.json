@@ -1,4 +1,337 @@
 {
   "title": "Terms of Use",
-  "html": "<p><em>Last updated: 2026-08-11</em></p>\n\n      <p>\n        These Terms of Use (\"Terms\") govern your use of the BikePilot mobile application (\"the\n        App\"), developed and published by Sebastian Gasch (\"the Developer\", \"we\", \"us\"). By\n        downloading, installing, or using the App, you agree to be bound by these Terms and by\n        Apple's\n        <a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\"\n          >Licensed Application End User License Agreement (EULA)</a\n        >, which applies in addition to these Terms. If you do not agree, do not use the App.\n      </p>\n\n      <h2>1. License</h2>\n      <p>\n        Subject to your compliance with these Terms, the Developer grants you a limited,\n        non-exclusive, non-transferable, revocable license to use the App on Apple-branded devices\n        that you own or control, solely for your personal, non-commercial use, in accordance with\n        the App Store's usage rules and Apple's standard EULA referenced above.\n      </p>\n\n      <h2>2. Description of the App</h2>\n      <p>\n        BikePilot is a cycling-computer app that uses your device's GPS, barometer, and optional\n        Bluetooth Low Energy (BLE) sensors (heart rate, speed &amp; cadence, temperature) to\n        display and record ride data such as speed, distance, altitude, grade, and route on a map.\n        Some features are only available with an optional auto-renewable subscription (\"BikePilot\n        PRO\"), as described below.\n      </p>\n\n      <h2>3. Not a Safety or Medical Device</h2>\n      <p>\n        BikePilot is provided for informational and recreational purposes only. It is\n        <strong>not</strong> a medical device and is <strong>not</strong> intended to diagnose,\n        treat, cure, or prevent any disease or health condition, nor to replace professional\n        medical, navigational, or safety judgment. GPS, barometric, and Bluetooth sensor readings\n        (including heart rate) may be inaccurate, delayed, or unavailable due to hardware\n        limitations, environmental conditions, weather, or connectivity issues.\n      </p>\n      <p>\n        <strong>You are solely responsible for your own safety while cycling.</strong> Always keep\n        your primary focus on the road, traffic, and your surroundings. Do not rely on the App as\n        your sole source of navigation or physiological monitoring, and consult a qualified\n        physician before undertaking strenuous physical activity, especially if you have any\n        pre-existing health condition.\n      </p>\n\n      <h2>4. Your Content and Data</h2>\n      <p>\n        Ride recordings, GPS tracks, and sensor data you create using the App are stored locally\n        on your device, as described in our\n        <a href=\"privacy-policy.html\">Privacy Policy</a>. You are responsible for maintaining your\n        own backups (for example, by exporting rides as <code>.gpx</code> files) — the Developer\n        is not responsible for any loss of ride data resulting from device loss, damage, App\n        deletion, or operating-system changes.\n      </p>\n      <p>\n        If you import <code>.gpx</code> files into the App, you represent that you have the right\n        to use that data and that doing so does not infringe any third party's rights.\n      </p>\n\n      <h2>5. Subscriptions (BikePilot PRO)</h2>\n      <ul>\n        <li>\n          BikePilot offers an optional auto-renewable subscription that unlocks additional\n          features (\"BikePilot PRO\"), available as monthly or yearly plans.\n        </li>\n        <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>\n        <li>\n          Subscriptions automatically renew for the same duration and at the then-current price\n          unless auto-renewal is turned off at least 24 hours before the end of the current\n          period.\n        </li>\n        <li>\n          Your Apple ID account will be charged for renewal within 24 hours prior to the end of\n          the current period.\n        </li>\n        <li>\n          You can manage your subscription and turn off auto-renewal at any time in your Apple ID\n          account settings, in accordance with Apple's rules; the Developer does not have access\n          to cancel or modify your subscription directly.\n        </li>\n        <li>\n          Any unused portion of a free trial period, if offered, is forfeited when you purchase a\n          subscription, where applicable.\n        </li>\n        <li>\n          All payments, refunds, and billing disputes are handled by Apple in accordance with the\n          <a href=\"https://www.apple.com/legal/internet-services/itunes/\"\n            >Apple Media Services Terms and Conditions</a\n          >. The Developer does not process payments directly and cannot issue refunds.\n        </li>\n      </ul>\n\n      <h2>6. Acceptable Use</h2>\n      <p>You agree not to:</p>\n      <ul>\n        <li>\n          Use the App for any unlawful purpose or in a way that violates any applicable law or\n          regulation;\n        </li>\n        <li>\n          Attempt to reverse-engineer, decompile, or extract the App's source code, except to the\n          extent such restriction is prohibited by applicable law;\n        </li>\n        <li>\n          Interfere with or disrupt the App's operation or attempt to gain unauthorized access to\n          any systems related to the App.\n        </li>\n      </ul>\n\n      <h2>7. Intellectual Property</h2>\n      <p>\n        The App, including its design, code, graphics, and trademarks, is owned by the Developer\n        and is protected by applicable intellectual property laws. These Terms do not grant you\n        any rights to the Developer's trademarks, logos, or brand assets beyond what is necessary\n        to use the App as intended.\n      </p>\n\n      <h2>8. Disclaimer of Warranties</h2>\n      <p>\n        THE APP IS PROVIDED \"AS IS\" AND \"AS AVAILABLE,\" WITHOUT WARRANTIES OF ANY KIND, WHETHER\n        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE DEVELOPER DOES NOT WARRANT\n        THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR THAT SENSOR READINGS (INCLUDING GPS,\n        BAROMETRIC, OR BLUETOOTH DATA) WILL BE ACCURATE OR AVAILABLE AT ALL TIMES.\n      </p>\n\n      <h2>9. Limitation of Liability</h2>\n      <p>\n        TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR\n        ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF DATA,\n        REVENUE, OR PROFITS, ARISING OUT OF OR RELATED TO YOUR USE OF (OR INABILITY TO USE) THE\n        APP, INCLUDING ANY INJURY OR ACCIDENT SUSTAINED WHILE CYCLING. NOTHING IN THESE TERMS\n        LIMITS ANY LIABILITY THAT CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.\n      </p>\n\n      <h2>10. Third-Party Services</h2>\n      <p>\n        The App is available for download exclusively through Apple's App Store and relies on\n        Apple frameworks (Core Location, Core Motion, Core Bluetooth, StoreKit). Your use of these\n        underlying platform services is also subject to Apple's own terms and policies.\n      </p>\n\n      <h2>11. Termination</h2>\n      <p>\n        You may stop using the App at any time by deleting it from your device. The Developer\n        reserves the right to discontinue or modify the App, in whole or in part, at any time,\n        subject to Apple's App Store policies and applicable law.\n      </p>\n\n      <h2>12. Changes to These Terms</h2>\n      <p>\n        We may update these Terms from time to time, for example to reflect new App features or\n        legal requirements. The \"Last updated\" date above indicates when these Terms were last\n        revised. Continued use of the App after a change constitutes acceptance of the updated\n        Terms.\n      </p>\n\n      <h2>13. Governing Law</h2>\n      <p>\n        These Terms are governed by the laws applicable in the Developer's country of residence,\n        without regard to conflict-of-law principles, except where mandatory consumer-protection\n        laws of your country of residence provide otherwise.\n      </p>\n\n      <h2>14. Contact</h2>\n      <p>\n        Sebastian Gasch<br />\n        Email:\n        <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Last updated: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "These Terms of Use (\"Terms\") govern your use of the BikePilot mobile application (\"the App\"), developed and published by Sebastian Gasch (\"the Developer\", \"we\", \"us\"). By downloading, installing, or using the App, you agree to be bound by these Terms and by Apple's "
+        },
+        {
+          "href": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+          "text": "Licensed Application End User License Agreement (EULA)"
+        },
+        {
+          "text": ", which applies in addition to these Terms. If you do not agree, do not use the App."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. License"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Subject to your compliance with these Terms, the Developer grants you a limited, non-exclusive, non-transferable, revocable license to use the App on Apple-branded devices that you own or control, solely for your personal, non-commercial use, in accordance with the App Store's usage rules and Apple's standard EULA referenced above."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Description of the App"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot is a cycling-computer app that uses your device's GPS, barometer, and optional Bluetooth Low Energy (BLE) sensors (heart rate, speed & cadence, temperature) to display and record ride data such as speed, distance, altitude, grade, and route on a map. Some features are only available with an optional auto-renewable subscription (\"BikePilot PRO\"), as described below."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Not a Safety or Medical Device"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot is provided for informational and recreational purposes only. It is "
+        },
+        {
+          "bold": true,
+          "text": "not"
+        },
+        {
+          "text": " a medical device and is "
+        },
+        {
+          "bold": true,
+          "text": "not"
+        },
+        {
+          "text": " intended to diagnose, treat, cure, or prevent any disease or health condition, nor to replace professional medical, navigational, or safety judgment. GPS, barometric, and Bluetooth sensor readings (including heart rate) may be inaccurate, delayed, or unavailable due to hardware limitations, environmental conditions, weather, or connectivity issues."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "You are solely responsible for your own safety while cycling."
+        },
+        {
+          "text": " Always keep your primary focus on the road, traffic, and your surroundings. Do not rely on the App as your sole source of navigation or physiological monitoring, and consult a qualified physician before undertaking strenuous physical activity, especially if you have any pre-existing health condition."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Your Content and Data"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Ride recordings, GPS tracks, and sensor data you create using the App are stored locally on your device, as described in our "
+        },
+        {
+          "href": "privacy-policy.html",
+          "text": "Privacy Policy"
+        },
+        {
+          "text": ". You are responsible for maintaining your own backups (for example, by exporting rides as "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " files) — the Developer is not responsible for any loss of ride data resulting from device loss, damage, App deletion, or operating-system changes."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "If you import "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " files into the App, you represent that you have the right to use that data and that doing so does not infringe any third party's rights."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. Subscriptions (BikePilot PRO)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "BikePilot offers an optional auto-renewable subscription that unlocks additional features (\"BikePilot PRO\"), available as monthly or yearly plans."
+          }
+        ],
+        [
+          {
+            "text": "Payment is charged to your Apple ID account at confirmation of purchase."
+          }
+        ],
+        [
+          {
+            "text": "Subscriptions automatically renew for the same duration and at the then-current price unless auto-renewal is turned off at least 24 hours before the end of the current period."
+          }
+        ],
+        [
+          {
+            "text": "Your Apple ID account will be charged for renewal within 24 hours prior to the end of the current period."
+          }
+        ],
+        [
+          {
+            "text": "You can manage your subscription and turn off auto-renewal at any time in your Apple ID account settings, in accordance with Apple's rules; the Developer does not have access to cancel or modify your subscription directly."
+          }
+        ],
+        [
+          {
+            "text": "Any unused portion of a free trial period, if offered, is forfeited when you purchase a subscription, where applicable."
+          }
+        ],
+        [
+          {
+            "text": "All payments, refunds, and billing disputes are handled by Apple in accordance with the "
+          },
+          {
+            "href": "https://www.apple.com/legal/internet-services/itunes/",
+            "text": "Apple Media Services Terms and Conditions"
+          },
+          {
+            "text": ". The Developer does not process payments directly and cannot issue refunds."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. Acceptable Use"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "You agree not to:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Use the App for any unlawful purpose or in a way that violates any applicable law or regulation;"
+          }
+        ],
+        [
+          {
+            "text": "Attempt to reverse-engineer, decompile, or extract the App's source code, except to the extent such restriction is prohibited by applicable law;"
+          }
+        ],
+        [
+          {
+            "text": "Interfere with or disrupt the App's operation or attempt to gain unauthorized access to any systems related to the App."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. Intellectual Property"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "The App, including its design, code, graphics, and trademarks, is owned by the Developer and is protected by applicable intellectual property laws. These Terms do not grant you any rights to the Developer's trademarks, logos, or brand assets beyond what is necessary to use the App as intended."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. Disclaimer of Warranties"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "THE APP IS PROVIDED \"AS IS\" AND \"AS AVAILABLE,\" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE DEVELOPER DOES NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR THAT SENSOR READINGS (INCLUDING GPS, BAROMETRIC, OR BLUETOOTH DATA) WILL BE ACCURATE OR AVAILABLE AT ALL TIMES."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9. Limitation of Liability"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF DATA, REVENUE, OR PROFITS, ARISING OUT OF OR RELATED TO YOUR USE OF (OR INABILITY TO USE) THE APP, INCLUDING ANY INJURY OR ACCIDENT SUSTAINED WHILE CYCLING. NOTHING IN THESE TERMS LIMITS ANY LIABILITY THAT CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. Third-Party Services"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "The App is available for download exclusively through Apple's App Store and relies on Apple frameworks (Core Location, Core Motion, Core Bluetooth, StoreKit). Your use of these underlying platform services is also subject to Apple's own terms and policies."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "11. Termination"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "You may stop using the App at any time by deleting it from your device. The Developer reserves the right to discontinue or modify the App, in whole or in part, at any time, subject to Apple's App Store policies and applicable law."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "12. Changes to These Terms"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "We may update these Terms from time to time, for example to reflect new App features or legal requirements. The \"Last updated\" date above indicates when these Terms were last revised. Continued use of the App after a change constitutes acceptance of the updated Terms."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "13. Governing Law"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "These Terms are governed by the laws applicable in the Developer's country of residence, without regard to conflict-of-law principles, except where mandatory consumer-protection laws of your country of residence provide otherwise."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "14. Contact"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Sebastian Gasch"
+        },
+        {
+          "break": true
+        },
+        {
+          "text": " Email: "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    }
+  ]
 }

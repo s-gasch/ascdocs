@@ -1,4 +1,390 @@
 {
   "title": "Suporte",
-  "html": "<p><em>Última atualização: 2026-08-11</em></p>\n\n      <p>\n        Precisa de ajuda com o BikePilot? Esta página reúne perguntas frequentes, passos de resolução de problemas e informações sobre como nos contactar para obter apoio adicional.\n      </p>\n\n      <h2>Contacto</h2>\n\n      <p>\n        Se a sua questão não estiver respondida abaixo, envie-nos um email e responderemos tão depressa quanto possível:\n      </p>\n\n      <p>\n        <strong>Email:</strong> <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>\n\n      <p>\n        Ao reportar um problema, inclua, por favor, o seguinte para que o possamos ajudar mais depressa:\n      </p>\n\n      <ul>\n        <li>Versão da app (Definições → Sobre na App)</li>\n        <li>A sua versão de iOS e o modelo do dispositivo</li>\n        <li>Passos para reproduzir o problema</li>\n        <li>Capturas de ecrã ou gravações de ecrã, se aplicável</li>\n      </ul>\n\n      <h2>Perguntas Frequentes</h2>\n\n      <h3>GPS e localização</h3>\n\n      <p><strong>A velocidade/distância/percurso parece-me impreciso.</strong></p>\n\n      <p>\n        A precisão do GPS depende do seu dispositivo, do estado do tempo e do ambiente em redor (edifícios altos, túneis, zonas com vegetação densa, etc. podem degradar o sinal). Certifique-se de que o acesso à localização está definido como \"While Using the App\" ou \"Always\" em Definições do iOS → Privacidade e segurança → Serviços de localização → BikePilot e de que os Serviços de localização estão ativados em todo o sistema.\n      </p>\n\n      <p><strong>A App deixou de registar a minha volta quando bloqueei o telemóvel / mudei de app.</strong></p>\n\n      <p>\n        O BikePilot utiliza atualizações de localização em segundo plano para continuar a registar enquanto o dispositivo está bloqueado ou enquanto utiliza outra app. Confirme que a permissão de Localização foi concedida e que o Modo de baixo consumo não está a limitar de forma agressiva a atividade em segundo plano, algo que pode afetar a frequência das atualizações de GPS em alguns dispositivos.\n      </p>\n\n      <h3>Sensores Bluetooth</h3>\n\n      <p><strong>O meu sensor de frequência cardíaca / velocidade e cadência / temperatura não se liga.</strong></p>\n\n      <ol>\n        <li>Certifique-se de que o sensor está ligado e dentro do alcance (normalmente 1–2 metros durante o emparelhamento).</li>\n        <li>Confirme que o Bluetooth está ativado nas Definições do iOS e que o BikePilot tem permissão de Bluetooth (Definições → Privacidade e segurança → Bluetooth → BikePilot).</li>\n        <li>Alguns sensores só podem estar ligados a uma app de cada vez — desligue o sensor de qualquer outra app (por exemplo, outra app de ciclismo ou fitness) antes de o ligar no BikePilot.</li>\n        <li>Tente reiniciar o sensor (retire e volte a inserir a pilha, se aplicável) e volte a pesquisar a partir das definições de sensores da App.</li>\n      </ol>\n\n      <p><strong>O sensor desliga-se repetidamente a meio da volta.</strong></p>\n\n      <p>\n        Isto deve-se, normalmente, a bateria fraca do sensor, distância em relação ao dispositivo ou interferências Bluetooth. Na maioria dos casos, substituir a bateria do sensor e manter o telemóvel dentro do alcance resolve a situação.\n      </p>\n\n      <h3>Altitude e declive</h3>\n\n      <p><strong>As leituras de altitude/declive parecem incorretas.</strong></p>\n\n      <p>\n        O BikePilot utiliza o barómetro do dispositivo em conjunto com o GPS para estimar a altitude e o declive. As leituras barométricas podem sofrer pequenos desvios ao longo do tempo ou ser afetadas por alterações meteorológicas rápidas; trata-se de uma limitação do hardware e não de um mau funcionamento da App.\n      </p>\n\n      <h3>Importação/exportação de GPX</h3>\n\n      <p><strong>Como posso exportar uma volta?</strong></p>\n\n      <p>\n        Abra a volta no histórico de voltas e utilize a opção de partilha/exportação para a guardar como um ficheiro <code>.gpx</code>, que depois poderá guardar na app Ficheiros, enviar por AirDrop para outro dispositivo ou partilhar por email ou noutra app.\n      </p>\n\n      <p><strong>Como posso importar um percurso GPX (por exemplo, para navegação)?</strong></p>\n\n      <p>\n        Utilize a opção de importação na App e escolha um ficheiro <code>.gpx</code> na app Ficheiros (é necessário acesso às pastas Documentos/Downloads — ser-lhe-á pedido na primeira vez).\n      </p>\n\n      <h3>Subscrição BikePilot PRO</h3>\n\n      <p><strong>Como posso subscrever / cancelar o BikePilot PRO?</strong></p>\n\n      <p>\n        As subscrições são geridas integralmente através do seu Apple ID. Para subscrever, utilize o aviso de atualização dentro da App. Para consultar, alterar ou cancelar a subscrição, vá a Definições do iOS → [o seu nome] → Subscrições, ou à app App Store → ícone do seu perfil → Subscrições.\n      </p>\n\n      <p><strong>Subscrevi, mas as funcionalidades PRO não foram desbloqueadas.</strong></p>\n\n      <p>\n        Experimente utilizar a opção \"Restaurar compras\" no ecrã de definições/atualização da App. Se o problema persistir depois de reiniciar a App, contacte-nos com o email do seu Apple ID (não partilhe a palavra-passe do Apple ID) e a data aproximada da compra para que possamos ajudar a investigar.\n      </p>\n\n      <p><strong>Foi-me cobrada a renovação sem intenção / pretendo um reembolso.</strong></p>\n\n      <p>\n        Os reembolsos e a faturação são tratados diretamente pela Apple, não pelo Programador. Pode pedir um reembolso em <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> ou através de Definições → [o seu nome] → Subscrições no seu dispositivo.\n      </p>\n\n      <h3>Privacidade</h3>\n\n      <p>\n        O BikePilot guarda todos os dados das suas voltas localmente no seu dispositivo e não opera qualquer servidor backend. Consulte a nossa <a href=\"privacy-policy.html\">Política de Privacidade</a> para ver todos os detalhes sobre os dados a que a App acede e a forma como são utilizados.\n      </p>\n\n      <h3>Resolução geral de problemas</h3>\n\n      <ul>\n        <li>Certifique-se de que está a utilizar a versão mais recente do BikePilot disponível na App Store.</li>\n        <li>Reiniciar a App ou o dispositivo resolve muitos problemas transitórios (por exemplo, problemas de ligação a sensores, atrasos na obtenção de sinal GPS).</li>\n        <li>Se a App falhar ou tiver um comportamento inesperado, envie-nos por email uma descrição do que aconteceu, juntamente com o modelo do dispositivo e a versão do iOS, para que possamos investigar.</li>\n      </ul>\n\n      <h2>Pedidos de Funcionalidades e Feedback</h2>\n\n      <p>\n        Gostaríamos muito de conhecer as suas ideias para novas funcionalidades ou melhorias. Envie as suas sugestões para <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a> — lemos todas as mensagens.\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Última atualização: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Precisa de ajuda com o BikePilot? Esta página reúne perguntas frequentes, passos de resolução de problemas e informações sobre como nos contactar para obter apoio adicional."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Contacto"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Se a sua questão não estiver respondida abaixo, envie-nos um email e responderemos tão depressa quanto possível:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Email:"
+        },
+        {
+          "text": " "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Ao reportar um problema, inclua, por favor, o seguinte para que o possamos ajudar mais depressa:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Versão da app (Definições → Sobre na App)"
+          }
+        ],
+        [
+          {
+            "text": "A sua versão de iOS e o modelo do dispositivo"
+          }
+        ],
+        [
+          {
+            "text": "Passos para reproduzir o problema"
+          }
+        ],
+        [
+          {
+            "text": "Capturas de ecrã ou gravações de ecrã, se aplicável"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Perguntas Frequentes"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "GPS e localização"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "A velocidade/distância/percurso parece-me impreciso."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "A precisão do GPS depende do seu dispositivo, do estado do tempo e do ambiente em redor (edifícios altos, túneis, zonas com vegetação densa, etc. podem degradar o sinal). Certifique-se de que o acesso à localização está definido como \"While Using the App\" ou \"Always\" em Definições do iOS → Privacidade e segurança → Serviços de localização → BikePilot e de que os Serviços de localização estão ativados em todo o sistema."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "A App deixou de registar a minha volta quando bloqueei o telemóvel / mudei de app."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "O BikePilot utiliza atualizações de localização em segundo plano para continuar a registar enquanto o dispositivo está bloqueado ou enquanto utiliza outra app. Confirme que a permissão de Localização foi concedida e que o Modo de baixo consumo não está a limitar de forma agressiva a atividade em segundo plano, algo que pode afetar a frequência das atualizações de GPS em alguns dispositivos."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Sensores Bluetooth"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "O meu sensor de frequência cardíaca / velocidade e cadência / temperatura não se liga."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Certifique-se de que o sensor está ligado e dentro do alcance (normalmente 1–2 metros durante o emparelhamento)."
+          }
+        ],
+        [
+          {
+            "text": "Confirme que o Bluetooth está ativado nas Definições do iOS e que o BikePilot tem permissão de Bluetooth (Definições → Privacidade e segurança → Bluetooth → BikePilot)."
+          }
+        ],
+        [
+          {
+            "text": "Alguns sensores só podem estar ligados a uma app de cada vez — desligue o sensor de qualquer outra app (por exemplo, outra app de ciclismo ou fitness) antes de o ligar no BikePilot."
+          }
+        ],
+        [
+          {
+            "text": "Tente reiniciar o sensor (retire e volte a inserir a pilha, se aplicável) e volte a pesquisar a partir das definições de sensores da App."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "O sensor desliga-se repetidamente a meio da volta."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Isto deve-se, normalmente, a bateria fraca do sensor, distância em relação ao dispositivo ou interferências Bluetooth. Na maioria dos casos, substituir a bateria do sensor e manter o telemóvel dentro do alcance resolve a situação."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Altitude e declive"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "As leituras de altitude/declive parecem incorretas."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "O BikePilot utiliza o barómetro do dispositivo em conjunto com o GPS para estimar a altitude e o declive. As leituras barométricas podem sofrer pequenos desvios ao longo do tempo ou ser afetadas por alterações meteorológicas rápidas; trata-se de uma limitação do hardware e não de um mau funcionamento da App."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Importação/exportação de GPX"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Como posso exportar uma volta?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Abra a volta no histórico de voltas e utilize a opção de partilha/exportação para a guardar como um ficheiro "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": ", que depois poderá guardar na app Ficheiros, enviar por AirDrop para outro dispositivo ou partilhar por email ou noutra app."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Como posso importar um percurso GPX (por exemplo, para navegação)?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Utilize a opção de importação na App e escolha um ficheiro "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " na app Ficheiros (é necessário acesso às pastas Documentos/Downloads — ser-lhe-á pedido na primeira vez)."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Subscrição BikePilot PRO"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Como posso subscrever / cancelar o BikePilot PRO?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "As subscrições são geridas integralmente através do seu Apple ID. Para subscrever, utilize o aviso de atualização dentro da App. Para consultar, alterar ou cancelar a subscrição, vá a Definições do iOS → [o seu nome] → Subscrições, ou à app App Store → ícone do seu perfil → Subscrições."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Subscrevi, mas as funcionalidades PRO não foram desbloqueadas."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Experimente utilizar a opção \"Restaurar compras\" no ecrã de definições/atualização da App. Se o problema persistir depois de reiniciar a App, contacte-nos com o email do seu Apple ID (não partilhe a palavra-passe do Apple ID) e a data aproximada da compra para que possamos ajudar a investigar."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Foi-me cobrada a renovação sem intenção / pretendo um reembolso."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Os reembolsos e a faturação são tratados diretamente pela Apple, não pelo Programador. Pode pedir um reembolso em "
+        },
+        {
+          "href": "https://reportaproblem.apple.com",
+          "text": "reportaproblem.apple.com"
+        },
+        {
+          "text": " ou através de Definições → [o seu nome] → Subscrições no seu dispositivo."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Privacidade"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "O BikePilot guarda todos os dados das suas voltas localmente no seu dispositivo e não opera qualquer servidor backend. Consulte a nossa "
+        },
+        {
+          "href": "privacy-policy.html",
+          "text": "Política de Privacidade"
+        },
+        {
+          "text": " para ver todos os detalhes sobre os dados a que a App acede e a forma como são utilizados."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Resolução geral de problemas"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Certifique-se de que está a utilizar a versão mais recente do BikePilot disponível na App Store."
+          }
+        ],
+        [
+          {
+            "text": "Reiniciar a App ou o dispositivo resolve muitos problemas transitórios (por exemplo, problemas de ligação a sensores, atrasos na obtenção de sinal GPS)."
+          }
+        ],
+        [
+          {
+            "text": "Se a App falhar ou tiver um comportamento inesperado, envie-nos por email uma descrição do que aconteceu, juntamente com o modelo do dispositivo e a versão do iOS, para que possamos investigar."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pedidos de Funcionalidades e Feedback"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Gostaríamos muito de conhecer as suas ideias para novas funcionalidades ou melhorias. Envie as suas sugestões para "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        },
+        {
+          "text": " — lemos todas as mensagens."
+        }
+      ]
+    }
+  ]
 }

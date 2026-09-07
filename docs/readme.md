@@ -24,8 +24,8 @@ stylu per aplikacja (`content/<app-name>/template/`).
 ### Plan pracy (`docs/dev/plan/`)
 - **Status:** Grupa `appstore-docs` zaimplementowana w całości (Scenariusz 4, TASK-001–TASK-009
   `Done`). Grupa `bike-pilot` (TASK-010–TASK-019) — **zaimplementowana i zweryfikowana**. Dodatek
-  TASK-020–TASK-022 (REQ-026, format treści formalnej JSON bez HTML) — **plan gotowy, implementacja
-  jeszcze nie rozpoczęta**.
+  TASK-020–TASK-022 (REQ-026, format treści formalnej JSON bez HTML) — **zaimplementowany i
+  zweryfikowany**.
 - **Grupy:**
   | Grupa (plik) | Zakres | Opis |
   |--------------|--------|------|
@@ -38,9 +38,9 @@ stylu per aplikacja (`content/<app-name>/template/`).
   mechanizm trwałości języka (cookie), zakres banera zgody na cookies).
 
 ### Log implementacji (`docs/dev/log.md`)
-- **Status:** Utworzony — 7 wpisów (LOG-001–LOG-007), zakres iteracji: `appstore-docs` +
-  `bike-pilot`.
-- **Wynik testów:** `npm test` (Vitest 30/30 jednostkowe + `node:test` 9/9) i `npx playwright test`
+- **Status:** Utworzony — 8 wpisów (LOG-001–LOG-008), zakres iteracji: `appstore-docs` +
+  `bike-pilot` (w tym dodatek TASK-020–TASK-022, REQ-026).
+- **Wynik testów:** `npm test` (Vitest 42/42 jednostkowe + `node:test` 10/10) i `npx playwright test`
   (291/291 E2E na Chromium/WebKit/Firefox, w tym bike-pilot 249/249 oraz axe-core: 0 naruszeń A/AA
   na 4 nowych stronach) — wszystkie zielone.
 - **Otwarte punkty przed pierwszą produkcyjną publikacją** (odnotowane w LOG-003/LOG-005, nie
@@ -61,9 +61,11 @@ stylu per aplikacja (`content/<app-name>/template/`).
   styl bazowy (`css/base.css`). Zero zależności runtime (REQ-017).
 - `content/bike-pilot/` — pilotaż równoległej architektury JSON+szablon: 3 formalne punkty wejścia
   (`privacy-policy.html`, `terms-of-use.html`, `support.html`), marketingowe `index.html`,
-  współdzielony `js/language.js`, lokalne silniki `js/formal.js` i `js/index.js`, style
-  `css/formal.css`, `css/support.css`, `css/index.css`, 57 plików `formal/<typ>/<lang>.json`,
-  19 plików `content/<lang>.json`, wspólny baner zgody na cookies i lokalne przełączanie języka.
+  współdzielony `js/language.js`, lokalne silniki `js/formal.js` (model treści formalnej
+  `blocks[]`/`runs[]`, walidator + renderer DOM bez `innerHTML` treści — REQ-026) i `js/index.js`,
+  style `css/formal.css`, `css/support.css`, `css/index.css`, 57 plików `formal/<typ>/<lang>.json`
+  (ustrukturyzowana treść bez znaczników HTML), 19 plików `content/<lang>.json`, wspólny baner
+  zgody na cookies i lokalne przełączanie języka.
 - `content/sample-app/` — aplikacja referencyjna: `en/`+`de/` kompletne, `pl/` celowo niekompletny
   (demonstracja fallbacku), `marketing-disclosure.html` (dodatkowy typ dokumentu), pełny
   `template/override.css`.
@@ -71,7 +73,9 @@ stylu per aplikacja (`content/<app-name>/template/`).
   pliku wejściowego.
 - `scripts/fallback-languages.js` — narzędzie publikacyjne (build-time fallback językowy, REQ-010).
 - `scripts/extract-bikepilot-content.mjs` — jednorazowy skrypt ekstrakcji 57 istniejących plików
-  `content/bike-pilot/<lang>/*.html` do równoległych JSON-ów formalnych (TASK-018).
+  `content/bike-pilot/<lang>/*.html` do równoległych JSON-ów formalnych (TASK-018); od TASK-022
+  mapuje treść na model `blocks[]`/`runs[]` (parser HTML→blocks oparty na `happy-dom`) zamiast
+  surowego pola `html`.
 - `scripts/dev-server.js` — lokalny serwer statyczny do developmentu/E2E (narzędzie deweloperskie).
 - Testy: `test/unit/` (Vitest+happy-dom), `test/node/` (`node:test`), `test/e2e/` (Playwright +
   axe-core). Uruchomienie: `npm test` (jednostkowe) / `npx playwright test` (E2E).
@@ -93,11 +97,15 @@ powtórzenie audytu Lighthouse na docelowej infrastrukturze oraz natywna korekta
 tłumaczeń bike-pilot. Poprzednia aktualizacja (2026-08-10): zaimplementowano cały plan
 `appstore-docs` (TASK-001–TASK-009, Scenariusz 4).
 
-**Najnowsza aktualizacja (2026-09-07, Scenariusze 2+3):** Dodano REQ-026 (grupa wymagań `bike-pilot`)
-i odpowiadające zadania TASK-020–TASK-022 (grupa planu `bike-pilot`) na jawne żądanie użytkownika:
-pliki treści formalnej `content/bike-pilot/formal/<typ>/<lang>.json` (57 plików) mają zawierać
-wyłącznie ustrukturyzowany model treści (`blocks[]`/`runs[]`), bez znaczników HTML — dotychczasowa
-implementacja (TASK-011/TASK-018) zapisywała surowy HTML w polu `html`. TASK-011/TASK-018 pozostają
-w rejestrze bez zmian (Zasada przyrostowego rejestru); TASK-020–TASK-022 zastępują ich rezultat w
-zakresie formatu danych i renderowania. **Implementacja TASK-020–TASK-022 jeszcze nie rozpoczęta** —
-plan gotowy do potwierdzenia/realizacji.
+**Najnowsza aktualizacja (2026-09-07, Scenariusz 4):** Zaimplementowano dodatek TASK-020–TASK-022
+(REQ-026) — treść formalna bike-pilot bez HTML w JSON. Zdefiniowano i udokumentowano w kodzie
+(`content/bike-pilot/js/formal.js`) model danych `{ title, blocks[] }`/`runs[]` z walidatorem
+fail-fast (`validateDocumentModel`); przebudowano renderowanie tak, by budować DOM wyłącznie przez
+`document.createElement`/`textContent` (bez `innerHTML` treści); rozszerzono
+`scripts/extract-bikepilot-content.mjs` o parser HTML→blocks/runs (oparty na `happy-dom`) i
+zregenerowano wszystkie 57 plików `formal/<typ>/<lang>.json` — żaden nie zawiera już pola `html`
+ani znaczników HTML. Zweryfikowano brak regresji tekstowej/strukturalnej testem golden-text wobec
+treści sprzed zmiany (57/57 plików) oraz pełnym zestawem `npm test` (Vitest 42/42 + `node:test`
+10/10) i `npx playwright test` (291/291, w tym bike-pilot 249/249, axe-core 0 naruszeń A/AA).
+Pliki źródłowe `content/bike-pilot/<lang>/*.html` pozostały nietknięte (fixture hashy TASK-019
+nadal zielony). Zob. `docs/dev/log.md`, LOG-008.

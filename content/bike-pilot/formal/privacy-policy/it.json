@@ -1,4 +1,323 @@
 {
   "title": "Informativa sulla privacy",
-  "html": "<p><em>Ultimo aggiornamento: 2026-08-11</em></p>\n\n      <p>\n        La presente Informativa sulla privacy descrive come BikePilot (\"l’App\", \"noi\", \"ci\") gestisce le informazioni quando Lei utilizza l’app. BikePilot è sviluppata e pubblicata da Sebastian Gasch (\"lo Sviluppatore\").\n      </p>\n\n      <h2>Sintesi</h2>\n\n      <p>\n        BikePilot è progettata per funzionare interamente sul Suo dispositivo. Non gestiamo alcun server backend, non raccogliamo analytics e non vendiamo né condividiamo i Suoi dati personali con terze parti. L’App non La traccia attraverso app o siti web di altre società.\n      </p>\n\n      <h2>Informazioni a cui l’App accede</h2>\n\n      <p>\n        Per fornire le sue funzionalità essenziali di ciclocomputer, BikePilot richiede l’accesso alle seguenti capacità del dispositivo. L’accesso viene richiesto solo quando necessario e solo con il Suo consenso, tramite i consueti prompt di autorizzazione di iOS.\n      </p>\n\n      <table>\n        <thead>\n          <tr>\n            <th>Dati / Autorizzazione</th>\n            <th>Finalità</th>\n            <th>Dove sono archiviati</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>Posizione (GPS)</strong> (\"When In Use\")</td>\n            <td>Misurare velocità, distanza, altitudine e pendenza, e registrare il Suo percorso sulla mappa durante un’uscita.</td>\n            <td>Solo sul Suo dispositivo, come parte della cronologia locale delle uscite.</td>\n          </tr>\n          <tr>\n            <td><strong>Movimento e forma fisica (barometro)</strong></td>\n            <td>Stimare le variazioni di altitudine e la pendenza durante l’uscita.</td>\n            <td>Solo sul Suo dispositivo; i dati grezzi dei sensori non vengono conservati oltre la sessione corrente.</td>\n          </tr>\n          <tr>\n            <td><strong>Bluetooth</strong></td>\n            <td>Collegarsi ai Suoi sensori Bluetooth Low Energy (BLE) — cardiofrequenzimetro, sensore di velocità e cadenza, sensore di temperatura — per mostrare dati live dell’uscita.</td>\n            <td>Le letture dei sensori vengono elaborate in tempo reale sul Suo dispositivo e salvate localmente come parte dei dati dell’uscita; BikePilot non trasmette i dati dei sensori da nessuna parte.</td>\n          </tr>\n          <tr>\n            <td><strong>File (accesso alle cartelle Documents/Downloads)</strong></td>\n            <td>ConsentirLe di importare file traccia <code>.gpx</code> da Lei scelti esplicitamente ed esportare le Sue uscite registrate come file <code>.gpx</code> (ad esempio per condividerli o crearne una copia di backup).</td>\n            <td>I file che sceglie di importare vengono letti sul Suo dispositivo; i file esportati vengono scritti nella posizione da Lei selezionata (ad es. app File, AirDrop, Mail) tramite il foglio di condivisione standard di iOS.</td>\n          </tr>\n        </tbody>\n      </table>\n\n      <h2>Dati che non raccogliamo</h2>\n\n      <ul>\n        <li>Non utilizziamo SDK di analytics, pubblicità o crash reporting.</li>\n        <li>Non gestiamo nostri server e l’App non invia a noi né a terze parti le Sue uscite, la cronologia della posizione, le letture dei sensori o qualsiasi altro dato personale.</li>\n        <li>Non utilizziamo tecnologie di tracciamento (come definite dal framework App Tracking Transparency di Apple) e non richiediamo il permesso di tracciamento.</li>\n        <li>Non raccogliamo né archiviamo informazioni di account, perché BikePilot non richiede la creazione di un account né l’accesso.</li>\n      </ul>\n\n      <h2>Archiviazione e conservazione dei dati</h2>\n\n      <p>\n        Tutti i dati delle uscite (tracce GPS, letture di velocità/cadenza/frequenza cardiaca/temperatura, impostazioni e uscite registrate) vengono archiviati localmente sul Suo dispositivo utilizzando i meccanismi standard di archiviazione on-device di Apple (<code>UserDefaults</code> e spazio di archiviazione locale dell’app). Questi dati non vengono sincronizzati su iCloud o su altri servizi cloud da parte dell’App stessa, a meno che il backup iCloud del Suo dispositivo non includa i dati locali dell’App come parte di un backup a livello di sistema, che è controllato dalle Sue impostazioni iOS e non da BikePilot.\n      </p>\n\n      <p>\n        Può eliminare in qualsiasi momento tutti i dati delle uscite archiviati localmente cancellando le uscite registrate all’interno dell’App oppure eliminando l’App dal Suo dispositivo, operazione che rimuove tutti i dati locali in conformità al normale comportamento di iOS per la rimozione delle app.\n      </p>\n\n      <h2>Importazione/esportazione GPX</h2>\n\n      <p>\n        BikePilot Le consente di importare i file <code>.gpx</code> che seleziona ed esportare le Sue uscite registrate come file <code>.gpx</code> utilizzando il foglio di condivisione di iOS. L’uso che farà di un file esportato (ad es. condividerlo con un servizio di terze parti) è una Sua scelta ed è disciplinato dalle pratiche sulla privacy di tale terza parte, non dalla presente Informativa.\n      </p>\n\n      <h2>Abbonamenti (BikePilot PRO)</h2>\n\n      <p>\n        BikePilot offre un abbonamento opzionale con rinnovo automatico (\"BikePilot PRO\") che sblocca funzionalità aggiuntive. Acquisti, rinnovi e ripristini dell’abbonamento sono gestiti interamente da StoreKit di Apple e dal Suo account Apple ID / App Store. Non riceviamo né archiviamo i Suoi dati di pagamento: i dati relativi all’acquisto e alla fatturazione vengono trattati e conservati da Apple in conformità con la <a href=\"https://www.apple.com/legal/privacy/\">Privacy Policy di Apple</a>.\n      </p>\n\n      <h2>Privacy dei minori</h2>\n\n      <p>\n        BikePilot non è destinata ai minori e non raccoglie consapevolmente dati personali di minori. Poiché l’App non raccoglie né trasmette a noi dati personali in primo luogo, nessun dato relativo a qualsiasi utente, inclusi i minori, viene conservato dallo Sviluppatore.\n      </p>\n\n      <h2>I Suoi diritti</h2>\n\n      <p>\n        Poiché tutti i dati personali generati dall’uso di BikePilot (cronologia della posizione, dati delle uscite, letture dei sensori) restano sul Suo dispositivo e non ci vengono mai trasmessi, Lei ne mantiene in ogni momento il pieno controllo: può consultarli, esportarli o eliminarli direttamente nell’App oppure rimuovendo l’App. Poiché non conserviamo alcun Suo dato personale sui nostri sistemi, non esiste una procedura separata per richiederci l’accesso, la rettifica o la cancellazione di tali dati.\n      </p>\n\n      <p>\n        Se ha domande sulla presente Informativa o su come l’App gestisce le autorizzazioni del dispositivo, può contattarci utilizzando i dettagli riportati di seguito.\n      </p>\n\n      <h2>Modifiche alla presente Informativa</h2>\n\n      <p>\n        Potremmo aggiornare periodicamente la presente Informativa sulla privacy, ad esempio per riflettere nuove funzionalità dell’App. La data di \"Ultimo aggiornamento\" riportata all’inizio di questo documento indica quando è stata effettuata l’ultima revisione. L’uso continuato dell’App dopo una modifica costituisce accettazione della versione aggiornata dell’Informativa.\n      </p>\n\n      <h2>Contatti</h2>\n\n      <p>\n        Sebastian Gasch<br />\n        Email: <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Ultimo aggiornamento: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "La presente Informativa sulla privacy descrive come BikePilot (\"l’App\", \"noi\", \"ci\") gestisce le informazioni quando Lei utilizza l’app. BikePilot è sviluppata e pubblicata da Sebastian Gasch (\"lo Sviluppatore\")."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sintesi"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot è progettata per funzionare interamente sul Suo dispositivo. Non gestiamo alcun server backend, non raccogliamo analytics e non vendiamo né condividiamo i Suoi dati personali con terze parti. L’App non La traccia attraverso app o siti web di altre società."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Informazioni a cui l’App accede"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Per fornire le sue funzionalità essenziali di ciclocomputer, BikePilot richiede l’accesso alle seguenti capacità del dispositivo. L’accesso viene richiesto solo quando necessario e solo con il Suo consenso, tramite i consueti prompt di autorizzazione di iOS."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dati / Autorizzazione",
+        "Finalità",
+        "Dove sono archiviati"
+      ],
+      "rows": [
+        [
+          [
+            {
+              "bold": true,
+              "text": "Posizione (GPS)"
+            },
+            {
+              "text": " (\"When In Use\")"
+            }
+          ],
+          [
+            {
+              "text": "Misurare velocità, distanza, altitudine e pendenza, e registrare il Suo percorso sulla mappa durante un’uscita."
+            }
+          ],
+          [
+            {
+              "text": "Solo sul Suo dispositivo, come parte della cronologia locale delle uscite."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "bold": true,
+              "text": "Movimento e forma fisica (barometro)"
+            }
+          ],
+          [
+            {
+              "text": "Stimare le variazioni di altitudine e la pendenza durante l’uscita."
+            }
+          ],
+          [
+            {
+              "text": "Solo sul Suo dispositivo; i dati grezzi dei sensori non vengono conservati oltre la sessione corrente."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "bold": true,
+              "text": "Bluetooth"
+            }
+          ],
+          [
+            {
+              "text": "Collegarsi ai Suoi sensori Bluetooth Low Energy (BLE) — cardiofrequenzimetro, sensore di velocità e cadenza, sensore di temperatura — per mostrare dati live dell’uscita."
+            }
+          ],
+          [
+            {
+              "text": "Le letture dei sensori vengono elaborate in tempo reale sul Suo dispositivo e salvate localmente come parte dei dati dell’uscita; BikePilot non trasmette i dati dei sensori da nessuna parte."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "bold": true,
+              "text": "File (accesso alle cartelle Documents/Downloads)"
+            }
+          ],
+          [
+            {
+              "text": "ConsentirLe di importare file traccia "
+            },
+            {
+              "code": true,
+              "text": ".gpx"
+            },
+            {
+              "text": " da Lei scelti esplicitamente ed esportare le Sue uscite registrate come file "
+            },
+            {
+              "code": true,
+              "text": ".gpx"
+            },
+            {
+              "text": " (ad esempio per condividerli o crearne una copia di backup)."
+            }
+          ],
+          [
+            {
+              "text": "I file che sceglie di importare vengono letti sul Suo dispositivo; i file esportati vengono scritti nella posizione da Lei selezionata (ad es. app File, AirDrop, Mail) tramite il foglio di condivisione standard di iOS."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dati che non raccogliamo"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Non utilizziamo SDK di analytics, pubblicità o crash reporting."
+          }
+        ],
+        [
+          {
+            "text": "Non gestiamo nostri server e l’App non invia a noi né a terze parti le Sue uscite, la cronologia della posizione, le letture dei sensori o qualsiasi altro dato personale."
+          }
+        ],
+        [
+          {
+            "text": "Non utilizziamo tecnologie di tracciamento (come definite dal framework App Tracking Transparency di Apple) e non richiediamo il permesso di tracciamento."
+          }
+        ],
+        [
+          {
+            "text": "Non raccogliamo né archiviamo informazioni di account, perché BikePilot non richiede la creazione di un account né l’accesso."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Archiviazione e conservazione dei dati"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Tutti i dati delle uscite (tracce GPS, letture di velocità/cadenza/frequenza cardiaca/temperatura, impostazioni e uscite registrate) vengono archiviati localmente sul Suo dispositivo utilizzando i meccanismi standard di archiviazione on-device di Apple ("
+        },
+        {
+          "code": true,
+          "text": "UserDefaults"
+        },
+        {
+          "text": " e spazio di archiviazione locale dell’app). Questi dati non vengono sincronizzati su iCloud o su altri servizi cloud da parte dell’App stessa, a meno che il backup iCloud del Suo dispositivo non includa i dati locali dell’App come parte di un backup a livello di sistema, che è controllato dalle Sue impostazioni iOS e non da BikePilot."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Può eliminare in qualsiasi momento tutti i dati delle uscite archiviati localmente cancellando le uscite registrate all’interno dell’App oppure eliminando l’App dal Suo dispositivo, operazione che rimuove tutti i dati locali in conformità al normale comportamento di iOS per la rimozione delle app."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Importazione/esportazione GPX"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot Le consente di importare i file "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " che seleziona ed esportare le Sue uscite registrate come file "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " utilizzando il foglio di condivisione di iOS. L’uso che farà di un file esportato (ad es. condividerlo con un servizio di terze parti) è una Sua scelta ed è disciplinato dalle pratiche sulla privacy di tale terza parte, non dalla presente Informativa."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Abbonamenti (BikePilot PRO)"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot offre un abbonamento opzionale con rinnovo automatico (\"BikePilot PRO\") che sblocca funzionalità aggiuntive. Acquisti, rinnovi e ripristini dell’abbonamento sono gestiti interamente da StoreKit di Apple e dal Suo account Apple ID / App Store. Non riceviamo né archiviamo i Suoi dati di pagamento: i dati relativi all’acquisto e alla fatturazione vengono trattati e conservati da Apple in conformità con la "
+        },
+        {
+          "href": "https://www.apple.com/legal/privacy/",
+          "text": "Privacy Policy di Apple"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Privacy dei minori"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot non è destinata ai minori e non raccoglie consapevolmente dati personali di minori. Poiché l’App non raccoglie né trasmette a noi dati personali in primo luogo, nessun dato relativo a qualsiasi utente, inclusi i minori, viene conservato dallo Sviluppatore."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "I Suoi diritti"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Poiché tutti i dati personali generati dall’uso di BikePilot (cronologia della posizione, dati delle uscite, letture dei sensori) restano sul Suo dispositivo e non ci vengono mai trasmessi, Lei ne mantiene in ogni momento il pieno controllo: può consultarli, esportarli o eliminarli direttamente nell’App oppure rimuovendo l’App. Poiché non conserviamo alcun Suo dato personale sui nostri sistemi, non esiste una procedura separata per richiederci l’accesso, la rettifica o la cancellazione di tali dati."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Se ha domande sulla presente Informativa o su come l’App gestisce le autorizzazioni del dispositivo, può contattarci utilizzando i dettagli riportati di seguito."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Modifiche alla presente Informativa"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Potremmo aggiornare periodicamente la presente Informativa sulla privacy, ad esempio per riflettere nuove funzionalità dell’App. La data di \"Ultimo aggiornamento\" riportata all’inizio di questo documento indica quando è stata effettuata l’ultima revisione. L’uso continuato dell’App dopo una modifica costituisce accettazione della versione aggiornata dell’Informativa."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Contatti"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Sebastian Gasch"
+        },
+        {
+          "break": true
+        },
+        {
+          "text": " Email: "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    }
+  ]
 }

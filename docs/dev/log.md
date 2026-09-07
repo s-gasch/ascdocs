@@ -212,3 +212,47 @@
      produkcyjną całego repozytorium (otwarty punkt LOG-003/LOG-005 nadal pozostaje aktualny).
 - **Aktualizacja dokumentacji/instrukcji obsługi:** `docs/readme.md` zaktualizowany o zamknięcie
   grupy `bike-pilot`, wyniki testów i otwarte punkty produkcyjne.
+
+### LOG-008: TASK-020–TASK-022 — treść formalna bez HTML w JSON (REQ-026)
+- **Data:** 2026-09-07
+- **Zakres iteracji:** Grupa `bike-pilot` — dodatek TASK-020–TASK-022 (REQ-026)
+- **Persony zaangażowane:** Web Frontend Software Architect, Web Frontend Software Engineer,
+  Technical Writer, Code Reviewer
+- **Podsumowanie zmian:**
+  1. **TASK-020:** Zdefiniowano i udokumentowano (komentarz nagłówkowy w
+     `content/bike-pilot/js/formal.js`) schemat modelu danych `{ title, blocks[] }` z typami bloków
+     `heading | paragraph | list | table` i segmentami `runs[]` (`text`/`bold`/`italic`/`code`/
+     `href`/`break`). Dodano `validateDocumentModel()` — walidator fail-fast odrzucający nieznany
+     `type` bloku, nieznany klucz w `runs`, brakujące wymagane pola (np. `level` nagłówka,
+     `ordered`/`items` listy, `headers`/`rows` tabeli, `text` runa bez `break`).
+  2. **TASK-021:** Przebudowano `injectDocumentContent`/dodano `renderDocumentContent` w
+     `content/bike-pilot/js/formal.js` — treść dokumentu jest teraz budowana wyłącznie przez
+     `document.createElement`/`textContent`/`appendChild` na podstawie `blocks[]`/`runs[]`, bez
+     żadnego przypisania do `innerHTML` dla treści dokumentu (nagłówki, akapity z formatowaniem
+     inline, listy uporządkowane/nieuporządkowane, tabele z `<thead>`/`<tbody>`).
+  3. **TASK-022:** Rozszerzono `scripts/extract-bikepilot-content.mjs` o parser HTML→blocks/runs
+     oparty na `happy-dom` (już obecny jako devDependency) i zregenerowano wszystkie 57 plików
+     `content/bike-pilot/formal/{privacy-policy,terms-of-use,support}/<lang>.json` — żaden nie
+     zawiera już pola `html` ani ciągu ze znacznikiem HTML. Pliki źródłowe `content/bike-pilot/
+     <lang>/*.html` pozostały nietknięte (fixture hashy TASK-019 nadal zielony).
+- **Rozważone alternatywy i uzasadnienie wyboru:** jak udokumentowano w `plan/bike-pilot.md`
+  (TASK-020/TASK-021/TASK-022) — model płaski `blocks[]` zamiast zagnieżdżonych `sections[]`, DOM
+  API zamiast budowania fragmentu HTML jako string lub `createContextualFragment` (uniknięcie
+  wszelkiego parsowania HTML w runtime), skrypt Node rozszerzający istniejącą ekstrakcję zamiast
+  ręcznej konwersji 57 plików.
+- **Commit:** `TASK-020/TASK-021/TASK-022: replace bike-pilot formal HTML JSON with blocks/runs model`
+- **Wynik test gate:** Przeszedł — `npm test` (Vitest 42/42, w tym 16 nowych/przebudowanych testów
+  `test/unit/formal.test.js` pokrywających walidator i renderer dla każdego typu bloku/runa, oraz
+  `node:test` 10/10, w tym dwa nowe testy w `test/node/bike-pilot-content.test.mjs`: zgodność
+  schematu + brak HTML dla 57/57 plików, i regresja tekstowa 57/57 wobec „złotego” tekstu
+  wyekstrahowanego z poprzedniej wersji plików z polem `html` — zapisanego przed regeneracją w
+  `test/fixtures/bike-pilot-formal-golden.json`) oraz pełny `npx playwright test` (291/291 na
+  Chromium/WebKit/Firefox, w tym pakiet `bike-pilot` 249/249 i axe-core: 0 naruszeń A/AA na 4
+  stronach bike-pilot).
+- **Weryfikacja wsteczna:** Brak regresji tekstowej/strukturalnej potwierdzony testem golden-text
+  dla wszystkich 57 plików (nagłówki, akapity, listy, tabele, formatowanie inline, `<br>`, linki);
+  brak regresji w pozostałych grupach (`appstore-docs`, `sample-app`) potwierdzony pełnym przebiegiem
+  Playwright (291/291, w tym 42/42 `sample-app`).
+- **Aktualizacja dokumentacji/instrukcji obsługi:** `docs/readme.md` zaktualizowany o zamknięcie
+  TASK-020–TASK-022; schemat modelu danych udokumentowany bezpośrednio w kodzie
+  (`content/bike-pilot/js/formal.js`, komentarz nagłówkowy).

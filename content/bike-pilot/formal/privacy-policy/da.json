@@ -1,4 +1,323 @@
 {
   "title": "Privatlivspolitik",
-  "html": "<p><em>Sidst opdateret: 2026-08-11</em></p>\n\n      <p>\n        Denne privatlivspolitik beskriver, hvordan BikePilot (\"Appen\", \"vi\", \"os\") håndterer oplysninger, når du bruger appen. BikePilot er udviklet og udgivet af Sebastian Gasch (\"Udvikleren\").\n      </p>\n\n      <h2>Resumé</h2>\n\n      <p>\n        BikePilot er designet til at fungere fuldt ud på din enhed. Vi driver ingen backendserver, vi indsamler ingen analyser, og vi sælger eller deler ikke dine personoplysninger med tredjeparter. Appen sporer dig ikke på tværs af apps eller websites, der ejes af andre virksomheder.\n      </p>\n\n      <h2>Oplysninger Appen har adgang til</h2>\n\n      <p>\n        For at levere sin centrale funktion som cykelcomputer anmoder BikePilot om adgang til følgende enhedsfunktioner. Adgang anmodes kun om, når det er nødvendigt, og kun med dit samtykke via de standardiserede tilladelsesdialoger i iOS.\n      </p>\n\n      <table>\n        <thead>\n          <tr>\n            <th>Data / tilladelse</th>\n            <th>Formål</th>\n            <th>Hvor det opbevares</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>Lokalitet (GPS)</strong> (\"When In Use\")</td>\n            <td>Måle hastighed, distance, højde og stigningsprocent samt registrere din rute på kortet under en tur.</td>\n            <td>Kun på din enhed som en del af din lokale turhistorik.</td>\n          </tr>\n          <tr>\n            <td><strong>Motion &amp; Fitness (barometer)</strong></td>\n            <td>Estimere højdeforskelle og stigningsprocent, mens du cykler.</td>\n            <td>Kun på din enhed; gemmes ikke som rå sensordata ud over den aktuelle session.</td>\n          </tr>\n          <tr>\n            <td><strong>Bluetooth</strong></td>\n            <td>Oprette forbindelse til dine egne Bluetooth Low Energy (BLE)-sensorer — pulsmåler, fart- og kadencesensor, temperatursensor — for at vise live-data fra turen.</td>\n            <td>Sensordata behandles i realtid på din enhed og gemmes lokalt som en del af dine turdata; BikePilot sender ikke sensordata nogen steder hen.</td>\n          </tr>\n          <tr>\n            <td><strong>Filer (adgang til mappen Dokumenter/Downloads)</strong></td>\n            <td>Gøre det muligt at importere <code>.gpx</code>-sporfiler, som du selv vælger, og eksportere dine registrerede ture som <code>.gpx</code>-filer (f.eks. til deling eller sikkerhedskopi).</td>\n            <td>Filer, du vælger at importere, læses på din enhed; eksporterede filer skrives til den placering, du vælger (f.eks. appen Filer, AirDrop, Mail) via det standardiserede delingsark i iOS.</td>\n          </tr>\n        </tbody>\n      </table>\n\n      <h2>Data vi ikke indsamler</h2>\n\n      <ul>\n        <li>Vi bruger ingen SDK'er til analyse, annoncering eller crash-rapportering.</li>\n        <li>Vi driver ingen egne servere, og Appen sender ikke dine ture, din lokalitetshistorik, sensordata eller andre personoplysninger til os eller til tredjeparter.</li>\n        <li>Vi bruger ikke sporingsteknologier (som defineret i Apples App Tracking Transparency-framework) og anmoder ikke om tilladelse til sporing.</li>\n        <li>Vi indsamler eller opbevarer ikke kontooplysninger, fordi BikePilot ikke kræver, at du opretter en konto eller logger ind.</li>\n      </ul>\n\n      <h2>Opbevaring og lagringstid</h2>\n\n      <p>\n        Alle turdata (GPS-spor, aflæsninger af fart/kadence/puls/temperatur, indstillinger og registrerede ture) gemmes lokalt på din enhed ved hjælp af Apples standardmekanismer til lokal lagring på enheden (<code>UserDefaults</code> og lokal applagring). Disse data synkroniseres ikke til iCloud eller andre cloudtjenester af Appen selv, medmindre din enheds egen iCloud-enhedssikkerhedskopi omfatter Appens lokale data som en del af en sikkerhedskopi på systemniveau, hvilket styres af dine iOS-indstillinger og ikke af BikePilot.\n      </p>\n\n      <p>\n        Du kan til enhver tid slette alle lokalt gemte turdata ved at slette registrerede ture i Appen eller ved at slette Appen fra din enhed, hvilket fjerner alle dens lokale data i overensstemmelse med standardadfærden i iOS ved sletning af apps.\n      </p>\n\n      <h2>GPX-import/-eksport</h2>\n\n      <p>\n        BikePilot giver dig mulighed for at importere <code>.gpx</code>-filer, som du vælger, og eksportere dine registrerede ture som <code>.gpx</code>-filer via delingsarket i iOS. Hvad du vælger at gøre med en eksporteret fil (f.eks. dele den med en tredjepartstjeneste), er dit eget valg og er underlagt den pågældende tredjeparts egne privatlivspraksisser, ikke denne politik.\n      </p>\n\n      <h2>Abonnementer (BikePilot PRO)</h2>\n\n      <p>\n        BikePilot tilbyder et valgfrit abonnement med automatisk fornyelse (\"BikePilot PRO\"), som låser op for yderligere funktioner. Køb, fornyelser og gendannelser af abonnementer håndteres udelukkende af Apples StoreKit og din Apple ID- / App Store-konto. Vi modtager eller opbevarer ikke dine betalingsoplysninger — køb- og faktureringsdata behandles og opbevares af Apple i overensstemmelse med <a href=\"https://www.apple.com/legal/privacy/\">Apples privatlivspolitik</a>.\n      </p>\n\n      <h2>Børns privatliv</h2>\n\n      <p>\n        BikePilot er ikke rettet mod børn og indsamler ikke bevidst personoplysninger fra børn. Da Appen ikke indsamler eller overfører personoplysninger til os til at begynde med, opbevarer Udvikleren ingen data om nogen bruger, herunder børn.\n      </p>\n\n      <h2>Dine rettigheder</h2>\n\n      <p>\n        Da alle personoplysninger, der skabes ved brug af BikePilot (lokalitetshistorik, turdata, sensordata), bliver på din enhed og aldrig overføres til os, har du til enhver tid fuld kontrol over dem: Du kan se, eksportere eller slette dem direkte i Appen eller ved at fjerne Appen. Da vi ikke opbevarer nogen af dine personoplysninger i vores systemer, findes der ingen særskilt proces for anmodninger om indsigt, rettelse eller sletning, som du skal indsende til os for disse data.\n      </p>\n\n      <p>\n        Hvis du har spørgsmål til denne politik eller til, hvordan Appen håndterer enhedstilladelser, er du velkommen til at kontakte os via oplysningerne nedenfor.\n      </p>\n\n      <h2>Ændringer i denne politik</h2>\n\n      <p>\n        Vi kan opdatere denne privatlivspolitik fra tid til anden, for eksempel for at afspejle nye funktioner i Appen. Datoen \"Sidst opdateret\" øverst i dette dokument angiver, hvornår den senest blev revideret. Fortsat brug af Appen efter en ændring udgør accept af den opdaterede politik.\n      </p>\n\n      <h2>Kontakt</h2>\n\n      <p>\n        Sebastian Gasch<br />\n        Email: <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Sidst opdateret: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Denne privatlivspolitik beskriver, hvordan BikePilot (\"Appen\", \"vi\", \"os\") håndterer oplysninger, når du bruger appen. BikePilot er udviklet og udgivet af Sebastian Gasch (\"Udvikleren\")."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Resumé"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot er designet til at fungere fuldt ud på din enhed. Vi driver ingen backendserver, vi indsamler ingen analyser, og vi sælger eller deler ikke dine personoplysninger med tredjeparter. Appen sporer dig ikke på tværs af apps eller websites, der ejes af andre virksomheder."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Oplysninger Appen har adgang til"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "For at levere sin centrale funktion som cykelcomputer anmoder BikePilot om adgang til følgende enhedsfunktioner. Adgang anmodes kun om, når det er nødvendigt, og kun med dit samtykke via de standardiserede tilladelsesdialoger i iOS."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Data / tilladelse",
+        "Formål",
+        "Hvor det opbevares"
+      ],
+      "rows": [
+        [
+          [
+            {
+              "bold": true,
+              "text": "Lokalitet (GPS)"
+            },
+            {
+              "text": " (\"When In Use\")"
+            }
+          ],
+          [
+            {
+              "text": "Måle hastighed, distance, højde og stigningsprocent samt registrere din rute på kortet under en tur."
+            }
+          ],
+          [
+            {
+              "text": "Kun på din enhed som en del af din lokale turhistorik."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "bold": true,
+              "text": "Motion & Fitness (barometer)"
+            }
+          ],
+          [
+            {
+              "text": "Estimere højdeforskelle og stigningsprocent, mens du cykler."
+            }
+          ],
+          [
+            {
+              "text": "Kun på din enhed; gemmes ikke som rå sensordata ud over den aktuelle session."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "bold": true,
+              "text": "Bluetooth"
+            }
+          ],
+          [
+            {
+              "text": "Oprette forbindelse til dine egne Bluetooth Low Energy (BLE)-sensorer — pulsmåler, fart- og kadencesensor, temperatursensor — for at vise live-data fra turen."
+            }
+          ],
+          [
+            {
+              "text": "Sensordata behandles i realtid på din enhed og gemmes lokalt som en del af dine turdata; BikePilot sender ikke sensordata nogen steder hen."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "bold": true,
+              "text": "Filer (adgang til mappen Dokumenter/Downloads)"
+            }
+          ],
+          [
+            {
+              "text": "Gøre det muligt at importere "
+            },
+            {
+              "code": true,
+              "text": ".gpx"
+            },
+            {
+              "text": "-sporfiler, som du selv vælger, og eksportere dine registrerede ture som "
+            },
+            {
+              "code": true,
+              "text": ".gpx"
+            },
+            {
+              "text": "-filer (f.eks. til deling eller sikkerhedskopi)."
+            }
+          ],
+          [
+            {
+              "text": "Filer, du vælger at importere, læses på din enhed; eksporterede filer skrives til den placering, du vælger (f.eks. appen Filer, AirDrop, Mail) via det standardiserede delingsark i iOS."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Data vi ikke indsamler"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Vi bruger ingen SDK'er til analyse, annoncering eller crash-rapportering."
+          }
+        ],
+        [
+          {
+            "text": "Vi driver ingen egne servere, og Appen sender ikke dine ture, din lokalitetshistorik, sensordata eller andre personoplysninger til os eller til tredjeparter."
+          }
+        ],
+        [
+          {
+            "text": "Vi bruger ikke sporingsteknologier (som defineret i Apples App Tracking Transparency-framework) og anmoder ikke om tilladelse til sporing."
+          }
+        ],
+        [
+          {
+            "text": "Vi indsamler eller opbevarer ikke kontooplysninger, fordi BikePilot ikke kræver, at du opretter en konto eller logger ind."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Opbevaring og lagringstid"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Alle turdata (GPS-spor, aflæsninger af fart/kadence/puls/temperatur, indstillinger og registrerede ture) gemmes lokalt på din enhed ved hjælp af Apples standardmekanismer til lokal lagring på enheden ("
+        },
+        {
+          "code": true,
+          "text": "UserDefaults"
+        },
+        {
+          "text": " og lokal applagring). Disse data synkroniseres ikke til iCloud eller andre cloudtjenester af Appen selv, medmindre din enheds egen iCloud-enhedssikkerhedskopi omfatter Appens lokale data som en del af en sikkerhedskopi på systemniveau, hvilket styres af dine iOS-indstillinger og ikke af BikePilot."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Du kan til enhver tid slette alle lokalt gemte turdata ved at slette registrerede ture i Appen eller ved at slette Appen fra din enhed, hvilket fjerner alle dens lokale data i overensstemmelse med standardadfærden i iOS ved sletning af apps."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "GPX-import/-eksport"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot giver dig mulighed for at importere "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": "-filer, som du vælger, og eksportere dine registrerede ture som "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": "-filer via delingsarket i iOS. Hvad du vælger at gøre med en eksporteret fil (f.eks. dele den med en tredjepartstjeneste), er dit eget valg og er underlagt den pågældende tredjeparts egne privatlivspraksisser, ikke denne politik."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Abonnementer (BikePilot PRO)"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot tilbyder et valgfrit abonnement med automatisk fornyelse (\"BikePilot PRO\"), som låser op for yderligere funktioner. Køb, fornyelser og gendannelser af abonnementer håndteres udelukkende af Apples StoreKit og din Apple ID- / App Store-konto. Vi modtager eller opbevarer ikke dine betalingsoplysninger — køb- og faktureringsdata behandles og opbevares af Apple i overensstemmelse med "
+        },
+        {
+          "href": "https://www.apple.com/legal/privacy/",
+          "text": "Apples privatlivspolitik"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Børns privatliv"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot er ikke rettet mod børn og indsamler ikke bevidst personoplysninger fra børn. Da Appen ikke indsamler eller overfører personoplysninger til os til at begynde med, opbevarer Udvikleren ingen data om nogen bruger, herunder børn."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dine rettigheder"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Da alle personoplysninger, der skabes ved brug af BikePilot (lokalitetshistorik, turdata, sensordata), bliver på din enhed og aldrig overføres til os, har du til enhver tid fuld kontrol over dem: Du kan se, eksportere eller slette dem direkte i Appen eller ved at fjerne Appen. Da vi ikke opbevarer nogen af dine personoplysninger i vores systemer, findes der ingen særskilt proces for anmodninger om indsigt, rettelse eller sletning, som du skal indsende til os for disse data."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Hvis du har spørgsmål til denne politik eller til, hvordan Appen håndterer enhedstilladelser, er du velkommen til at kontakte os via oplysningerne nedenfor."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ændringer i denne politik"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Vi kan opdatere denne privatlivspolitik fra tid til anden, for eksempel for at afspejle nye funktioner i Appen. Datoen \"Sidst opdateret\" øverst i dette dokument angiver, hvornår den senest blev revideret. Fortsat brug af Appen efter en ændring udgør accept af den opdaterede politik."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kontakt"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Sebastian Gasch"
+        },
+        {
+          "break": true
+        },
+        {
+          "text": " Email: "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    }
+  ]
 }

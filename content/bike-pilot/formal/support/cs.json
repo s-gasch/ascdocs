@@ -1,4 +1,390 @@
 {
   "title": "Podpora",
-  "html": "<p><em>Poslední aktualizace: 2026-08-11</em></p>\n\n      <p>\n        Potřebujete pomoc s BikePilot? Na této stránce najdete odpovědi na časté dotazy, tipy pro řešení potíží i způsob, jak nás kontaktovat, pokud budete potřebovat další podporu.\n      </p>\n\n      <h2>Kontakt</h2>\n\n      <p>\n        Pokud níže nenajdete odpověď na svůj dotaz, napište nám e-mail a ozveme se co nejdříve:\n      </p>\n\n      <p>\n        <strong>Email:</strong> <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a>\n      </p>\n\n      <p>\n        Při hlášení problému prosím uveďte následující informace, abychom vám mohli pomoci rychleji:\n      </p>\n\n      <ul>\n        <li>verzi aplikace (v aplikaci: Settings → About)</li>\n        <li>verzi iOS a model vašeho zařízení</li>\n        <li>kroky k reprodukci problému</li>\n        <li>snímky obrazovky nebo záznam obrazovky, pokud jsou relevantní</li>\n      </ul>\n\n      <h2>Časté dotazy</h2>\n\n      <h3>GPS a sledování polohy</h3>\n\n      <p><strong>Zdá se mi, že rychlost / vzdálenost / trasa nejsou přesné.</strong></p>\n\n      <p>\n        Přesnost GPS závisí na vašem zařízení, počasí a okolním prostředí (vysoké budovy, tunely, hustý stromový porost apod. mohou signál zhoršit). Zkontrolujte, že má BikePilot v iOS povolen přístup k poloze „Při používání aplikace“ nebo „Vždy“ v Nastavení → Soukromí a zabezpečení → Polohové služby → BikePilot a že jsou Polohové služby zapnuté pro celý systém.\n      </p>\n\n      <p><strong>Aplikace přestala zaznamenávat jízdu, když jsem zamkl(a) telefon / přepnul(a) do jiné aplikace.</strong></p>\n\n      <p>\n        BikePilot používá aktualizace polohy na pozadí, aby mohl pokračovat v záznamu i při zamčeném zařízení nebo během používání jiné aplikace. Ujistěte se, že je oprávnění k poloze uděleno a že Režim nízké spotřeby příliš neomezuje aktivitu na pozadí, což může u některých zařízení ovlivnit frekvenci aktualizací GPS.\n      </p>\n\n      <h3>Bluetooth snímače</h3>\n\n      <p><strong>Snímač tepové frekvence / rychlosti a kadence / teploty se nechce připojit.</strong></p>\n\n      <ol>\n        <li>Ujistěte se, že je snímač zapnutý a v dosahu (při párování obvykle 1–2 metry).</li>\n        <li>Ověřte, že je Bluetooth v iOS zapnuté a že má BikePilot oprávnění Bluetooth (Nastavení → Soukromí a zabezpečení → Bluetooth → BikePilot).</li>\n        <li>Některé snímače se umí připojit vždy jen k jedné aplikaci — před připojením v BikePilot je odpojte od jakékoli jiné aplikace (např. jiné cyklistické nebo fitness aplikace).</li>\n        <li>Zkuste snímač restartovat (je-li to relevantní, vyjměte a znovu vložte baterii) a v nastavení snímačů v Aplikaci spusťte nové vyhledání.</li>\n      </ol>\n\n      <p><strong>Snímač se mi během jízdy stále odpojuje.</strong></p>\n\n      <p>\n        Příčinou bývá nejčastěji slabá baterie snímače, větší vzdálenost od zařízení nebo rušení Bluetooth. Výměna baterie a držení telefonu v dosahu obvykle problém vyřeší.\n      </p>\n\n      <h3>Nadmořská výška a sklon</h3>\n\n      <p><strong>Údaje o nadmořské výšce / sklonu vypadají nepřesně.</strong></p>\n\n      <p>\n        BikePilot používá k odhadu nadmořské výšky a sklonu barometr vašeho zařízení spolu s GPS. Barometrické hodnoty se mohou v čase mírně rozcházet nebo je mohou ovlivnit rychlé změny počasí; jde o omezení hardwaru, nikoli o chybu Aplikace.\n      </p>\n\n      <h3>Import/export GPX</h3>\n\n      <p><strong>Jak exportuji jízdu?</strong></p>\n\n      <p>\n        Otevřete jízdu v historii jízd a použijte volbu sdílení/exportu pro uložení do souboru <code>.gpx</code>, který pak můžete uložit do aplikace Soubory, poslat přes AirDrop do jiného zařízení nebo sdílet e-mailem či přes jinou aplikaci.\n      </p>\n\n      <p><strong>Jak importuji GPX trasu (např. pro navigaci)?</strong></p>\n\n      <p>\n        V Aplikaci použijte volbu importu a vyberte soubor <code>.gpx</code> z aplikace Soubory (je vyžadován přístup ke složce Dokumenty/Stahování — při prvním použití budete vyzváni k jeho povolení).\n      </p>\n\n      <h3>Předplatné BikePilot PRO</h3>\n\n      <p><strong>Jak si předplatím / zruším BikePilot PRO?</strong></p>\n\n      <p>\n        Předplatná jsou spravována výhradně přes vaše Apple ID. Pro předplatné použijte výzvu k upgradu přímo v Aplikaci. Chcete-li své předplatné zobrazit, změnit nebo zrušit, přejděte do Nastavení → [vaše jméno] → Předplatná nebo do aplikace App Store → ikona vašeho profilu → Předplatná.\n      </p>\n\n      <p><strong>Předplatné jsem aktivoval(a), ale funkce PRO nejsou odemčené.</strong></p>\n\n      <p>\n        Zkuste v nastavení Aplikace nebo na obrazovce upgradu použít volbu \"Restore Purchases\". Pokud problém přetrvá i po restartu Aplikace, kontaktujte nás se svým e-mailem k Apple ID (nikdy nesdílejte heslo k Apple ID) a přibližným datem nákupu, abychom mohli situaci prověřit.\n      </p>\n\n      <p><strong>Byla mi stržena platba, ale obnovení jsem nechtěl(a) / chci vrácení peněz.</strong></p>\n\n      <p>\n        Vrácení peněz a vyúčtování řeší přímo Apple, nikoli Vývojář. O vrácení peněz můžete požádat na <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a> nebo přes Nastavení → [vaše jméno] → Předplatná ve vašem zařízení.\n      </p>\n\n      <h3>Soukromí</h3>\n\n      <p>\n        BikePilot ukládá všechna data o vašich jízdách lokálně ve vašem zařízení a neprovozuje žádný backendový server. Podrobnosti o tom, k jakým údajům Aplikace přistupuje a jak je používá, najdete v našich <a href=\"privacy-policy.html\">Zásadách ochrany osobních údajů</a>.\n      </p>\n\n      <h3>Obecné řešení potíží</h3>\n\n      <ul>\n        <li>Ujistěte se, že používáte nejnovější verzi BikePilot z App Store.</li>\n        <li>Restart Aplikace nebo zařízení vyřeší mnoho přechodných potíží (např. problémy s připojením snímačů nebo zpoždění při získání GPS signálu).</li>\n        <li>Pokud Aplikace spadne nebo se chová nečekaně, pošlete nám prosím e-mail s popisem toho, co se stalo, spolu s modelem zařízení a verzí iOS, abychom to mohli prověřit.</li>\n      </ul>\n\n      <h2>Návrhy funkcí a zpětná vazba</h2>\n\n      <p>\n        Rádi si přečteme vaše nápady na nové funkce nebo vylepšení. Posílejte je na <a href=\"mailto:sebastian.gasch@outlook.com\">sebastian.gasch@outlook.com</a> — čteme každou zprávu.\n      </p>"
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "italic": true,
+          "text": "Poslední aktualizace: 2026-08-11"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Potřebujete pomoc s BikePilot? Na této stránce najdete odpovědi na časté dotazy, tipy pro řešení potíží i způsob, jak nás kontaktovat, pokud budete potřebovat další podporu."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kontakt"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Pokud níže nenajdete odpověď na svůj dotaz, napište nám e-mail a ozveme se co nejdříve:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Email:"
+        },
+        {
+          "text": " "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Při hlášení problému prosím uveďte následující informace, abychom vám mohli pomoci rychleji:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "verzi aplikace (v aplikaci: Settings → About)"
+          }
+        ],
+        [
+          {
+            "text": "verzi iOS a model vašeho zařízení"
+          }
+        ],
+        [
+          {
+            "text": "kroky k reprodukci problému"
+          }
+        ],
+        [
+          {
+            "text": "snímky obrazovky nebo záznam obrazovky, pokud jsou relevantní"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Časté dotazy"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "GPS a sledování polohy"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Zdá se mi, že rychlost / vzdálenost / trasa nejsou přesné."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Přesnost GPS závisí na vašem zařízení, počasí a okolním prostředí (vysoké budovy, tunely, hustý stromový porost apod. mohou signál zhoršit). Zkontrolujte, že má BikePilot v iOS povolen přístup k poloze „Při používání aplikace“ nebo „Vždy“ v Nastavení → Soukromí a zabezpečení → Polohové služby → BikePilot a že jsou Polohové služby zapnuté pro celý systém."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Aplikace přestala zaznamenávat jízdu, když jsem zamkl(a) telefon / přepnul(a) do jiné aplikace."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot používá aktualizace polohy na pozadí, aby mohl pokračovat v záznamu i při zamčeném zařízení nebo během používání jiné aplikace. Ujistěte se, že je oprávnění k poloze uděleno a že Režim nízké spotřeby příliš neomezuje aktivitu na pozadí, což může u některých zařízení ovlivnit frekvenci aktualizací GPS."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bluetooth snímače"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Snímač tepové frekvence / rychlosti a kadence / teploty se nechce připojit."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Ujistěte se, že je snímač zapnutý a v dosahu (při párování obvykle 1–2 metry)."
+          }
+        ],
+        [
+          {
+            "text": "Ověřte, že je Bluetooth v iOS zapnuté a že má BikePilot oprávnění Bluetooth (Nastavení → Soukromí a zabezpečení → Bluetooth → BikePilot)."
+          }
+        ],
+        [
+          {
+            "text": "Některé snímače se umí připojit vždy jen k jedné aplikaci — před připojením v BikePilot je odpojte od jakékoli jiné aplikace (např. jiné cyklistické nebo fitness aplikace)."
+          }
+        ],
+        [
+          {
+            "text": "Zkuste snímač restartovat (je-li to relevantní, vyjměte a znovu vložte baterii) a v nastavení snímačů v Aplikaci spusťte nové vyhledání."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Snímač se mi během jízdy stále odpojuje."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Příčinou bývá nejčastěji slabá baterie snímače, větší vzdálenost od zařízení nebo rušení Bluetooth. Výměna baterie a držení telefonu v dosahu obvykle problém vyřeší."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Nadmořská výška a sklon"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Údaje o nadmořské výšce / sklonu vypadají nepřesně."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot používá k odhadu nadmořské výšky a sklonu barometr vašeho zařízení spolu s GPS. Barometrické hodnoty se mohou v čase mírně rozcházet nebo je mohou ovlivnit rychlé změny počasí; jde o omezení hardwaru, nikoli o chybu Aplikace."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Import/export GPX"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Jak exportuji jízdu?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Otevřete jízdu v historii jízd a použijte volbu sdílení/exportu pro uložení do souboru "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": ", který pak můžete uložit do aplikace Soubory, poslat přes AirDrop do jiného zařízení nebo sdílet e-mailem či přes jinou aplikaci."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Jak importuji GPX trasu (např. pro navigaci)?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "V Aplikaci použijte volbu importu a vyberte soubor "
+        },
+        {
+          "code": true,
+          "text": ".gpx"
+        },
+        {
+          "text": " z aplikace Soubory (je vyžadován přístup ke složce Dokumenty/Stahování — při prvním použití budete vyzváni k jeho povolení)."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Předplatné BikePilot PRO"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Jak si předplatím / zruším BikePilot PRO?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Předplatná jsou spravována výhradně přes vaše Apple ID. Pro předplatné použijte výzvu k upgradu přímo v Aplikaci. Chcete-li své předplatné zobrazit, změnit nebo zrušit, přejděte do Nastavení → [vaše jméno] → Předplatná nebo do aplikace App Store → ikona vašeho profilu → Předplatná."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Předplatné jsem aktivoval(a), ale funkce PRO nejsou odemčené."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Zkuste v nastavení Aplikace nebo na obrazovce upgradu použít volbu \"Restore Purchases\". Pokud problém přetrvá i po restartu Aplikace, kontaktujte nás se svým e-mailem k Apple ID (nikdy nesdílejte heslo k Apple ID) a přibližným datem nákupu, abychom mohli situaci prověřit."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "bold": true,
+          "text": "Byla mi stržena platba, ale obnovení jsem nechtěl(a) / chci vrácení peněz."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Vrácení peněz a vyúčtování řeší přímo Apple, nikoli Vývojář. O vrácení peněz můžete požádat na "
+        },
+        {
+          "href": "https://reportaproblem.apple.com",
+          "text": "reportaproblem.apple.com"
+        },
+        {
+          "text": " nebo přes Nastavení → [vaše jméno] → Předplatná ve vašem zařízení."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Soukromí"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "BikePilot ukládá všechna data o vašich jízdách lokálně ve vašem zařízení a neprovozuje žádný backendový server. Podrobnosti o tom, k jakým údajům Aplikace přistupuje a jak je používá, najdete v našich "
+        },
+        {
+          "href": "privacy-policy.html",
+          "text": "Zásadách ochrany osobních údajů"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Obecné řešení potíží"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Ujistěte se, že používáte nejnovější verzi BikePilot z App Store."
+          }
+        ],
+        [
+          {
+            "text": "Restart Aplikace nebo zařízení vyřeší mnoho přechodných potíží (např. problémy s připojením snímačů nebo zpoždění při získání GPS signálu)."
+          }
+        ],
+        [
+          {
+            "text": "Pokud Aplikace spadne nebo se chová nečekaně, pošlete nám prosím e-mail s popisem toho, co se stalo, spolu s modelem zařízení a verzí iOS, abychom to mohli prověřit."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Návrhy funkcí a zpětná vazba"
+    },
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "Rádi si přečteme vaše nápady na nové funkce nebo vylepšení. Posílejte je na "
+        },
+        {
+          "href": "mailto:sebastian.gasch@outlook.com",
+          "text": "sebastian.gasch@outlook.com"
+        },
+        {
+          "text": " — čteme každou zprávu."
+        }
+      ]
+    }
+  ]
 }
