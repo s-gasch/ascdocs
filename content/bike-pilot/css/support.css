@@ -1,0 +1,19 @@
+/* TASK-016 — lekkie rozszerzenia tylko dla support.html (REQ-023). */
+.bp-support-content h2 + p,
+.bp-support-content h3 + p strong {
+  color: var(--bp-text);
+}
+
+.bp-support-content h3 {
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--bp-border);
+}
+
+.bp-support-content ol,
+.bp-support-content ul {
+  padding-inline-start: 1.4rem;
+}
+
+.bp-support-content a[href^="mailto:"] {
+  font-weight: 700;
+}
