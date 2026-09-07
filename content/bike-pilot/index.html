@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Bike Pilot marketing page with localized content for all supported languages."
+    />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Bike Pilot</title>
+    <script type="module" src="./js/index.js"></script>
+  </head>
+  <body data-page-kind="marketing">
+    <div class="bp-site-shell">
+      <header class="bp-site-header">
+        <a class="bp-site-brand" href="#top" aria-label="Bike Pilot">
+          <img src="./img/bike-pilot-mark.svg" alt="" width="38" height="38" />
+          <span>Bike Pilot</span>
+        </a>
+
+        <div class="bp-site-tools">
+          <nav class="bp-site-nav" aria-label="Bike Pilot sections">
+            <a href="#features" data-site-link="features">Features</a>
+            <a href="#templates" data-site-link="templates">Templates</a>
+            <a href="#screens" data-site-link="screens">Screens</a>
+            <a href="#download" data-site-link="download">Download</a>
+            <a href="#about" data-site-link="about">About</a>
+          </nav>
+          <label class="bp-site-language-picker">
+            <span data-language-label>Language</span>
+            <select data-language-select></select>
+          </label>
+        </div>
+      </header>
+
+      <main data-marketing-content aria-live="polite"></main>
+
+      <footer class="bp-site-footer" id="about">
+        <div class="bp-site-footer__brand">
+          <a class="bp-site-brand" href="#top" aria-label="Bike Pilot home">
+            <img src="./img/bike-pilot-mark.svg" alt="" width="34" height="34" />
+            <span>Bike Pilot</span>
+          </a>
+          <p data-footer-tagline>
+            Bike Pilot turns ride data into a polished story you can revisit and share.
+          </p>
+        </div>
+        <div class="bp-site-footer__column">
+          <h2 data-footer-product-heading>Product</h2>
+          <a href="#features" data-site-link="features">Features</a>
+          <a href="#templates" data-site-link="templates">Templates</a>
+          <a href="#screens" data-site-link="screens">Screens</a>
+          <a href="#download" data-site-link="download">Download</a>
+        </div>
+        <div class="bp-site-footer__column">
+          <h2 data-footer-support-heading>Support</h2>
+          <a href="./support.html" data-nav-support>Support</a>
+          <a href="./privacy-policy.html" data-nav-privacy>Privacy Policy</a>
+          <a href="./terms-of-use.html" data-nav-terms>Terms of Use</a>
+          <a href="mailto:sebastian.gasch@outlook.com" data-footer-contact>Email</a>
+        </div>
+      </footer>
+    </div>
+    <div data-consent-root></div>
+  </body>
+</html>
