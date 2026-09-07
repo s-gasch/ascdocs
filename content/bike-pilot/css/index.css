@@ -79,9 +79,9 @@ a {
 }
 
 .bp-site-brand img {
-  width: 2.25rem;
+  width: auto;
   height: 2.25rem;
-  border-radius: 0.9rem;
+  border-radius: 0.4rem;
 }
 
 .bp-site-tools {
