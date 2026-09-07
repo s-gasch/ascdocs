@@ -4,3 +4,5 @@ test-results/
 playwright-report/
 .playwright-mcp/
 content/bike-pilot/papers
+
+*.DS_Store
