@@ -5,6 +5,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { Window } from "happy-dom";
 import { renderDocumentContent, validateDocumentModel } from "../../content/bike-pilot/js/formal.js";
+import { getUiStrings } from "../../content/bike-pilot/js/language.js";
 
 const ROOT = process.cwd();
 const LEGACY_FIXTURE = path.join(ROOT, "test", "fixtures", "bike-pilot-legacy-hashes.json");
@@ -130,5 +131,40 @@ test("TASK-018: marketing JSON payloads exist and contain required keys for all 
     assert.equal(payload.templates.items.length, 6, `${language}: templates.items`);
     assert.equal(payload.features.items.length, 6, `${language}: features.items`);
     assert.equal(typeof payload.cta.button, "string", `${language}: cta.button`);
+  }
+});
+
+test("TASK-024: navigation labels (js/language.js) match the formal document 'title' for every language/doc pair", () => {
+  const NAV_KEY_BY_DOC = {
+    "privacy-policy": "navPrivacy",
+    "terms-of-use": "navTerms",
+    support: "navSupport",
+  };
+
+  for (const language of LANGUAGES) {
+    const ui = getUiStrings(language);
+    for (const docType of DOCS) {
+      const jsonPath = path.join(BIKE_PILOT_ROOT, "formal", docType, `${language}.json`);
+      const payload = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+      const navKey = NAV_KEY_BY_DOC[docType];
+      assert.equal(
+        ui[navKey],
+        payload.title,
+        `${language}.${navKey} ("${ui[navKey]}") must match ${jsonPath} title ("${payload.title}")`
+      );
+    }
+  }
+});
+
+test("TASK-025: every formal document declares a 'MAJOR.MINOR' version, identical across all 19 languages per doc type", () => {
+  for (const docType of DOCS) {
+    const versions = new Set();
+    for (const language of LANGUAGES) {
+      const jsonPath = path.join(BIKE_PILOT_ROOT, "formal", docType, `${language}.json`);
+      const payload = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+      assert.match(payload.version, /^\d+\.\d+$/, `${jsonPath}: version must be in 'MAJOR.MINOR' format`);
+      versions.add(payload.version);
+    }
+    assert.equal(versions.size, 1, `${docType}: version must be identical across all 19 languages, found ${[...versions]}`);
   }
 });
