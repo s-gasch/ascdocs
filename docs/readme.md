@@ -19,16 +19,18 @@ stylu per aplikacja (`content/<app-name>/template/`).
   | Grupa (plik) | Zakres | Opis |
   |--------------|--------|------|
   | [`requirements/appstore-docs.md`](dev/requirements/appstore-docs.md) | REQ-001–REQ-017 | Struktura, renderowanie klienckie, szablony/override, i18n/fallback, macierz przeglądarek, dostępność/wydajność, brak zależności do dodatkowych bibliotek JS. |
-  | [`requirements/bike-pilot.md`](dev/requirements/bike-pilot.md) | REQ-018–REQ-025 | Pilotaż nowej architektury (na podstawie `docs/dev/requirements/ideas.md`) dla aplikacji bike-pilot: szablon+JSON per język (zamiast pliku per język), wykrywanie/przełącznik/trwałe zapamiętanie języka (cookie), klauzula zgody na cookies, strona marketingowa — dodane **obok** istniejącej struktury `content/bike-pilot/<lang>/*.html`, bez jej zmiany, ograniczone do `content/bike-pilot/`. |
+  | [`requirements/bike-pilot.md`](dev/requirements/bike-pilot.md) | REQ-018–REQ-026 | Pilotaż nowej architektury (na podstawie `docs/dev/requirements/ideas.md`) dla aplikacji bike-pilot: szablon+JSON per język (zamiast pliku per język), wykrywanie/przełącznik/trwałe zapamiętanie języka (cookie), klauzula zgody na cookies, strona marketingowa — dodane **obok** istniejącej struktury `content/bike-pilot/<lang>/*.html`, bez jej zmiany, ograniczone do `content/bike-pilot/`; REQ-026 doprecyzowuje, że treść formalna w JSON jest ustrukturyzowana (model blocks/runs), bez znaczników HTML. |
 
 ### Plan pracy (`docs/dev/plan/`)
 - **Status:** Grupa `appstore-docs` zaimplementowana w całości (Scenariusz 4, TASK-001–TASK-009
-  `Done`). Grupa `bike-pilot` (TASK-010–TASK-019) — **zaimplementowana i zweryfikowana**.
+  `Done`). Grupa `bike-pilot` (TASK-010–TASK-019) — **zaimplementowana i zweryfikowana**. Dodatek
+  TASK-020–TASK-022 (REQ-026, format treści formalnej JSON bez HTML) — **plan gotowy, implementacja
+  jeszcze nie rozpoczęta**.
 - **Grupy:**
   | Grupa (plik) | Zakres | Opis |
   |--------------|--------|------|
   | [`plan/appstore-docs.md`](dev/plan/appstore-docs.md) | TASK-001–TASK-009 | Scaffolding struktury, silnik renderujący, szablon bazowy, mechanizm override, spec plików wejściowych, fallback językowy, walidacja cross-browser/a11y/performance, przewodnik autorski + bazowe pliki `sample-app`, rozszerzenie `sample-app` do pełnej referencyjnej aplikacji QA. |
-  | [`plan/bike-pilot.md`](dev/plan/bike-pilot.md) | TASK-010–TASK-019 | Scaffolding nowej struktury równoległej, silnik JSON→HTML, wykrywanie/przełącznik/zapamiętanie języka, baner zgody na cookies, style formalne, strona marketingowa, treść JSON dla 19 języków, walidacja e2e + regresja starej struktury. |
+  | [`plan/bike-pilot.md`](dev/plan/bike-pilot.md) | TASK-010–TASK-022 | Scaffolding nowej struktury równoległej, silnik JSON→HTML, wykrywanie/przełącznik/zapamiętanie języka, baner zgody na cookies, style formalne, strona marketingowa, treść JSON dla 19 języków, walidacja e2e + regresja starej struktury; TASK-020–TASK-022 (dodatek) zastępują format treści formalnej JSON HTML → model blocks/runs bez znaczników. |
 - **Log decyzji/eskalacji:** 10 wpisów w `plan/index.md` (fallback językowy, macierz przeglądarek,
   mechanizm techniczny fallbacku, brak zależności do dodatkowych bibliotek JS, scalenie aplikacji
   przykładowej z aplikacją referencyjną `sample-app`; dla grupy `bike-pilot`: koegzystencja ze starą
@@ -90,3 +92,12 @@ Otwarte punkty przed publikacją produkcyjną: manualna weryfikacja mobile Safar
 powtórzenie audytu Lighthouse na docelowej infrastrukturze oraz natywna korekta marketingowych
 tłumaczeń bike-pilot. Poprzednia aktualizacja (2026-08-10): zaimplementowano cały plan
 `appstore-docs` (TASK-001–TASK-009, Scenariusz 4).
+
+**Najnowsza aktualizacja (2026-09-07, Scenariusze 2+3):** Dodano REQ-026 (grupa wymagań `bike-pilot`)
+i odpowiadające zadania TASK-020–TASK-022 (grupa planu `bike-pilot`) na jawne żądanie użytkownika:
+pliki treści formalnej `content/bike-pilot/formal/<typ>/<lang>.json` (57 plików) mają zawierać
+wyłącznie ustrukturyzowany model treści (`blocks[]`/`runs[]`), bez znaczników HTML — dotychczasowa
+implementacja (TASK-011/TASK-018) zapisywała surowy HTML w polu `html`. TASK-011/TASK-018 pozostają
+w rejestrze bez zmian (Zasada przyrostowego rejestru); TASK-020–TASK-022 zastępują ich rezultat w
+zakresie formatu danych i renderowania. **Implementacja TASK-020–TASK-022 jeszcze nie rozpoczęta** —
+plan gotowy do potwierdzenia/realizacji.
