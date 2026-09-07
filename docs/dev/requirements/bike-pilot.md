@@ -215,3 +215,13 @@ Requirements). Ustalenia z użytkownikiem (2026-09-07), rozstrzygające niejedno
   język"); nie dotyczy `content/<lang>.json` strony marketingowej (REQ-024/REQ-025) — ograniczone
   wyłącznie do treści dokumentów formalnych.
 - **Uwagi z researchu:** nie dotyczy (decyzja dot. formatu danych, nie nowego API platformy).
+
+---
+
+| ID | Tytuł | Status | Archiwum |
+|----|-------|--------|----------|
+| REQ-027 | Ciemny motyw wizualny dokumentów formalnych | Done (zweryfikowane) | [`requirements/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| REQ-028 | Spójność nazewnictwa dokumentów formalnych | Done (zweryfikowane) | [`requirements/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| REQ-029 | Wersjonowanie dokumentów formalnych | Done (zweryfikowane) | [`requirements/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| REQ-030 | Usunięcie etykiety tekstowej "Language" z nagłówka | Done (zweryfikowane) | [`requirements/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| REQ-031 | Powiększenie logo o 150% (1.5×) | Done (zweryfikowane) | [`requirements/archive/bike-pilot.md`](archive/bike-pilot.md) |

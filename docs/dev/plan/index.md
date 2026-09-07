@@ -17,6 +17,13 @@ nowa strona marketingowa. Przyrost jest dodawany **obok** istniejącej struktury
 `content/bike-pilot/` — bez zmian w `content/common/`. Źródło:
 `docs/dev/requirements/index.md` i `docs/dev/requirements/bike-pilot.md` (REQ-018–REQ-025).
 
+**Dodatek (2026-09-07, po recenzji):** `TASK-023`–`TASK-028` implementują `REQ-027`–`REQ-031`,
+powstałe z recenzji wdrożonego pilotażu `docs/dev/reports/2026-09-07-bike-pilot-review.md`: ciemny
+motyw z akcentami pomarańczowymi dla 3 stron formalnych, spójność nazewnictwa dokumentów między
+JSON `title` i etykietami nawigacyjnymi (57 par), wersjonowanie semantyczne (`MAJOR.MINOR`, wspólne
+per typ dokumentu) dokumentów formalnych, usunięcie widocznej etykiety "Language" z nagłówka (4
+strony, z zachowaniem dostępności) oraz powiększenie logo do 1.5× obecnego rozmiaru na 4 stronach.
+
 ## Macierz traceability (REQ → TASK)
 
 | REQ-XXX | TASK-YYY |
@@ -47,13 +54,18 @@ nowa strona marketingowa. Przyrost jest dodawany **obok** istniejącej struktury
 | REQ-024 | TASK-017, TASK-019 |
 | REQ-025 | TASK-017, TASK-018, TASK-019 |
 | REQ-026 | TASK-020, TASK-021, TASK-022 |
+| REQ-027 | TASK-023, TASK-028 |
+| REQ-028 | TASK-024, TASK-028 |
+| REQ-029 | TASK-025, TASK-028 |
+| REQ-030 | TASK-026, TASK-028 |
+| REQ-031 | TASK-027, TASK-028 |
 
 ## Spis grup zadań
 
 | Grupa (plik) | Zakres TASK-XXX | Opis |
 |--------------|-----------------|------|
 | [`plan/appstore-docs.md`](appstore-docs.md) | TASK-001–TASK-009 | Struktura katalogów, silnik renderujący (vanilla JS, bez zależności do dodatkowych bibliotek — REQ-017), szablon bazowy, mechanizm override (szablon/styl), spec plików wejściowych, fallback językowy, walidacja cross-browser, dokumentacja procesu + bazowe pliki `sample-app`, rozszerzenie `sample-app` do pełnej referencyjnej aplikacji QA. |
-| [`plan/bike-pilot.md`](bike-pilot.md) | TASK-010–TASK-022 | Pilotaż nowej architektury JSON+szablon dla bike-pilot: scaffolding nowej struktury równoległej, silnik JSON→HTML, wykrywanie/przełącznik/zapamiętanie języka (cookie), baner zgody, style formalne, strona marketingowa, treść JSON dla 19 języków, walidacja e2e + regresja starej struktury; TASK-020–TASK-022 (dodatek) zastępują format treści formalnej JSON (HTML → model blocks/runs bez znaczników, REQ-026). |
+| [`plan/bike-pilot.md`](bike-pilot.md) | TASK-010–TASK-028 | Pilotaż nowej architektury JSON+szablon dla bike-pilot: scaffolding nowej struktury równoległej, silnik JSON→HTML, wykrywanie/przełącznik/zapamiętanie języka (cookie), baner zgody, style formalne, strona marketingowa, treść JSON dla 19 języków, walidacja e2e + regresja starej struktury; TASK-020–TASK-022 (dodatek) zastępują format treści formalnej JSON (HTML → model blocks/runs bez znaczników, REQ-026); TASK-023–TASK-028 (dodatek, recenzja post-implementacyjna) — ciemny motyw z akcentami pomarańczowymi, spójność nazewnictwa dokumentów, wersjonowanie dokumentów, usunięcie etykiety "Language", powiększenie logo, walidacja zbiorcza. |
 
 ## Definition of Done — poziom przyrostu (release-level)
 
@@ -111,6 +123,25 @@ nowa strona marketingowa. Przyrost jest dodawany **obok** istniejącej struktury
 - [ ] Brak regresji tekstowej/strukturalnej względem stanu sprzed zmiany (57/57 plików) oraz w
       testach e2e (TASK-019, rozszerzone).
 
+### DoD — dodatek `bike-pilot` TASK-023–TASK-028 (2026-09-07, przed implementacją)
+
+- [ ] Wszystkie zadania `TASK-023`–`TASK-028` mają status `Done`.
+- [ ] Wszystkie 3 strony formalne, w każdym z 19 języków, renderują się w ciemnym motywie (tło
+      czarne/prawie czarne, tekst jasny/biały, akcenty pomarańczowe spójne z `img/logo.png`) bez
+      naruszeń axe-core A/AA (kontrast).
+- [ ] 0 rozbieżności nazewnictwa między `title` (JSON) a etykietami nawigacyjnymi `js/language.js`
+      na 57 parach język×typ dokumentu.
+- [ ] Wszystkie 57 plików `formal/<typ>/<lang>.json` zawierają pole `version` (`MAJOR.MINOR`),
+      identyczne dla wszystkich 19 języków tego samego typu dokumentu; wersja widoczna obok daty
+      aktualizacji na wszystkich 3×19 stronach.
+- [ ] Etykieta tekstowa "Language" nie jest już widoczna wizualnie w nagłówku żadnej z 4 stron, przy
+      zachowanej nazwie dostępnej (`accessible name`) elementu `<select>` (0 nowych naruszeń axe-core).
+- [ ] Logo renderuje się w rozmiarze 1.5× poprzedniego na wszystkich 4 stronach, bez rozjeżdżania
+      layoutu ani pikselizacji.
+- [ ] Zero zmian w istniejących plikach `content/bike-pilot/<lang>/*.html` (regresja `git diff` pusta,
+      jak w poprzednich dodatkach tej grupy).
+- [ ] `docs/readme.md` zaktualizowany o stan dodatku po zakończeniu implementacji.
+
 ## Strategia testowania — przegląd ogólny
 
 Trzy uzupełniające się poziomy, dobrane pod kątem statycznego, w pełni klienckiego renderowania (bez
@@ -137,8 +168,11 @@ Reużywa tę samą infrastrukturę (Vitest + `happy-dom`, Playwright na Chromium
 axe-core) rozszerzoną o: (1) jednostkowe testy logiki i18n (`js/language.js` — dopasowanie języka,
 cookie) z mockiem `navigator`/`document.cookie`; (2) e2e dla 4 nowych stron × 19 języków (renderowanie,
 przełącznik, trwałość wyboru, baner zgody); (3) test regresji potwierdzający brak zmian w
-zachowaniu/treści istniejących 57 plików `content/bike-pilot/<lang>/*.html`. Szczegóły per zadanie w
-`plan/bike-pilot.md`.
+zachowaniu/treści istniejących 57 plików `content/bike-pilot/<lang>/*.html`. Dodatek TASK-023–TASK-028
+rozszerza to o: (4) axe-core na ciemnym motywie (kontrast); (5) test nazewnictwa (57 par `title` vs
+etykieta nawigacyjna); (6) walidacja obecności/zgodności pola `version` (57 plików); (7) test
+dostępności etykiety języka (`accessible name` bez widocznego tekstu); (8) test rozmiaru logo
+(`getBoundingClientRect`). Szczegóły per zadanie w `plan/bike-pilot.md`.
 
 ## Diagram zależności/kolejności
 
@@ -216,6 +250,28 @@ flowchart LR
 Ścieżka: `TASK-020 → TASK-021 → TASK-022` (regeneracja plików wymaga gotowego schematu i renderera,
 by móc od razu zweryfikować równoważność wizualną/tekstową po regeneracji).
 
+### Diagram zależności/kolejności — dodatek `bike-pilot` TASK-023–TASK-028 (2026-09-07)
+
+```mermaid
+flowchart LR
+    B23["TASK-023<br/>Ciemny motyw +<br/>akcenty pomarańczowe"] --> B28["TASK-028<br/>Walidacja e2e +<br/>regresja"]
+    B24["TASK-024<br/>Spójność nazewnictwa<br/>(navTerms itp.)"] --> B28
+    B25["TASK-025<br/>Wersjonowanie<br/>dokumentów"] --> B28
+    B26["TASK-026<br/>Usunięcie etykiety<br/>Language (a11y)"] --> B28
+    B27["TASK-027<br/>Powiększenie logo<br/>1.5×"] --> B28
+
+    style B23 fill:#e8f4ff
+    style B24 fill:#e8f4ff
+    style B25 fill:#e8f4ff
+    style B26 fill:#e8f4ff
+    style B27 fill:#e8f4ff
+    style B28 fill:#e8ffe8
+```
+
+Ścieżka: `TASK-023/024/025/026/027` (niezależne od siebie, mogą przebiegać równolegle) `→ TASK-028`
+(zbiorcza walidacja końcowa potwierdzająca, że żadna ze zmian nie koliduje z pozostałymi — np.
+ciemny motyw + większe logo + brak etykiety języka w tym samym nagłówku).
+
 ## Log decyzji i eskalacji
 
 | # | Spór/decyzja | Stanowiska | Rozstrzygnięcie | Uzasadnienie |
@@ -231,3 +287,6 @@ by móc od razu zweryfikować równoważność wizualną/tekstową po regeneracj
 | 9 | (grupa `bike-pilot`) Mechanizm trwałości wyboru języka — cookie czy Web Storage | `ideas.md` dopuszczał oba ("cookies/webstorage") | Eskalowane do użytkownika (2026-09-07) → **cookie** | Wybór użytkownika; świadomie aktywuje wymóg klauzuli informacyjnej o cookies (REQ-022) zgodnie z warunkową regułą z `ideas.md` pkt 5 ("Jesli uzywamy cookies..."). Wpłynęło na REQ-021/TASK-014. |
 | 10 | (grupa `bike-pilot`) Zakres klauzuli zgody na cookies — tylko strona marketingowa czy wszystkie strony bike-pilot | Zaproponowano 2 warianty: (a) tylko `index.html`, (b) wszystkie 4 strony (formalne + marketingowa) | Eskalowane do użytkownika (2026-09-07) → **wszystkie strony** | Wybór użytkownika; spójne z tym, że każda z 4 stron może zapisywać cookie wyboru języka (REQ-021), więc każda wymaga poinformowania o tym zgodnie z REQ-022. Wpłynęło na REQ-022/TASK-015. |
 | 11 | (grupa `bike-pilot`) Format treści JSON dokumentów formalnych — surowy HTML czy model ustrukturyzowany | Pierwsza implementacja TASK-011/TASK-018 zapisała pole `html` z surowym znacznikami skopiowanymi ze źródła (najprostsze technicznie, ale sprzeczne z celem oddzielenia treści od znaczników) | Użytkownik zgłosił to jawnie po zaimplementowaniu (2026-09-07) → **model blocks/runs bez HTML** (REQ-026) | Wybór użytkownika; TASK-011/TASK-018 pozostają w rejestrze bez zmian (Zasada przyrostowego rejestru), ale ich rezultat (format JSON, sposób renderowania) jest zastępowany przez TASK-020–TASK-022. |
+| 12 | (grupa `bike-pilot`) Nazwa kanoniczna PL dla "Terms of Use" — "Warunki korzystania" czy "Warunki użytkowania" | Recenzja wykryła niespójność między `formal/terms-of-use/pl.json` (title) i `js/language.js` (`navTerms`) | Eskalowane do użytkownika (2026-09-07) → **"Warunki korzystania"** | Wybór użytkownika; zgodne z istniejącym `title` (ekstrahowanym z historycznej treści dokumentu) i starym `content/bike-pilot/pl/terms-of-use.html`. Wpłynęło na REQ-028/TASK-024 (poprawka `navTerms.pl`). |
+| 13 | (grupa `bike-pilot`) Interpretacja "powiększ logo na 150%" — finalny rozmiar 1.5× czy dodatkowe +150%/2.5× | Zwrot "powiększ na 150%" jest niejednoznaczny w języku polskim | Eskalowane do użytkownika (2026-09-07) → **1.5× obecnego rozmiaru (150% = finalny rozmiar)** | Wybór użytkownika. Wpłynęło na REQ-031/TASK-027 (konkretne wartości `width`/`height`). |
+| 14 | (grupa `bike-pilot`) Granularność i format wersjonowania dokumentów formalnych | Raport żądał wersjonowania bez doprecyzowania formatu/zakresu | Eskalowane do użytkownika (2026-09-07) → **semantyczny `MAJOR.MINOR`, jedna wersja per typ dokumentu, wspólna dla 19 języków** | Wybór użytkownika; odzwierciedla, że to ten sam dokument prawny tłumaczony na 19 języków, nie 19 niezależnych dokumentów. Wpłynęło na REQ-029/TASK-025 (rozszerzenie schematu blocks/runs o pole `version`). |

@@ -369,3 +369,14 @@ plików, zależność od TASK-010, itd.), które nadal obowiązują.
   zachowania dokładnych granic segmentów `runs` przy parsowaniu — do zweryfikowania w code review
   próbką kilku najbardziej złożonych akapitów (np. blok kontaktowy z `<br>`, tabela uprawnień w
   `privacy-policy`).
+
+---
+
+| ID | Tytuł | Status | Archiwum |
+|----|-------|--------|----------|
+| TASK-023 | Ciemny motyw formal.css/support.css z akcentami pomarańczowymi | Done (zweryfikowane) | [`plan/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| TASK-024 | Ujednolicenie nazewnictwa dokumentów formalnych | Done (zweryfikowane) | [`plan/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| TASK-025 | Wersjonowanie dokumentów formalnych | Done (zweryfikowane) | [`plan/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| TASK-026 | Usunięcie widocznej etykiety "Language" z nagłówka | Done (zweryfikowane) | [`plan/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| TASK-027 | Powiększenie logo o 150% (1.5×) | Done (zweryfikowane) | [`plan/archive/bike-pilot.md`](archive/bike-pilot.md) |
+| TASK-028 | Walidacja end-to-end recenzji (REQ-027-REQ-031) | Done (zweryfikowane) | [`plan/archive/bike-pilot.md`](archive/bike-pilot.md) |
