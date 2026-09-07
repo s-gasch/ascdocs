@@ -147,3 +147,68 @@
   kroki przed produkcyjną publikacją, zgodnie z ryzykiem już zaakceptowanym w planie (TASK-007).
 - **Aktualizacja dokumentacji/instrukcji obsługi:** `docs/readme.md` zaktualizowany o stan
   implementacji (ten log).
+
+### LOG-006: TASK-010–TASK-018 zaimplementowane dla grupy `bike-pilot`
+- **Data:** 2026-09-07
+- **Zakres iteracji:** Grupa `bike-pilot` — implementacja
+- **Persony zaangażowane:** Web Frontend Software Engineer, Web Frontend Software Architect,
+  Technical Writer, Code Reviewer, Git Workflow Master
+- **Dyskusje/niejasności i rozstrzygnięcia:** Nowa architektura została utrzymana w 100% lokalnie w
+  `content/bike-pilot/` — bez zmian w `content/common/` i bez podpinania nowych punktów wejścia do
+  starej struktury `content/bike-pilot/<lang>/*.html`. Treści formalne zostały wyekstrahowane
+  jednorazowym skryptem Node `scripts/extract-bikepilot-content.mjs` do 57 plików JSON
+  (`formal/<typ>/<lang>.json`), a nowa strona marketingowa otrzymała 19 osobnych plików
+  `content/<lang>.json`, zgodnie z REQ-018/REQ-025. Dodatkowo wprowadzono wspólny moduł
+  `js/language.js` (wykrywanie języka, przełącznik, cookie zgody i trwałości wyboru) reużywany
+  zarówno przez dokumenty formalne, jak i stronę marketingową.
+- **Commit:**
+  - `TASK-010/TASK-018: scaffold bike-pilot parallel content structure`
+  - `TASK-011/TASK-016: implement bike-pilot formal runtime and styles`
+  - `TASK-017: build localized bike-pilot marketing page`
+- **Wynik test gate:** Przeszedł — `npm test` po wdrożeniu logiki i treści: Vitest 30/30 oraz
+  `node:test` 9/9; dodatkowo celowany przebieg `npx playwright test test/e2e/bike-pilot.spec.js --project=chromium`
+  zakończony wynikiem 83/83.
+- **Weryfikacja wsteczna:** REQ-018–REQ-025 pokryte implementacyjnie; brak zmian w istniejących
+  plikach `content/bike-pilot/<lang>/*.html` potwierdzony dwoma niezależnymi mechanizmami:
+  (1) fixture hashy `test/fixtures/bike-pilot-legacy-hashes.json` + test `node:test`,
+  (2) ręczny `git diff --stat` na 19 katalogach językowych zwracający pusty wynik.
+- **Aktualizacja dokumentacji/instrukcji obsługi:** komentarze TASK-011/TASK-012/TASK-015/TASK-017
+  dopisane w nowych modułach `content/bike-pilot/js/*.js`; nowy znak aplikacji dodany jako
+  `content/bike-pilot/img/bike-pilot-mark.svg`.
+
+### LOG-007: TASK-019 — pełna walidacja bike-pilot i stan przyrostu po wdrożeniu
+- **Data:** 2026-09-07
+- **Zakres iteracji:** Grupa `bike-pilot` — walidacja końcowa i status
+- **Persony zaangażowane:** Web Frontend QA Strategy Engineer, Web Frontend Test Engineer,
+  Requirements Analyst, Technical Writer, Code Reviewer
+- **Wynik weryfikacji wg macierzy traceability (`plan/index.md`):**
+  | REQ | Status | Dowód |
+  |-----|--------|-------|
+  | REQ-018 | Zgodne | nowa równoległa struktura `content/bike-pilot/` + 76 plików JSON + brak zmian w starej strukturze (hash test + `git diff`) |
+  | REQ-019 | Zgodne | `js/language.js`, testy jednostkowe dopasowania exact/prefix/fallback, E2E 19 języków × 4 strony |
+  | REQ-020 | Zgodne | przełącznik języka na wszystkich 4 stronach, E2E bez pełnego reloadu (`performance.getEntriesByType('navigation') === 1`) |
+  | REQ-021 | Zgodne | `bp_lang` w cookie z `Max-Age`, `Path=/`, `SameSite=Lax`; testy jednostkowe i E2E trwałości między stronami |
+  | REQ-022 | Zgodne | wspólny baner `bp_consent` na 4 stronach, blokada zapisu cookie przed zgodą zweryfikowana E2E |
+  | REQ-023 | Zgodne | `css/formal.css` + `css/support.css`, spójny minimalistyczny układ z dyskretnym logo |
+  | REQ-024 | Zgodne | nowa marketingowa `index.html` z własnym `css/index.css` i `js/index.js`, bez użycia `en/merketing/` |
+  | REQ-025 | Zgodne | marketing `content/<lang>.json` dla wszystkich 19 języków, E2E renderowania i przełączania |
+- **Commit:** `TASK-019: add bike-pilot unit, node, and E2E coverage`
+- **Wynik test gate:** Przeszedł — pełny zestaw po wdrożeniu: `npm test` (Vitest 30/30 +
+  `node:test` 9/9) oraz `npx playwright test` (291/291 na Chromium/WebKit/Firefox, w tym
+  nowy pakiet bike-pilot 249/249 i axe-core: 0 naruszeń A/AA na 4 nowych stronach).
+- **Weryfikacja wsteczna:** Stary zestaw `sample-app` nadal zielony (42/42 E2E), co potwierdza brak
+  regresji w istniejącej infrastrukturze; nowe testy bike-pilot dodatkowo dowodzą poprawnego
+  renderowania dokumentów formalnych i marketingu dla wszystkich 19 języków.
+- **Otwarte punkty przed pierwszą produkcyjną publikacją `bike-pilot` (nie blokują zamknięcia tej
+  iteracji implementacyjnej):**
+  1. Manualna checklista mobile Safari (iOS)/Chrome (Android) na rzeczywistych urządzeniach,
+     analogicznie do ograniczenia już odnotowanego dla grupy `appstore-docs` (REQ-011 / wpływ na
+     REQ-019–REQ-025).
+  2. Natywna/lokalizacyjna korekta marketingowych tłumaczeń 18 plików `content/<lang>.json`
+     przed publikacją produkcyjną — formalne dokumenty prawne pochodzą z istniejących,
+     zatwierdzonych plików źródłowych, ale nowe treści marketingowe zostały przygotowane w tej
+     iteracji i powinny przejść przegląd native speakera / copywritera dla maksymalnej jakości.
+  3. Powtórzenie audytu Lighthouse na docelowej infrastrukturze hostingowej przed publikacją
+     produkcyjną całego repozytorium (otwarty punkt LOG-003/LOG-005 nadal pozostaje aktualny).
+- **Aktualizacja dokumentacji/instrukcji obsługi:** `docs/readme.md` zaktualizowany o zamknięcie
+  grupy `bike-pilot`, wyniki testów i otwarte punkty produkcyjne.
