@@ -12,11 +12,15 @@ import {
 } from "./language.js";
 
 /**
- * TASK-011/TASK-013/TASK-020/TASK-021 — renderowanie treści formalnej bike-pilot.
+ * TASK-011/TASK-013/TASK-020/TASK-021/TASK-025 — renderowanie treści formalnej bike-pilot.
  *
- * Model danych dokumentu (REQ-026, TASK-020) — `formal/<typ>/<lang>.json`:
- *   { title: string, blocks: Block[] }
- * gdzie `Block` to jeden z:
+ * Model danych dokumentu (REQ-026/REQ-029, TASK-020/TASK-025) — `formal/<typ>/<lang>.json`:
+ *   { title: string, version: string, blocks: Block[] }
+ * gdzie `version` to numer wersji semantyczny `MAJOR.MINOR` (np. `"1.0"`), wspólny dla wszystkich
+ * 19 języków tego samego typu dokumentu (nie osobny numer per język). Polityka podnoszenia wersji
+ * (zob. `docs/authoring-guide.md`): `MINOR` przy zmianie redakcyjnej/kosmetycznej treści, `MAJOR`
+ * przy zmianie zakresu/znaczenia prawnego treści.
+ * `Block` to jeden z:
  *   { type: "heading", level: 2 | 3, text: string }
  *   { type: "paragraph", runs: Run[] }
  *   { type: "list", ordered: boolean, items: Run[][] }            // items[i] = runs jednej pozycji <li>
@@ -32,6 +36,7 @@ import {
 
 const BLOCK_TYPES = new Set(["heading", "paragraph", "list", "table"]);
 const RUN_KEYS = new Set(["text", "bold", "italic", "code", "href", "break"]);
+const VERSION_PATTERN = /^\d+\.\d+$/;
 
 function fail(message) {
   throw new Error(`Bike Pilot formal render: ${message}`);
@@ -103,8 +108,9 @@ function validateBlock(block, index) {
 }
 
 /**
- * Waliduje model dokumentu formalnego (TASK-020). Zgłasza jawny błąd (fail-fast) przy nieznanym
- * `type`/kluczu `runs` lub brakującym wymaganym polu, zamiast cichego fallbacku.
+ * Waliduje model dokumentu formalnego (TASK-020/TASK-025). Zgłasza jawny błąd (fail-fast) przy
+ * nieznanym `type`/kluczu `runs`, brakującym wymaganym polu, lub nieprawidłowym formacie `version`
+ * (wymagany `MAJOR.MINOR`, np. `"1.0"` — REQ-029), zamiast cichego fallbacku.
  */
 export function validateDocumentModel(payload) {
   if (!payload || typeof payload !== "object") {
@@ -112,6 +118,9 @@ export function validateDocumentModel(payload) {
   }
   if (typeof payload.title !== "string" || !payload.title) {
     fail("document payload is missing a required 'title' string.");
+  }
+  if (typeof payload.version !== "string" || !VERSION_PATTERN.test(payload.version)) {
+    fail("document payload is missing a required 'version' string in 'MAJOR.MINOR' format.");
   }
   if (!Array.isArray(payload.blocks)) {
     fail("document payload is missing a required 'blocks' array.");
@@ -232,7 +241,7 @@ export async function fetchDocumentData(fetchImpl, baseUrl, docType, language) {
   return response.json();
 }
 
-export function injectDocumentContent(doc, payload) {
+export function injectDocumentContent(doc, payload, language = DEFAULT_LANGUAGE) {
   const contentRoot = doc.querySelector("[data-doc-content]");
   if (!contentRoot) {
     throw new Error("Bike Pilot formal render: missing [data-doc-content] container.");
@@ -244,6 +253,11 @@ export function injectDocumentContent(doc, payload) {
     element.textContent = title;
   });
   doc.title = `${title} — Bike Pilot`;
+
+  const ui = getUiStrings(language);
+  doc.querySelectorAll("[data-doc-version]").forEach((element) => {
+    element.textContent = `${ui.versionLabel} ${payload.version}`;
+  });
 }
 
 function renderFormalNavigation(doc) {
@@ -310,7 +324,7 @@ export async function bootstrapFormalPage(win = window) {
 
     try {
       const payload = await fetchDocumentData(win.fetch.bind(win), baseUrl, docType, nextLanguage);
-      injectDocumentContent(doc, payload);
+      injectDocumentContent(doc, payload, nextLanguage);
       if (persist && hasConsent(doc)) {
         setLanguageCookie(nextLanguage, doc);
       }

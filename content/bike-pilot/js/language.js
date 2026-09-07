@@ -50,6 +50,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "سياسة الخصوصية",
     navTerms: "شروط الاستخدام",
     navSupport: "الدعم",
+    versionLabel: "الإصدار",
     footerNote: "Bike Pilot — مستندات ودعم رسمي.",
     consentTitle: "ملفات تعريف الارتباط الخاصة باللغة",
     consentMessage:
@@ -66,8 +67,9 @@ const UI_TRANSLATIONS = {
     homeLabel: "Domů",
     navHome: "Domů",
     navPrivacy: "Zásady ochrany osobních údajů",
-    navTerms: "Podmínky použití",
+    navTerms: "Podmínky používání",
     navSupport: "Podpora",
+    versionLabel: "Verze",
     footerNote: "Bike Pilot — oficiální dokumenty a podpora.",
     consentTitle: "Jazykové cookies",
     consentMessage:
@@ -86,6 +88,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Privatlivspolitik",
     navTerms: "Brugsvilkår",
     navSupport: "Support",
+    versionLabel: "Version",
     footerNote: "Bike Pilot — officielle dokumenter og support.",
     consentTitle: "Sprog-cookies",
     consentMessage:
@@ -104,6 +107,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Datenschutzerklärung",
     navTerms: "Nutzungsbedingungen",
     navSupport: "Support",
+    versionLabel: "Version",
     footerNote: "Bike Pilot — offizielle Dokumente und Support.",
     consentTitle: "Sprach-Cookies",
     consentMessage:
@@ -122,6 +126,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Privacy Policy",
     navTerms: "Terms of Use",
     navSupport: "Support",
+    versionLabel: "Version",
     footerNote: "Bike Pilot — official documents and support.",
     consentTitle: "Language cookies",
     consentMessage:
@@ -140,6 +145,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Política de privacidad",
     navTerms: "Términos de uso",
     navSupport: "Soporte",
+    versionLabel: "Versión",
     footerNote: "Bike Pilot — documentos oficiales y soporte.",
     consentTitle: "Cookies de idioma",
     consentMessage:
@@ -158,6 +164,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Politique de confidentialité",
     navTerms: "Conditions d’utilisation",
     navSupport: "Assistance",
+    versionLabel: "Version",
     footerNote: "Bike Pilot — documents officiels et assistance.",
     consentTitle: "Cookies de langue",
     consentMessage:
@@ -174,8 +181,9 @@ const UI_TRANSLATIONS = {
     homeLabel: "Home",
     navHome: "Home",
     navPrivacy: "Informativa sulla privacy",
-    navTerms: "Condizioni d’uso",
+    navTerms: "Termini di utilizzo",
     navSupport: "Supporto",
+    versionLabel: "Versione",
     footerNote: "Bike Pilot — documenti ufficiali e supporto.",
     consentTitle: "Cookie lingua",
     consentMessage:
@@ -194,6 +202,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "プライバシーポリシー",
     navTerms: "利用規約",
     navSupport: "サポート",
+    versionLabel: "バージョン",
     footerNote: "Bike Pilot — 公式ドキュメントとサポート。",
     consentTitle: "言語 Cookie",
     consentMessage:
@@ -210,8 +219,9 @@ const UI_TRANSLATIONS = {
     homeLabel: "홈",
     navHome: "홈",
     navPrivacy: "개인정보 처리방침",
-    navTerms: "이용 약관",
+    navTerms: "이용약관",
     navSupport: "지원",
+    versionLabel: "버전",
     footerNote: "Bike Pilot — 공식 문서 및 지원.",
     consentTitle: "언어 쿠키",
     consentMessage:
@@ -228,8 +238,9 @@ const UI_TRANSLATIONS = {
     homeLabel: "Hjem",
     navHome: "Hjem",
     navPrivacy: "Personvernerklæring",
-    navTerms: "Vilkår for bruk",
-    navSupport: "Support",
+    navTerms: "Bruksvilkår",
+    navSupport: "Brukerstøtte",
+    versionLabel: "Versjon",
     footerNote: "Bike Pilot — offisielle dokumenter og support.",
     consentTitle: "Språk-cookies",
     consentMessage:
@@ -247,7 +258,8 @@ const UI_TRANSLATIONS = {
     navHome: "Start",
     navPrivacy: "Privacybeleid",
     navTerms: "Gebruiksvoorwaarden",
-    navSupport: "Support",
+    navSupport: "Ondersteuning",
+    versionLabel: "Versie",
     footerNote: "Bike Pilot — officiële documenten en support.",
     consentTitle: "Taalcookies",
     consentMessage:
@@ -264,8 +276,9 @@ const UI_TRANSLATIONS = {
     homeLabel: "Strona główna",
     navHome: "Start",
     navPrivacy: "Polityka prywatności",
-    navTerms: "Warunki użytkowania",
+    navTerms: "Warunki korzystania",
     navSupport: "Wsparcie",
+    versionLabel: "Wersja",
     footerNote: "Bike Pilot — oficjalne dokumenty i wsparcie.",
     consentTitle: "Pliki cookie języka",
     consentMessage:
@@ -281,9 +294,10 @@ const UI_TRANSLATIONS = {
     errorHint: "Atualize a página ou tente novamente dentro de instantes.",
     homeLabel: "Início",
     navHome: "Início",
-    navPrivacy: "Política de privacidade",
-    navTerms: "Termos de utilização",
+    navPrivacy: "Política de Privacidade",
+    navTerms: "Termos de Utilização",
     navSupport: "Suporte",
+    versionLabel: "Versão",
     footerNote: "Bike Pilot — documentos oficiais e suporte.",
     consentTitle: "Cookies de idioma",
     consentMessage:
@@ -302,6 +316,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Политика конфиденциальности",
     navTerms: "Условия использования",
     navSupport: "Поддержка",
+    versionLabel: "Версия",
     footerNote: "Bike Pilot — официальные документы и поддержка.",
     consentTitle: "Языковые cookie",
     consentMessage:
@@ -320,6 +335,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Integritetspolicy",
     navTerms: "Användarvillkor",
     navSupport: "Support",
+    versionLabel: "Version",
     footerNote: "Bike Pilot — officiella dokument och support.",
     consentTitle: "Språkcookies",
     consentMessage:
@@ -338,6 +354,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "Gizlilik Politikası",
     navTerms: "Kullanım Koşulları",
     navSupport: "Destek",
+    versionLabel: "Sürüm",
     footerNote: "Bike Pilot — resmî belgeler ve destek.",
     consentTitle: "Dil çerezleri",
     consentMessage:
@@ -354,8 +371,9 @@ const UI_TRANSLATIONS = {
     homeLabel: "Головна",
     navHome: "Головна",
     navPrivacy: "Політика конфіденційності",
-    navTerms: "Умови використання",
+    navTerms: "Умови користування",
     navSupport: "Підтримка",
+    versionLabel: "Версія",
     footerNote: "Bike Pilot — офіційні документи та підтримка.",
     consentTitle: "Мовні cookie",
     consentMessage:
@@ -374,6 +392,7 @@ const UI_TRANSLATIONS = {
     navPrivacy: "隐私政策",
     navTerms: "使用条款",
     navSupport: "支持",
+    versionLabel: "版本",
     footerNote: "Bike Pilot — 官方文档与支持。",
     consentTitle: "语言 Cookie",
     consentMessage:

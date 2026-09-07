@@ -13,6 +13,7 @@
 4. [Jak nadpisać styl/szablon aplikacji](#4-jak-nadpisać-stylszablon-aplikacji)
 5. [Fallback językowy — jak działa i kiedy go uruchomić](#5-fallback-językowy--jak-działa-i-kiedy-go-uruchomić)
 6. [Minimalny szablon pliku wejściowego](#6-minimalny-szablon-pliku-wejściowego)
+7. [Wersjonowanie dokumentów formalnych bike-pilot](#7-wersjonowanie-dokumentów-formalnych-bike-pilot)
 
 ---
 
@@ -123,3 +124,25 @@ renderującego, jeśli plik nie znajduje się w `content/<app-name>/<lang>/`, or
   `<title>` dokumentu;
 - ścieżka do `render.js` musi być poprawna względem lokalizacji pliku (dla
   `content/<app-name>/<lang>/*.html` zawsze `../../common/js/render.js`).
+
+## 7. Wersjonowanie dokumentów formalnych bike-pilot
+
+> Dotyczy wyłącznie pilotażu `content/bike-pilot/` (REQ-029, TASK-025) — trzech typów dokumentów
+> formalnych: `formal/privacy-policy/<lang>.json`, `formal/terms-of-use/<lang>.json`,
+> `formal/support/<lang>.json`.
+
+- Każdy z 3 typów dokumentu formalnego ma pole `"version"` na poziomie dokumentu (obok `title` i
+  `blocks`), w formacie semantycznym `"MAJOR.MINOR"` (np. `"1.0"`).
+- Wersja jest **wspólna dla wszystkich 19 języków** tego samego typu dokumentu — to ten sam
+  dokument prawny przetłumaczony na 19 języków, a nie 19 niezależnych dokumentów. Zmieniając treść
+  jednego języka, zaktualizuj pole `version` identycznie we wszystkich 19 plikach tego typu.
+- **Polityka podnoszenia wersji:**
+  - **`MINOR`** (np. `1.0` → `1.1`) — zmiana redakcyjna/kosmetyczna treści (poprawki stylistyczne,
+    literówki, drobne doprecyzowania bez zmiany zakresu/znaczenia prawnego).
+  - **`MAJOR`** (np. `1.1` → `2.0`) — zmiana zakresu lub znaczenia prawnego treści (nowe
+    uprawnienia/obowiązki, zmiana zakresu przetwarzanych danych, istotna zmiana warunków).
+- Walidator `validateDocumentModel` (`content/bike-pilot/js/formal.js`) odrzuca dokument bez pola
+  `version` lub w niepoprawnym formacie (fail-fast, zgodnie z konwencją TASK-020).
+- Renderer (`js/formal.js`) wyświetla wersję obok istniejącej daty ostatniej aktualizacji (etykieta
+  `versionLabel` tłumaczona per język w `js/language.js`, analogicznie do innych etykiet
+  współdzielonych).
