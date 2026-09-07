@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Bike Pilot mark">
+  <defs>
+    <linearGradient id="bike-pilot-gradient" x1="14" y1="14" x2="82" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#63a0ff" />
+      <stop offset="1" stop-color="#1f6feb" />
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="28" fill="#0f1b2d" />
+  <circle cx="31" cy="66" r="12" fill="none" stroke="url(#bike-pilot-gradient)" stroke-width="8" />
+  <circle cx="67" cy="66" r="12" fill="none" stroke="url(#bike-pilot-gradient)" stroke-width="8" />
+  <path d="M31 66 45 34h11l11 32M39 47h19" fill="none" stroke="#f8fbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+</svg>

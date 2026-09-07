@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — cykeldator för iPhone",
+    "description": "Bike Pilot förvandlar cykeldata till tydliga berättelser med kartor, statistik och delningsklara visuella sammanfattningar."
+  },
+  "navigation": {
+    "features": "Funktioner",
+    "templates": "Mallar",
+    "screens": "Skärmar",
+    "download": "Hämta",
+    "about": "Om"
+  },
+  "hero": {
+    "eyebrow": "CYKELDATOR FÖR IPHONE",
+    "title": [
+      "Din runda.",
+      "Vackert",
+      "berättad."
+    ],
+    "copy": "Spåra varje runda, analysera prestationen och gör kartor, foton och statistik till genomarbetade sammanfattningar som du gärna tittar på igen och delar vidare.",
+    "primaryCta": "Hämta i App Store",
+    "secondaryCta": "Se funktioner",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Vackra mallar",
+        "copy": "Välj en visuell stil som passar rutten, känslan eller ansträngningen."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Smarta insikter",
+        "copy": "Se klättring, tempo och höjdpunkter direkt."
+      },
+      {
+        "icon": "▷",
+        "title": "Animerade berättelser",
+        "copy": "Återupplev turen som en levande sammanfattning av dagen."
+      },
+      {
+        "icon": "♺",
+        "title": "Enkel delning",
+        "copy": "Exportera ett resultat som redan känns redo att publicera."
+      }
+    ],
+    "mockLabels": {
+      "left": "Mallförhandsvisning",
+      "right": "Rundrepris",
+      "centerTop": "Rundsammanfattning",
+      "centerTitle": "Morgonrunda",
+      "centerBottom": "72 km • 980 m • 2 h 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "TURSTILAR",
+    "title": "Berättelser med personlighet",
+    "description": "Välj en layout som matchar terrängen, intensiteten eller minnet du vill spara.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "ÄVENTYR",
+        "title": "Äventyr"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "BERG",
+        "title": "Berg"
+      },
+      {
+        "visual": "night",
+        "label": "NATT",
+        "title": "Natt"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIAL",
+        "title": "Social"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "SMARTA VERKTYG",
+    "title": "Allt du behöver efter rundan",
+    "description": "Från live-spårning till snygga sammanfattningskort håller Bike Pilot viktiga detaljer nära till hands utan att kännas rörig.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Detaljerade kartor",
+        "description": "Granska rutten, viktiga svängar och höjdprofilen i en vy."
+      },
+      {
+        "icon": "◌",
+        "title": "Livesensorer",
+        "description": "Anslut puls-, hastighets-, kadens- och temperatursensorer."
+      },
+      {
+        "icon": "▥",
+        "title": "Trenddiagram",
+        "description": "Jämför tempo, klättring, höjd och ansträngning genom hela rundan."
+      },
+      {
+        "icon": "◫",
+        "title": "Foton längs rutten",
+        "description": "Matcha foton med de platser och ögonblick där de togs."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX in och ut",
+        "description": "Importera planerade spår och exportera färdiga rundor när du behöver dem."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Lås upp extra mallar och mer avancerade sammanfattningar."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "REDO FÖR NÄSTA SVÄNG?",
+    "title": "Gör varje runda värd att återvända till.",
+    "copy": "Bike Pilot hjälper dig att samla rutt, ansträngning och känsla i en enda genomarbetad vy.",
+    "button": "Öppna support och nedladdningsdetaljer",
+    "visualLabel": "Förhandsvisning av runda-animation"
+  },
+  "footer": {
+    "tagline": "Bike Pilot förvandlar cykeldata till en genomarbetad berättelse att återuppleva och dela.",
+    "productHeading": "Produkt",
+    "supportHeading": "Support",
+    "contactLabel": "E-post"
+  }
+}

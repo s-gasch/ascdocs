@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — sykkelcomputer for iPhone",
+    "description": "Bike Pilot gjør sykkeldata om til tydelige historier med kart, statistikk og delingsklare visualiseringer."
+  },
+  "navigation": {
+    "features": "Funksjoner",
+    "templates": "Maler",
+    "screens": "Skjermer",
+    "download": "Last ned",
+    "about": "Om"
+  },
+  "hero": {
+    "eyebrow": "SYKKELCOMPUTER FOR IPHONE",
+    "title": [
+      "Turen din.",
+      "Vakkert",
+      "fortalt."
+    ],
+    "copy": "Loggfør hver tur, se på prestasjonen og gjør kart, bilder og tall om til gjennomarbeidede oppsummeringer du får lyst til å se igjen og dele.",
+    "primaryCta": "Last ned i App Store",
+    "secondaryCta": "Se funksjoner",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Vakre maler",
+        "copy": "Velg en visuell stil som passer ruten, stemningen eller innsatsen."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Smarte innsikter",
+        "copy": "Se klatring, tempo og høydepunkter med én gang."
+      },
+      {
+        "icon": "▷",
+        "title": "Animerte historier",
+        "copy": "Gjenopplev turen som en levende oppsummering av dagen."
+      },
+      {
+        "icon": "♺",
+        "title": "Enkel deling",
+        "copy": "Eksporter et resultat som allerede ser klart ut for publisering."
+      }
+    ],
+    "mockLabels": {
+      "left": "Malforhåndsvisning",
+      "right": "Tur-replay",
+      "centerTop": "Turoppsummering",
+      "centerTitle": "Morgentur",
+      "centerBottom": "72 km • 980 m • 2 t 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "TURSTILER",
+    "title": "Historier med personlighet",
+    "description": "Velg et oppsett som passer terrenget, intensiteten eller minnet du vil bevare.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "EVENTYR",
+        "title": "Eventyr"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "FJELL",
+        "title": "Fjell"
+      },
+      {
+        "visual": "night",
+        "label": "NATT",
+        "title": "Natt"
+      },
+      {
+        "visual": "social",
+        "label": "SOSIAL",
+        "title": "Sosial"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "SMARTE VERKTØY",
+    "title": "Alt du trenger etter turen",
+    "description": "Fra sporing i sanntid til fine oppsummeringskort holder Bike Pilot de nyttige detaljene nære uten å gjøre opplevelsen rotete.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Detaljerte kart",
+        "description": "Se ruten, viktige svinger og høydeprofilen i én visning."
+      },
+      {
+        "icon": "◌",
+        "title": "Livesensorer",
+        "description": "Koble til puls-, hastighets-, kadens- og temperatursensorer."
+      },
+      {
+        "icon": "▥",
+        "title": "Trendgrafer",
+        "description": "Sammenlign tempo, klatring, høyde og innsats gjennom hele turen."
+      },
+      {
+        "icon": "◫",
+        "title": "Bilder langs ruten",
+        "description": "Koble bilder til øyeblikkene og stedene der de ble tatt."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX inn og ut",
+        "description": "Importer planlagte spor og eksporter ferdige turer når du trenger det."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Lås opp ekstra maler og mer avanserte oppsummeringer."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "KLAR FOR NESTE RUNDE?",
+    "title": "Behold hver tur på en måte du vil tilbake til.",
+    "copy": "Bike Pilot hjelper deg å samle rute, innsats og følelse i én gjennomført visning.",
+    "button": "Åpne support og nedlastingsdetaljer",
+    "visualLabel": "Forhåndsvisning av turanimasjon"
+  },
+  "footer": {
+    "tagline": "Bike Pilot gjør sykkeldata om til en gjennomarbeidet historie du kan se igjen og dele.",
+    "productHeading": "Produkt",
+    "supportHeading": "Support",
+    "contactLabel": "E-post"
+  }
+}

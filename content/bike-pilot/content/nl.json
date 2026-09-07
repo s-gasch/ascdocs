@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — fietscomputer voor iPhone",
+    "description": "Bike Pilot maakt van ritgegevens heldere verhalen met kaarten, statistieken en visuals die klaar zijn om te delen."
+  },
+  "navigation": {
+    "features": "Functies",
+    "templates": "Sjablonen",
+    "screens": "Schermen",
+    "download": "Downloaden",
+    "about": "Over"
+  },
+  "hero": {
+    "eyebrow": "FIETSCOMPUTER VOOR IPHONE",
+    "title": [
+      "Je rit.",
+      "Mooi",
+      "uitgelegd."
+    ],
+    "copy": "Leg elke rit vast, bekijk je prestaties en verander kaarten, foto’s en statistieken in verzorgde samenvattingen die je graag opnieuw bekijkt en deelt.",
+    "primaryCta": "Download in de App Store",
+    "secondaryCta": "Bekijk functies",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Mooie sjablonen",
+        "copy": "Kies een visuele stijl die past bij route, sfeer of inspanning."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Slimme inzichten",
+        "copy": "Zie klim, tempo en hoogtepunten in één oogopslag."
+      },
+      {
+        "icon": "▷",
+        "title": "Geanimeerde verhalen",
+        "copy": "Beleef de rit opnieuw als een levendige samenvatting."
+      },
+      {
+        "icon": "♺",
+        "title": "Eenvoudig delen",
+        "copy": "Exporteer een resultaat dat al klaar lijkt om te posten."
+      }
+    ],
+    "mockLabels": {
+      "left": "Voorbeeldsjabloon",
+      "right": "Ritherhaling",
+      "centerTop": "Ritoverzicht",
+      "centerTitle": "Ochtendrit",
+      "centerBottom": "72 km • 980 m • 2 u 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "RITSTIJLEN",
+    "title": "Verhalen met karakter",
+    "description": "Kies een lay-out die past bij het terrein, de intensiteit of de herinnering die je wilt bewaren.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "AVONTUUR",
+        "title": "Avontuur"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMALISTISCH",
+        "title": "Minimalistisch"
+      },
+      {
+        "visual": "mountain",
+        "label": "BERGEN",
+        "title": "Bergen"
+      },
+      {
+        "visual": "night",
+        "label": "NACHT",
+        "title": "Nacht"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIAAL",
+        "title": "Sociaal"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "SLIMME TOOLS",
+    "title": "Alles wat je na de rit nodig hebt",
+    "description": "Van live-tracking tot verzorgde samenvattingskaarten: Bike Pilot houdt nuttige details dichtbij en de ervaring rustig.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Gedetailleerde kaarten",
+        "description": "Bekijk route, belangrijke bochten en hoogteprofiel in één scherm."
+      },
+      {
+        "icon": "◌",
+        "title": "Live-sensoren",
+        "description": "Verbind hartslag-, snelheids-, cadans- en temperatuursensoren."
+      },
+      {
+        "icon": "▥",
+        "title": "Trendgrafieken",
+        "description": "Vergelijk tempo, klim, hoogte en inspanning over de hele rit."
+      },
+      {
+        "icon": "◫",
+        "title": "Foto’s op de route",
+        "description": "Koppel foto’s aan de momenten en plaatsen waar ze zijn gemaakt."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX import & export",
+        "description": "Importeer geplande tracks en exporteer voltooide ritten wanneer dat nodig is."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Ontgrendel extra sjablonen en uitgebreidere ritoverzichten."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "KLAAR VOOR DE VOLGENDE LUS?",
+    "title": "Bewaar elke rit op een manier die je opnieuw wilt zien.",
+    "copy": "Bike Pilot helpt je route, inspanning en gevoel samen te brengen in één verzorgde weergave.",
+    "button": "Open support en downloadinformatie",
+    "visualLabel": "Voorbeeld van ritanimatie"
+  },
+  "footer": {
+    "tagline": "Bike Pilot verandert ritgegevens in een verzorgd verhaal dat je opnieuw kunt beleven en delen.",
+    "productHeading": "Product",
+    "supportHeading": "Support",
+    "contactLabel": "E-mail"
+  }
+}

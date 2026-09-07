@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — iPhone için bisiklet bilgisayarı",
+    "description": "Bike Pilot sürüş verilerini haritalar, istatistikler ve paylaşılmaya hazır görsellerle anlaşılır hikâyelere dönüştürür."
+  },
+  "navigation": {
+    "features": "Özellikler",
+    "templates": "Şablonlar",
+    "screens": "Ekranlar",
+    "download": "İndir",
+    "about": "Hakkında"
+  },
+  "hero": {
+    "eyebrow": "IPHONE İÇİN BİSİKLET BİLGİSAYARI",
+    "title": [
+      "Sürüşün.",
+      "Zarifçe",
+      "anlatıldı."
+    ],
+    "copy": "Her sürüşü kaydet, performansını gözden geçir ve haritaları, fotoğrafları ve istatistikleri tekrar bakmak ve paylaşmak isteyeceğin özenli özetlere dönüştür.",
+    "primaryCta": "App Store’dan indir",
+    "secondaryCta": "Özellikleri gör",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Şık şablonlar",
+        "copy": "Rota, ruh hâli veya efora uygun bir görsel stil seç."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Akıllı içgörüler",
+        "copy": "Tırmanışı, tempoyu ve önemli anları hemen gör."
+      },
+      {
+        "icon": "▷",
+        "title": "Animasyonlu hikâyeler",
+        "copy": "Sürüşü günün canlı bir özeti olarak yeniden yaşa."
+      },
+      {
+        "icon": "♺",
+        "title": "Kolay paylaşım",
+        "copy": "Zaten paylaşmaya hazır görünen bir sonuç dışa aktar."
+      }
+    ],
+    "mockLabels": {
+      "left": "Şablon önizlemesi",
+      "right": "Sürüş tekrarı",
+      "centerTop": "Sürüş özeti",
+      "centerTitle": "Sabah sürüşü",
+      "centerBottom": "72 km • 980 m • 2 sa 54 dk"
+    }
+  },
+  "templates": {
+    "eyebrow": "SÜRÜŞ STİLLERİ",
+    "title": "Karakterli hikâyeler",
+    "description": "Saklamak istediğin araziye, yoğunluğa veya anıya uygun bir düzen seç.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "MACERA",
+        "title": "Macera"
+      },
+      {
+        "visual": "sport",
+        "label": "SPOR",
+        "title": "Spor"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "DAĞ",
+        "title": "Dağ"
+      },
+      {
+        "visual": "night",
+        "label": "GECE",
+        "title": "Gece"
+      },
+      {
+        "visual": "social",
+        "label": "SOSYAL",
+        "title": "Sosyal"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "AKILLI ARAÇLAR",
+    "title": "Sürüşten sonra ihtiyacın olan her şey",
+    "description": "Canlı takibinden özet kartlarına kadar Bike Pilot yararlı ayrıntıları yakın tutar ve deneyimi kalabalıklaştırmaz.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Ayrıntılı haritalar",
+        "description": "Rotayı, önemli dönüşleri ve yükselti profilini tek görünümde incele."
+      },
+      {
+        "icon": "◌",
+        "title": "Canlı sensörler",
+        "description": "Kalp atışı, hız, kadans ve sıcaklık sensörlerini bağla."
+      },
+      {
+        "icon": "▥",
+        "title": "Trend grafikleri",
+        "description": "Tempo, tırmanış, yükseklik ve eforu tüm sürüş boyunca karşılaştır."
+      },
+      {
+        "icon": "◫",
+        "title": "Rota üzerindeki fotoğraflar",
+        "description": "Fotoğrafları çekildikleri anlar ve yerlerle eşleştir."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX içe ve dışa aktarım",
+        "description": "Planlanan parkurları içe aktar, tamamlanan sürüşleri gerektiğinde dışa aktar."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Ek şablonların ve gelişmiş özetlerin kilidini aç."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "SONRAKİ TURA HAZIR MISIN?",
+    "title": "Her sürüşü tekrar dönmek isteyeceğin şekilde sakla.",
+    "copy": "Bike Pilot rota, efor ve hissi tek bir özenli görünümde birleştirmeni sağlar.",
+    "button": "Destek ve indirme ayrıntılarını aç",
+    "visualLabel": "Sürüş animasyonu önizlemesi"
+  },
+  "footer": {
+    "tagline": "Bike Pilot sürüş verilerini tekrar bakıp paylaşabileceğin özenli bir hikâyeye dönüştürür.",
+    "productHeading": "Ürün",
+    "supportHeading": "Destek",
+    "contactLabel": "E-posta"
+  }
+}

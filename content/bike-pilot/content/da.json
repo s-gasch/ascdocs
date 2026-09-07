@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — cykelcomputer til iPhone",
+    "description": "Bike Pilot forvandler cykeldata til tydelige historier med kort, statistikker og visuals, der er klar til deling."
+  },
+  "navigation": {
+    "features": "Funktioner",
+    "templates": "Skabeloner",
+    "screens": "Skærme",
+    "download": "Download",
+    "about": "Om"
+  },
+  "hero": {
+    "eyebrow": "CYKELCOMPUTER TIL IPHONE",
+    "title": [
+      "Din tur.",
+      "Smukt",
+      "fortalt."
+    ],
+    "copy": "Registrer hver tur, gennemgå din præstation, og gør kort, billeder og statistik til velpolerede opsummeringer, som du får lyst til at genbesøge og dele.",
+    "primaryCta": "Download i App Store",
+    "secondaryCta": "Se funktioner",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Smukke skabeloner",
+        "copy": "Vælg en visuel stil, der passer til rute, stemning eller indsats."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Smarte indsigter",
+        "copy": "Se stigning, tempo og højdepunkter med det samme."
+      },
+      {
+        "icon": "▷",
+        "title": "Animerede historier",
+        "copy": "Genoplev turen som en levende opsummering af dagen."
+      },
+      {
+        "icon": "♺",
+        "title": "Nem deling",
+        "copy": "Eksportér et resultat, der allerede ser klar ud til deling."
+      }
+    ],
+    "mockLabels": {
+      "left": "Forhåndsvisning af skabelon",
+      "right": "Tur-gentagelse",
+      "centerTop": "Turopsummering",
+      "centerTitle": "Morgentur",
+      "centerBottom": "72 km • 980 m • 2 t 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "KØRESTILE",
+    "title": "Historier med personlighed",
+    "description": "Vælg et layout, der matcher terrænet, intensiteten eller det minde, du vil gemme.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "EVENTYR",
+        "title": "Eventyr"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "BJERG",
+        "title": "Bjerg"
+      },
+      {
+        "visual": "night",
+        "label": "NAT",
+        "title": "Nat"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIAL",
+        "title": "Social"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "SMARTE VÆRKTØJER",
+    "title": "Alt, du har brug for efter turen",
+    "description": "Fra live-sporing til flotte opsummeringskort holder Bike Pilot de nyttige detaljer tæt på uden at overfylde oplevelsen.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Detaljerede kort",
+        "description": "Gennemgå ruten, vigtige sving og højdeprofilen i én visning."
+      },
+      {
+        "icon": "◌",
+        "title": "Live-sensorer",
+        "description": "Forbind puls-, hastigheds-, kadence- og temperatursensorer."
+      },
+      {
+        "icon": "▥",
+        "title": "Trendgrafer",
+        "description": "Sammenlign tempo, stigning, højde og indsats gennem hele turen."
+      },
+      {
+        "icon": "◫",
+        "title": "Fotos på ruten",
+        "description": "Match billeder med de steder og øjeblikke, hvor de blev taget."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX ind og ud",
+        "description": "Importér planlagte spor og eksportér gennemførte ture efter behov."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Lås op for ekstra skabeloner og mere avancerede opsummeringer."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "KLAR TIL NÆSTE SLØJFE?",
+    "title": "Gem hver tur, så den er værd at vende tilbage til.",
+    "copy": "Bike Pilot hjælper dig med at samle rute, indsats og følelse i én gennemført visning.",
+    "button": "Åbn support og downloadoplysninger",
+    "visualLabel": "Forhåndsvisning af tur-animation"
+  },
+  "footer": {
+    "tagline": "Bike Pilot forvandler cykeldata til en gennemført historie, du kan vende tilbage til og dele.",
+    "productHeading": "Produkt",
+    "supportHeading": "Support",
+    "contactLabel": "E-mail"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — komputer rowerowy na iPhone’a",
+    "description": "Bike Pilot zamienia dane z jazdy w czytelne historie z mapami, statystykami i gotowymi do udostępnienia podsumowaniami."
+  },
+  "navigation": {
+    "features": "Funkcje",
+    "templates": "Szablony",
+    "screens": "Ekrany",
+    "download": "Pobierz",
+    "about": "O aplikacji"
+  },
+  "hero": {
+    "eyebrow": "KOMPUTER ROWEROWY DLA IPHONE’A",
+    "title": [
+      "Twoja jazda.",
+      "Pięknie",
+      "opowiedziana."
+    ],
+    "copy": "Rejestruj każdą trasę, analizuj osiągi i zamieniaj mapy, zdjęcia oraz statystyki w dopracowane podsumowania, do których chce się wracać i które łatwo udostępnić.",
+    "primaryCta": "Pobierz z App Store",
+    "secondaryCta": "Zobacz funkcje",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Piękne szablony",
+        "copy": "Wybierz styl wizualny dopasowany do trasy, nastroju albo wysiłku."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Sprytne wnioski",
+        "copy": "Najważniejsze podjazdy, tempo i momenty jazdy zobaczysz od razu."
+      },
+      {
+        "icon": "▷",
+        "title": "Animowane historie",
+        "copy": "Odtwarzaj przejazd jako żywe podsumowanie całego dnia."
+      },
+      {
+        "icon": "♺",
+        "title": "Łatwe udostępnianie",
+        "copy": "Eksportuj efekt, który już wygląda jak gotowy do publikacji."
+      }
+    ],
+    "mockLabels": {
+      "left": "Podgląd szablonu",
+      "right": "Powtórka przejazdu",
+      "centerTop": "Podsumowanie jazdy",
+      "centerTitle": "Poranny trening",
+      "centerBottom": "72 km • 980 m • 2 godz. 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "STYLE JAZDY",
+    "title": "Historie z charakterem",
+    "description": "Wybierz układ pasujący do terenu, intensywności albo wspomnienia, które chcesz zachować.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "PRZYGODA",
+        "title": "Przygoda"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "GÓRY",
+        "title": "Góry"
+      },
+      {
+        "visual": "night",
+        "label": "NOC",
+        "title": "Noc"
+      },
+      {
+        "visual": "social",
+        "label": "SPOŁECZNOŚCIOWY",
+        "title": "Społecznościowy"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "INTELIGENTNE NARZĘDZIA",
+    "title": "Wszystko, czego potrzebujesz po jeździe",
+    "description": "Od śledzenia na żywo po dopracowane karty podsumowań — Bike Pilot trzyma ważne dane blisko i nie przeciąża interfejsu.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Szczegółowe mapy",
+        "description": "Przejrzyj trasę, kluczowe zakręty i profil wysokości w jednym widoku."
+      },
+      {
+        "icon": "◌",
+        "title": "Czujniki na żywo",
+        "description": "Połącz czujniki tętna, prędkości, kadencji i temperatury."
+      },
+      {
+        "icon": "▥",
+        "title": "Wykresy trendów",
+        "description": "Porównuj tempo, podjazdy, wysokość i wysiłek na całej trasie."
+      },
+      {
+        "icon": "◫",
+        "title": "Zdjęcia na trasie",
+        "description": "Łącz zdjęcia z momentami i miejscami, w których powstały."
+      },
+      {
+        "icon": "⇅",
+        "title": "Import i eksport GPX",
+        "description": "Importuj zaplanowane ślady i eksportuj ukończone przejazdy, kiedy ich potrzebujesz."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Odblokuj dodatkowe szablony i bardziej rozbudowane podsumowania jazd."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "GOTOWY NA KOLEJNĄ PĘTLĘ?",
+    "title": "Zachowaj każdą jazdę tak, by warto było do niej wrócić.",
+    "copy": "Bike Pilot pomaga uchwycić trasę, wysiłek i emocje w jednym dopracowanym widoku.",
+    "button": "Otwórz wsparcie i szczegóły pobierania",
+    "visualLabel": "Podgląd animacji przejazdu"
+  },
+  "footer": {
+    "tagline": "Bike Pilot zamienia dane z jazdy w dopracowaną historię, do której można wracać i którą można udostępniać.",
+    "productHeading": "Produkt",
+    "supportHeading": "Wsparcie",
+    "contactLabel": "E-mail"
+  }
+}

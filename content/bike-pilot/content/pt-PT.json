@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — computador de ciclismo para iPhone",
+    "description": "O Bike Pilot transforma dados das voltas em histórias claras com mapas, estatísticas e visuais prontos a partilhar."
+  },
+  "navigation": {
+    "features": "Funcionalidades",
+    "templates": "Modelos",
+    "screens": "Ecrãs",
+    "download": "Descarregar",
+    "about": "Sobre"
+  },
+  "hero": {
+    "eyebrow": "COMPUTADOR DE CICLISMO PARA IPHONE",
+    "title": [
+      "A sua volta.",
+      "Bonitamente",
+      "explicada."
+    ],
+    "copy": "Registe cada volta, reveja o desempenho e transforme mapas, fotografias e estatísticas em resumos cuidados que apetece revisitar e partilhar.",
+    "primaryCta": "Descarregar na App Store",
+    "secondaryCta": "Ver funcionalidades",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Modelos elegantes",
+        "copy": "Escolha um estilo visual que combine com a rota, o ambiente ou o esforço."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Informação inteligente",
+        "copy": "Veja logo a subida, o ritmo e os momentos-chave da volta."
+      },
+      {
+        "icon": "▷",
+        "title": "Histórias animadas",
+        "copy": "Reviva o percurso como um resumo dinâmico do dia."
+      },
+      {
+        "icon": "♺",
+        "title": "Partilha simples",
+        "copy": "Exporte um resultado que já parece pronto para publicar."
+      }
+    ],
+    "mockLabels": {
+      "left": "Pré-visualização do modelo",
+      "right": "Repetição da volta",
+      "centerTop": "Resumo da volta",
+      "centerTitle": "Volta matinal",
+      "centerBottom": "72 km • 980 m • 2 h 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "ESTILOS DE VOLTA",
+    "title": "Histórias com personalidade",
+    "description": "Escolha um esquema que combine com o terreno, a intensidade ou a memória que quer guardar.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "AVENTURA",
+        "title": "Aventura"
+      },
+      {
+        "visual": "sport",
+        "label": "DESPORTO",
+        "title": "Desporto"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMALISTA",
+        "title": "Minimalista"
+      },
+      {
+        "visual": "mountain",
+        "label": "MONTANHA",
+        "title": "Montanha"
+      },
+      {
+        "visual": "night",
+        "label": "NOITE",
+        "title": "Noite"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIAL",
+        "title": "Social"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "FERRAMENTAS INTELIGENTES",
+    "title": "Tudo o que precisa depois da volta",
+    "description": "Do seguimento em direto aos cartões de resumo, o Bike Pilot mantém os detalhes úteis por perto e a experiência limpa.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Mapas detalhados",
+        "description": "Reveja o percurso, as curvas principais e o perfil de altitude numa só vista."
+      },
+      {
+        "icon": "◌",
+        "title": "Sensores em direto",
+        "description": "Ligue sensores de frequência cardíaca, velocidade, cadência e temperatura."
+      },
+      {
+        "icon": "▥",
+        "title": "Gráficos de tendência",
+        "description": "Compare ritmo, subida, altitude e esforço ao longo de toda a volta."
+      },
+      {
+        "icon": "◫",
+        "title": "Fotografias no percurso",
+        "description": "Associe fotografias aos momentos e locais onde aconteceram."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX entrada e saída",
+        "description": "Importe percursos planeados e exporte voltas concluídas quando precisar."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Desbloqueie modelos extra e resumos avançados."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "PRONTO PARA A PRÓXIMA VOLTA?",
+    "title": "Guarde cada volta de forma a querer regressar a ela.",
+    "copy": "O Bike Pilot ajuda-o a juntar percurso, esforço e sensação numa única vista cuidada.",
+    "button": "Abrir suporte e detalhes de descarga",
+    "visualLabel": "Pré-visualização da animação da volta"
+  },
+  "footer": {
+    "tagline": "O Bike Pilot transforma dados de ciclismo numa história cuidada para revisitar e partilhar.",
+    "productHeading": "Produto",
+    "supportHeading": "Suporte",
+    "contactLabel": "Email"
+  }
+}

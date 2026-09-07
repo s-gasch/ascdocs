@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — iPhone 骑行码表",
+    "description": "Bike Pilot 可将骑行数据整理成清晰的故事，并配有地图、统计信息和便于分享的视觉呈现。"
+  },
+  "navigation": {
+    "features": "功能",
+    "templates": "模板",
+    "screens": "界面",
+    "download": "下载",
+    "about": "关于"
+  },
+  "hero": {
+    "eyebrow": "适用于 IPHONE 的骑行码表",
+    "title": [
+      "你的骑行。",
+      "更优雅地",
+      "呈现。"
+    ],
+    "copy": "记录每一次骑行，回顾你的表现，并把地图、照片和数据统计整理成精致摘要，让你愿意反复查看并轻松分享。",
+    "primaryCta": "在 App Store 下载",
+    "secondaryCta": "查看功能",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "精美模板",
+        "copy": "选择适合路线、氛围或强度的视觉风格。"
+      },
+      {
+        "icon": "ϟ",
+        "title": "智能洞察",
+        "copy": "爬升、节奏和精彩片段一目了然。"
+      },
+      {
+        "icon": "▷",
+        "title": "动画故事",
+        "copy": "把当天骑行回放成生动的总结。"
+      },
+      {
+        "icon": "♺",
+        "title": "轻松分享",
+        "copy": "导出后就像已经准备好发布一样。"
+      }
+    ],
+    "mockLabels": {
+      "left": "模板预览",
+      "right": "骑行回放",
+      "centerTop": "骑行摘要",
+      "centerTitle": "晨间骑行",
+      "centerBottom": "72 公里 • 980 米 • 2小时54分"
+    }
+  },
+  "templates": {
+    "eyebrow": "骑行风格",
+    "title": "有个性的故事",
+    "description": "选择与地形、强度或你想保留的记忆相匹配的布局。",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "冒险",
+        "title": "冒险"
+      },
+      {
+        "visual": "sport",
+        "label": "运动",
+        "title": "运动"
+      },
+      {
+        "visual": "minimal",
+        "label": "极简",
+        "title": "极简"
+      },
+      {
+        "visual": "mountain",
+        "label": "山地",
+        "title": "山地"
+      },
+      {
+        "visual": "night",
+        "label": "夜间",
+        "title": "夜间"
+      },
+      {
+        "visual": "social",
+        "label": "社交",
+        "title": "社交"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "智能工具",
+    "title": "骑行结束后你需要的一切",
+    "description": "从实时追踪到精致的总结卡片，Bike Pilot 让重要细节触手可及，同时保持界面简洁。",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "详细地图",
+        "description": "在一个视图中查看路线、关键转弯和海拔曲线。"
+      },
+      {
+        "icon": "◌",
+        "title": "实时传感器",
+        "description": "连接心率、速度、踏频和温度传感器。"
+      },
+      {
+        "icon": "▥",
+        "title": "趋势图表",
+        "description": "比较整段骑行中的配速、爬升、海拔和强度。"
+      },
+      {
+        "icon": "◫",
+        "title": "照片与路线匹配",
+        "description": "把照片对应到拍摄时的地点和时刻。"
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX 导入与导出",
+        "description": "按需导入规划轨迹并导出已完成的骑行记录。"
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "解锁更多模板和更高级的骑行总结。"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "准备好下一圈了吗？",
+    "title": "把每一次骑行都保存成值得回看的内容。",
+    "copy": "Bike Pilot 帮助你把路线、努力与感受整合进一个精致视图。",
+    "button": "打开支持与下载详情",
+    "visualLabel": "骑行动画预览"
+  },
+  "footer": {
+    "tagline": "Bike Pilot 可将骑行数据整理成值得反复查看和分享的精致故事。",
+    "productHeading": "产品",
+    "supportHeading": "支持",
+    "contactLabel": "电子邮件"
+  }
+}

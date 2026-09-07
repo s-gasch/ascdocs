@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — ciclocomputer per iPhone",
+    "description": "Bike Pilot trasforma i dati delle uscite in storie chiare con mappe, statistiche e visual pronti da condividere."
+  },
+  "navigation": {
+    "features": "Funzioni",
+    "templates": "Template",
+    "screens": "Schermate",
+    "download": "Download",
+    "about": "Informazioni"
+  },
+  "hero": {
+    "eyebrow": "CICLOCOMPUTER PER IPHONE",
+    "title": [
+      "La tua uscita.",
+      "Bellamente",
+      "raccontata."
+    ],
+    "copy": "Registra ogni uscita, analizza le prestazioni e trasforma mappe, foto e statistiche in riepiloghi curati che vale la pena rivedere e condividere.",
+    "primaryCta": "Scarica su App Store",
+    "secondaryCta": "Scopri le funzioni",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Template curati",
+        "copy": "Scegli uno stile visivo adatto al percorso, al tono o allo sforzo."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Insight intelligenti",
+        "copy": "Vedi subito salite, ritmo e momenti chiave della pedalata."
+      },
+      {
+        "icon": "▷",
+        "title": "Storie animate",
+        "copy": "Rivivi l’uscita come un riepilogo dinamico della giornata."
+      },
+      {
+        "icon": "♺",
+        "title": "Condivisione facile",
+        "copy": "Esporta un risultato che sembra già pronto per essere pubblicato."
+      }
+    ],
+    "mockLabels": {
+      "left": "Anteprima template",
+      "right": "Replay dell’uscita",
+      "centerTop": "Riepilogo dell’uscita",
+      "centerTitle": "Giro del mattino",
+      "centerBottom": "72 km • 980 m • 2 h 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "STILI DI USCITA",
+    "title": "Storie con personalità",
+    "description": "Scegli un layout che rispecchi il terreno, l’intensità o il ricordo che vuoi conservare.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "AVVENTURA",
+        "title": "Avventura"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "MONTAGNA",
+        "title": "Montagna"
+      },
+      {
+        "visual": "night",
+        "label": "NOTTE",
+        "title": "Notte"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIAL",
+        "title": "Social"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "STRUMENTI SMART",
+    "title": "Tutto ciò che serve dopo l’uscita",
+    "description": "Dal monitoraggio live alle schede riepilogative, Bike Pilot tiene vicini i dettagli utili senza appesantire l’esperienza.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Mappe dettagliate",
+        "description": "Rivedi percorso, svolte importanti e profilo altimetrico in un’unica vista."
+      },
+      {
+        "icon": "◌",
+        "title": "Sensori live",
+        "description": "Collega sensori di frequenza cardiaca, velocità, cadenza e temperatura."
+      },
+      {
+        "icon": "▥",
+        "title": "Grafici delle tendenze",
+        "description": "Confronta ritmo, salita, altitudine e sforzo lungo tutta l’uscita."
+      },
+      {
+        "icon": "◫",
+        "title": "Foto sul percorso",
+        "description": "Abbina le foto ai momenti e ai luoghi in cui sono state scattate."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX in entrata e uscita",
+        "description": "Importa tracce pianificate ed esporta le uscite completate quando serve."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Sblocca template extra e riepiloghi avanzati."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "PRONTO PER IL PROSSIMO GIRO?",
+    "title": "Conserva ogni uscita come merita di essere rivista.",
+    "copy": "Bike Pilot ti aiuta a raccogliere percorso, sforzo e sensazione in un’unica vista curata.",
+    "button": "Apri supporto e dettagli sul download",
+    "visualLabel": "Anteprima animazione uscita"
+  },
+  "footer": {
+    "tagline": "Bike Pilot trasforma i dati dell’uscita in una storia curata da rivedere e condividere.",
+    "productHeading": "Prodotto",
+    "supportHeading": "Supporto",
+    "contactLabel": "Email"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — cyklopočítač pro iPhone",
+    "description": "Bike Pilot mění data z jízd na přehledné příběhy s mapami, statistikami a vizuály připravenými ke sdílení."
+  },
+  "navigation": {
+    "features": "Funkce",
+    "templates": "Šablony",
+    "screens": "Obrazovky",
+    "download": "Stáhnout",
+    "about": "O aplikaci"
+  },
+  "hero": {
+    "eyebrow": "CYKLOPOČÍTAČ PRO IPHONE",
+    "title": [
+      "Vaše jízda.",
+      "Krásně",
+      "popsaná."
+    ],
+    "copy": "Zaznamenejte každou jízdu, zkontrolujte výkon a proměňte mapy, fotky i statistiky v pečlivě připravená shrnutí, ke kterým se rádi vrátíte a která snadno nasdílíte.",
+    "primaryCta": "Stáhnout z App Storu",
+    "secondaryCta": "Zobrazit funkce",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Krásné šablony",
+        "copy": "Vyberte si vizuální styl podle trasy, nálady nebo intenzity."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Chytré přehledy",
+        "copy": "Stoupání, tempo i hlavní momenty uvidíte okamžitě."
+      },
+      {
+        "icon": "▷",
+        "title": "Animované příběhy",
+        "copy": "Prožijte trasu znovu jako živé shrnutí dne."
+      },
+      {
+        "icon": "♺",
+        "title": "Snadné sdílení",
+        "copy": "Exportujte výsledek, který už vypadá připravený k publikování."
+      }
+    ],
+    "mockLabels": {
+      "left": "Náhled šablony",
+      "right": "Přehrání jízdy",
+      "centerTop": "Shrnutí jízdy",
+      "centerTitle": "Ranní vyjížďka",
+      "centerBottom": "72 km • 980 m • 2 h 54 min"
+    }
+  },
+  "templates": {
+    "eyebrow": "STYLY JÍZDY",
+    "title": "Příběhy s osobitostí",
+    "description": "Zvolte rozložení, které odpovídá terénu, intenzitě nebo vzpomínce, kterou si chcete uchovat.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "DOBRODRUŽSTVÍ",
+        "title": "Dobrodružství"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "HORY",
+        "title": "Hory"
+      },
+      {
+        "visual": "night",
+        "label": "NOC",
+        "title": "Noc"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIÁLNÍ",
+        "title": "Sociální"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "CHYTRÉ NÁSTROJE",
+    "title": "Vše, co po jízdě potřebujete",
+    "description": "Od živého sledování až po přehledné karty shrnutí drží Bike Pilot důležité informace po ruce a zbytečně nepřetěžuje rozhraní.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Podrobné mapy",
+        "description": "Prohlédněte si trasu, klíčové odbočky i výškový profil v jednom pohledu."
+      },
+      {
+        "icon": "◌",
+        "title": "Živé senzory",
+        "description": "Připojte snímače tepu, rychlosti, kadence a teploty."
+      },
+      {
+        "icon": "▥",
+        "title": "Grafy trendů",
+        "description": "Porovnávejte tempo, stoupání, nadmořskou výšku a zátěž během celé jízdy."
+      },
+      {
+        "icon": "◫",
+        "title": "Fotky na trase",
+        "description": "Přiřaďte fotky k místům a okamžikům, kde vznikly."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX tam i zpět",
+        "description": "Importujte plánované trasy a exportujte dokončené jízdy, kdykoli potřebujete."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Odemkněte další šablony a pokročilá shrnutí jízd."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "PŘIPRAVENI NA DALŠÍ OKRUH?",
+    "title": "Uchovejte každou jízdu tak, aby stálo za to se k ní vrátit.",
+    "copy": "Bike Pilot vám pomůže zachytit trasu, úsilí i pocit v jednom uhlazeném pohledu.",
+    "button": "Otevřít podporu a podrobnosti ke stažení",
+    "visualLabel": "Náhled animace jízdy"
+  },
+  "footer": {
+    "tagline": "Bike Pilot mění data z jízd na pečlivě připravený příběh, ke kterému se můžete vracet a sdílet ho.",
+    "productHeading": "Produkt",
+    "supportHeading": "Podpora",
+    "contactLabel": "E-mail"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — Fahrradcomputer für das iPhone",
+    "description": "Bike Pilot verwandelt Fahrdaten in klare Geschichten mit Karten, Statistiken und teilbaren Visualisierungen."
+  },
+  "navigation": {
+    "features": "Funktionen",
+    "templates": "Vorlagen",
+    "screens": "Screens",
+    "download": "Download",
+    "about": "Über die App"
+  },
+  "hero": {
+    "eyebrow": "FAHRRADCOMPUTER FÜR DAS IPHONE",
+    "title": [
+      "Deine Fahrt.",
+      "Schön",
+      "erzählt."
+    ],
+    "copy": "Zeichne jede Ausfahrt auf, analysiere deine Leistung und verwandle Karten, Fotos und Statistiken in elegante Zusammenfassungen, die du gern erneut ansiehst und teilst.",
+    "primaryCta": "Im App Store laden",
+    "secondaryCta": "Funktionen ansehen",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Schöne Vorlagen",
+        "copy": "Wähle einen visuellen Stil passend zu Route, Stimmung oder Belastung."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Intelligente Einblicke",
+        "copy": "Steigung, Tempo und Highlights sind sofort erkennbar."
+      },
+      {
+        "icon": "▷",
+        "title": "Animierte Geschichten",
+        "copy": "Erlebe die Tour als lebendige Zusammenfassung erneut."
+      },
+      {
+        "icon": "♺",
+        "title": "Einfach teilen",
+        "copy": "Exportiere ein Ergebnis, das bereits veröffentlichungsreif aussieht."
+      }
+    ],
+    "mockLabels": {
+      "left": "Vorlagenvorschau",
+      "right": "Fahrtreplay",
+      "centerTop": "Fahrtzusammenfassung",
+      "centerTitle": "Morgenrunde",
+      "centerBottom": "72 km • 980 m • 2 Std. 54 Min."
+    }
+  },
+  "templates": {
+    "eyebrow": "FAHRSTILE",
+    "title": "Geschichten mit Charakter",
+    "description": "Wähle ein Layout, das zum Terrain, zur Intensität oder zur Erinnerung passt, die du behalten möchtest.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "ABENTEUER",
+        "title": "Abenteuer"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "BERG",
+        "title": "Berg"
+      },
+      {
+        "visual": "night",
+        "label": "NACHT",
+        "title": "Nacht"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIAL",
+        "title": "Social"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "SMARTE TOOLS",
+    "title": "Alles, was du nach der Fahrt brauchst",
+    "description": "Von Live-Tracking bis zu aufbereiteten Rückblick-Karten hält Bike Pilot die wichtigen Details griffbereit und die Oberfläche ruhig.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Detaillierte Karten",
+        "description": "Sieh Route, wichtige Abzweigungen und Höhenprofil in einer Ansicht."
+      },
+      {
+        "icon": "◌",
+        "title": "Live-Sensoren",
+        "description": "Verbinde Herzfrequenz-, Geschwindigkeits-, Trittfrequenz- und Temperatursensoren."
+      },
+      {
+        "icon": "▥",
+        "title": "Trenddiagramme",
+        "description": "Vergleiche Tempo, Anstieg, Höhe und Belastung über die ganze Fahrt."
+      },
+      {
+        "icon": "◫",
+        "title": "Fotos entlang der Route",
+        "description": "Verknüpfe Fotos mit den Momenten und Orten der Tour."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX Import & Export",
+        "description": "Importiere geplante Strecken und exportiere absolvierte Fahrten bei Bedarf."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Schalte zusätzliche Vorlagen und erweiterte Zusammenfassungen frei."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "BEREIT FÜR DIE NÄCHSTE RUNDE?",
+    "title": "Bewahre jede Fahrt so, dass du gern zu ihr zurückkehrst.",
+    "copy": "Bike Pilot hilft dir, Strecke, Aufwand und Gefühl in einer stimmigen Ansicht festzuhalten.",
+    "button": "Support und Download-Details öffnen",
+    "visualLabel": "Vorschau der Fahranimation"
+  },
+  "footer": {
+    "tagline": "Bike Pilot verwandelt Fahrdaten in eine elegante Geschichte zum Wiederansehen und Teilen.",
+    "productHeading": "Produkt",
+    "supportHeading": "Support",
+    "contactLabel": "E-Mail"
+  }
+}

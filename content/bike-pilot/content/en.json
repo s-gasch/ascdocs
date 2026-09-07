@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — Cycling Computer for iPhone",
+    "description": "Bike Pilot turns ride data into clear stories with maps, stats and ready-to-share visuals."
+  },
+  "navigation": {
+    "features": "Features",
+    "templates": "Templates",
+    "screens": "Screens",
+    "download": "Download",
+    "about": "About"
+  },
+  "hero": {
+    "eyebrow": "CYCLING COMPUTER FOR IPHONE",
+    "title": [
+      "Your ride.",
+      "Beautifully",
+      "explained."
+    ],
+    "copy": "Track every ride, review performance, and turn maps, photos, and ride stats into polished summaries you will want to revisit and share.",
+    "primaryCta": "Download on the App Store",
+    "secondaryCta": "See features",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "Beautiful templates",
+        "copy": "Choose a visual style that fits the route, mood, or effort."
+      },
+      {
+        "icon": "ϟ",
+        "title": "Smart insights",
+        "copy": "See the climb, pace, and ride highlights at a glance."
+      },
+      {
+        "icon": "▷",
+        "title": "Animated stories",
+        "copy": "Replay the journey as a lively summary of the day."
+      },
+      {
+        "icon": "♺",
+        "title": "Easy sharing",
+        "copy": "Export a result that already looks ready to post."
+      }
+    ],
+    "mockLabels": {
+      "left": "Template preview",
+      "right": "Ride replay",
+      "centerTop": "Ride summary",
+      "centerTitle": "Morning ride",
+      "centerBottom": "72 km • 980 m • 2h 54m"
+    }
+  },
+  "templates": {
+    "eyebrow": "RIDE STYLES",
+    "title": "Stories with personality",
+    "description": "Pick a layout that matches the terrain, the effort, or the memory you want to keep.",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "ADVENTURE",
+        "title": "Adventure"
+      },
+      {
+        "visual": "sport",
+        "label": "SPORT",
+        "title": "Sport"
+      },
+      {
+        "visual": "minimal",
+        "label": "MINIMAL",
+        "title": "Minimal"
+      },
+      {
+        "visual": "mountain",
+        "label": "MOUNTAIN",
+        "title": "Mountain"
+      },
+      {
+        "visual": "night",
+        "label": "NIGHT",
+        "title": "Night"
+      },
+      {
+        "visual": "social",
+        "label": "SOCIAL",
+        "title": "Social"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "SMART TOOLS",
+    "title": "Everything you need after the ride",
+    "description": "From live tracking to polished recap cards, Bike Pilot keeps the useful details close and the experience uncluttered.",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "Detailed maps",
+        "description": "Review the route, key turns, and elevation profile in one view."
+      },
+      {
+        "icon": "◌",
+        "title": "Live sensors",
+        "description": "Connect heart-rate, speed, cadence, and temperature sensors."
+      },
+      {
+        "icon": "▥",
+        "title": "Trend charts",
+        "description": "Compare pace, climb, altitude, and effort over the ride."
+      },
+      {
+        "icon": "◫",
+        "title": "Photo route match",
+        "description": "Pair photos with the moments and places where they happened."
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX in & out",
+        "description": "Import planned tracks and export completed rides when you need them."
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "Unlock extra templates and advanced ride summaries."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "READY FOR THE NEXT LOOP?",
+    "title": "Keep every ride worth revisiting.",
+    "copy": "Bike Pilot helps you capture the route, the effort, and the feeling in one polished view.",
+    "button": "Open support and download details",
+    "visualLabel": "Ride animation preview"
+  },
+  "footer": {
+    "tagline": "Bike Pilot turns ride data into a polished story you can revisit and share.",
+    "productHeading": "Product",
+    "supportHeading": "Support",
+    "contactLabel": "Email"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Bike Pilot — iPhone 用サイクルコンピュータ",
+    "description": "Bike Pilot はライドデータを、地図・統計・共有しやすいビジュアルを備えた分かりやすいストーリーに変えます。"
+  },
+  "navigation": {
+    "features": "機能",
+    "templates": "テンプレート",
+    "screens": "画面",
+    "download": "ダウンロード",
+    "about": "概要"
+  },
+  "hero": {
+    "eyebrow": "IPHONE 用サイクルコンピュータ",
+    "title": [
+      "あなたのライド。",
+      "美しく",
+      "伝わる。"
+    ],
+    "copy": "すべてのライドを記録し、パフォーマンスを振り返り、地図・写真・統計を、何度でも見返したくなる洗練されたサマリーへまとめます。",
+    "primaryCta": "App Store でダウンロード",
+    "secondaryCta": "機能を見る",
+    "benefits": [
+      {
+        "icon": "◉",
+        "title": "美しいテンプレート",
+        "copy": "ルートや気分、強度に合うビジュアルスタイルを選べます。"
+      },
+      {
+        "icon": "ϟ",
+        "title": "スマートな気づき",
+        "copy": "登坂、ペース、ハイライトをひと目で把握できます。"
+      },
+      {
+        "icon": "▷",
+        "title": "アニメーションストーリー",
+        "copy": "その日のライドを動きのある要約として振り返れます。"
+      },
+      {
+        "icon": "♺",
+        "title": "簡単に共有",
+        "copy": "そのまま投稿したくなる仕上がりで書き出せます。"
+      }
+    ],
+    "mockLabels": {
+      "left": "テンプレート表示",
+      "right": "ライド再生",
+      "centerTop": "ライド概要",
+      "centerTitle": "朝のライド",
+      "centerBottom": "72 km ・ 980 m ・ 2時間54分"
+    }
+  },
+  "templates": {
+    "eyebrow": "ライドスタイル",
+    "title": "個性のあるストーリー",
+    "description": "地形や強度、残したい思い出に合うレイアウトを選べます。",
+    "items": [
+      {
+        "visual": "adventure",
+        "label": "アドベンチャー",
+        "title": "アドベンチャー"
+      },
+      {
+        "visual": "sport",
+        "label": "スポーツ",
+        "title": "スポーツ"
+      },
+      {
+        "visual": "minimal",
+        "label": "ミニマル",
+        "title": "ミニマル"
+      },
+      {
+        "visual": "mountain",
+        "label": "マウンテン",
+        "title": "マウンテン"
+      },
+      {
+        "visual": "night",
+        "label": "ナイト",
+        "title": "ナイト"
+      },
+      {
+        "visual": "social",
+        "label": "ソーシャル",
+        "title": "ソーシャル"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "スマートツール",
+    "title": "ライド後に必要なものをひとつに",
+    "description": "ライブトラッキングから整理されたサマリーカードまで、Bike Pilot は必要な情報を近くに保ち、体験をすっきり保ちます。",
+    "items": [
+      {
+        "icon": "⌖",
+        "title": "詳細な地図",
+        "description": "ルート、重要な曲がり角、高度プロファイルを一画面で確認できます。"
+      },
+      {
+        "icon": "◌",
+        "title": "ライブセンサー",
+        "description": "心拍、速度、ケイデンス、温度センサーを接続できます。"
+      },
+      {
+        "icon": "▥",
+        "title": "トレンドチャート",
+        "description": "ペース、登坂、高度、負荷をライド全体で比較できます。"
+      },
+      {
+        "icon": "◫",
+        "title": "写真とルートの対応付け",
+        "description": "写真を撮影した場所や瞬間と結び付けられます。"
+      },
+      {
+        "icon": "⇅",
+        "title": "GPX の入出力",
+        "description": "計画したトラックを読み込み、完了したライドを必要なときに書き出せます。"
+      },
+      {
+        "icon": "★",
+        "title": "BikePilot PRO",
+        "description": "追加テンプレートと高度なライドサマリーを利用できます。"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "次の周回の準備はできましたか？",
+    "title": "見返したくなる形で、すべてのライドを残そう。",
+    "copy": "Bike Pilot はルート、努力、感覚をひとつの洗練されたビューにまとめます。",
+    "button": "サポートとダウンロード情報を開く",
+    "visualLabel": "ライドアニメーションのプレビュー"
+  },
+  "footer": {
+    "tagline": "Bike Pilot はライドデータを、見返して共有したくなる洗練されたストーリーに変えます。",
+    "productHeading": "製品",
+    "supportHeading": "サポート",
+    "contactLabel": "メール"
+  }
+}
