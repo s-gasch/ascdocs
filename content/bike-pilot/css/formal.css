@@ -85,7 +85,7 @@ img {
 .bp-brand img {
   width: auto;
   /* TASK-027 — logo 1.5× (REQ-031): 2.25rem * 1.5 = 3.375rem. */
-  height: 3.375rem;
+  height: 4.5rem;
   border-radius: 0.4rem;
 }
 
