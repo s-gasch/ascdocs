@@ -67,6 +67,7 @@ a {
   gap: 1rem;
   padding: 1rem;
   border-radius: 1.5rem;
+  height: 3rem;
 }
 
 .bp-site-brand {
@@ -80,8 +81,7 @@ a {
 
 .bp-site-brand img {
   width: auto;
-  /* TASK-027 — logo 1.5× (REQ-031): 2.25rem * 1.5 = 3.375rem. */
-  height: 3.375rem;
+  height: 8rem;
   border-radius: 0.4rem;
 }
 
