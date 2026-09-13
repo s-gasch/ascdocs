@@ -5,69 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Bike Pilot marketing page with localized content for all supported languages."
+      content="Bike Pilot turns ride data into clear stories with maps, stats and ready-to-share visuals."
     />
-    <!-- 
-    <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico">
-  -->
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="img/icons/favicon-48x48.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
     <link rel="stylesheet" href="./css/index.css" />
-    <title>Bike Pilot</title>
-    <script type="module" src="./js/index.js"></script>
+    <title>Bike Pilot — Cycling Computer for iPhone</title>
   </head>
-  <body data-page-kind="marketing">
-    <div class="bp-site-shell">
-      <header class="bp-site-header">
-        <a class="bp-site-brand" href="#top" aria-label="Bike Pilot">
-          <img src="./img/logo.png" alt="Bike Pilot" width="114" height="57" />
+  <body>
+    <div class="bp-page" id="top">
+      <section class="bp-hero">
+        <img class="bp-hero__logo" src="./img/logo.png" alt="Bike Pilot" width="180" height="90" />
+        <h1 class="bp-hero__tagline">Your ride. Beautifully explained.</h1>
+        <p class="bp-hero__copy">
+          Track every ride, review performance, and turn maps, photos, and ride stats into
+          polished summaries you will want to revisit and share.
+        </p>
+        <a
+          class="bp-hero__store-badge"
+          href="https://apps.apple.com/pl/app/bikepilot-cycling-computer/id6774326180"
+          aria-label="Download Bike Pilot on the App Store"
+        >
+          <img src="./img/app-store-badge.svg" alt="Download on the App Store" width="160" height="53" />
         </a>
+      </section>
 
-        <div class="bp-site-tools">
-          <nav class="bp-site-nav" aria-label="Bike Pilot sections">
-            <a href="#features" data-site-link="features">Features</a>
-            <a href="#templates" data-site-link="templates">Templates</a>
-            <a href="#screens" data-site-link="screens">Screens</a>
-            <a href="#download" data-site-link="download">Download</a>
-            <a href="#about" data-site-link="about">About</a>
-          </nav>
-          <label class="bp-site-language-picker">
-            <span class="sr-only" data-language-label>Language</span>
-            <select data-language-select></select>
-          </label>
+      <section class="bp-screens" aria-label="App screenshots">
+        <div class="bp-screens__fan">
+          <img class="bp-screens__card" src="./img/screenshots/screenshot-1.png" alt="" loading="lazy" />
+          <img class="bp-screens__card" src="./img/screenshots/screenshot-2.png" alt="" loading="lazy" />
+          <img class="bp-screens__card" src="./img/screenshots/screenshot-3.png" alt="" loading="lazy" />
+          <img class="bp-screens__card" src="./img/screenshots/screenshot-4.png" alt="" loading="lazy" />
+          <img class="bp-screens__card" src="./img/screenshots/screenshot-5.png" alt="" loading="lazy" />
         </div>
-      </header>
+      </section>
 
-      <main data-marketing-content aria-live="polite"></main>
-
-      <footer class="bp-site-footer" id="about">
-        <div class="bp-site-footer__brand">
-          <a class="bp-site-brand" href="#top" aria-label="Bike Pilot home">
-            <img src="./img/logo.png" alt="" width="102" height="51" />
-            <span>Bike Pilot</span>
-          </a>
-          <p data-footer-tagline>
-            Bike Pilot turns ride data into a polished story you can revisit and share.
-          </p>
-        </div>
-        <div class="bp-site-footer__column">
-          <h2 data-footer-product-heading>Product</h2>
-          <a href="#features" data-site-link="features">Features</a>
-          <a href="#templates" data-site-link="templates">Templates</a>
-          <a href="#screens" data-site-link="screens">Screens</a>
-          <a href="#download" data-site-link="download">Download</a>
-        </div>
-        <div class="bp-site-footer__column">
-          <h2 data-footer-support-heading>Support</h2>
-          <a href="./support.html" data-nav-support>Support</a>
-          <a href="./privacy-policy.html" data-nav-privacy>Privacy Policy</a>
-          <a href="./terms-of-use.html" data-nav-terms>Terms of Use</a>
-          <a href="mailto:sebastian.gasch@outlook.com" data-footer-contact>Email</a>
-        </div>
-      </footer>
+      <section class="bp-releases" aria-labelledby="bp-releases-heading">
+        <h2 id="bp-releases-heading">Release history</h2>
+        <ul class="bp-releases__list">
+          <li>
+            <span class="bp-releases__version">1.2.0</span>
+            <p>New ride templates, faster GPX export, and general polish.</p>
+          </li>
+          <li>
+            <span class="bp-releases__version">1.1.0</span>
+            <p>Added live sensor support and improved elevation charts.</p>
+          </li>
+          <li>
+            <span class="bp-releases__version">1.0.0</span>
+            <p>Initial release of Bike Pilot.</p>
+          </li>
+        </ul>
+      </section>
     </div>
-    <div data-consent-root></div>
+
+    <footer class="bp-footer">
+      <a href="./support.html">Support</a>
+      <a href="./privacy-policy.html">Privacy Policy</a>
+      <a href="./terms-of-use.html">Terms of Use</a>
+    </footer>
   </body>
 </html>
