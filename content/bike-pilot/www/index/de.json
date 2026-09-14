@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Fahrradcomputer",
+  "description": "BikePilot — ein fokussierter Fahrradcomputer für iPhone.",
+  "hero": {
+    "eyebrow": "FAHRRADCOMPUTER · IPHONE",
+    "headingLines": ["Fahren.", "Erkunden.", "Erinnern."],
+    "lead": "BikePilot verwandelt dein iPhone in einen fokussierten Fahrradcomputer — mit Live-Fahrdaten, Herzfrequenzzonen, Karten, GPX-Navigation und einer übersichtlichen Fahrtzusammenfassung.",
+    "ctaAlt": "Laden im App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Fahrdaten", "text": "Geschwindigkeit, Distanz, Zeit, Höhe und Herzfrequenz in einem klaren, fürs Fahren konzipierten Dashboard." },
+    { "number": "02", "title": "Navigation", "text": "Folge deiner Route auf der Karte, zeichne GPX-Fahrten auf und finde den Weg zurück nach Hause." },
+    { "number": "03", "title": "Fahrtgeschichte", "text": "Nach der Fahrt siehst du die intelligente Zusammenfassung deiner Fahrt auf einen Blick." }
+  ]
+}

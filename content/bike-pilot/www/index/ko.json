@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — 사이클링 컴퓨터",
+  "description": "BikePilot — iPhone을 위한 심플한 사이클링 컴퓨터.",
+  "hero": {
+    "eyebrow": "사이클링 컴퓨터 · IPHONE",
+    "headingLines": ["달리다.", "탐험하다.", "기억하다."],
+    "lead": "BikePilot은 당신의 iPhone을 실시간 라이딩 데이터, 심박수 존, 지도, GPX 내비게이션, 명확한 라이딩 요약을 갖춘 심플한 사이클링 컴퓨터로 바꿔줍니다.",
+    "ctaAlt": "App Store에서 다운로드"
+  },
+  "features": [
+    { "number": "01", "title": "라이딩 데이터", "text": "속도, 거리, 시간, 고도, 심박수를 라이딩을 위해 설계된 명확한 대시보드에서 확인하세요." },
+    { "number": "02", "title": "내비게이션", "text": "지도에서 경로를 따라가고, GPX 라이딩을 기록하고, 집으로 돌아가는 길을 찾으세요." },
+    { "number": "03", "title": "라이딩 스토리", "text": "라이딩 후, 스마트한 요약을 한눈에 확인하세요." }
+  ]
+}

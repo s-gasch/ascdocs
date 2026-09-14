@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — 骑行电脑",
+  "description": "BikePilot — 为 iPhone 打造的简洁骑行电脑。",
+  "hero": {
+    "eyebrow": "骑行电脑 · IPHONE",
+    "headingLines": ["骑行。", "探索。", "记录。"],
+    "lead": "BikePilot 将你的 iPhone 变成一台简洁的骑行电脑——提供实时骑行数据、心率区间、地图、GPX 导航以及清晰的骑行总结。",
+    "ctaAlt": "前往 App Store 下载"
+  },
+  "features": [
+    { "number": "01", "title": "骑行数据", "text": "在为骑行设计的清晰仪表盘中查看速度、距离、时间、海拔和心率。" },
+    { "number": "02", "title": "导航", "text": "在地图上跟随路线，记录 GPX 骑行轨迹，找到回家的路。" },
+    { "number": "03", "title": "骑行故事", "text": "骑行结束后，一目了然地查看智能骑行总结。" }
+  ]
+}

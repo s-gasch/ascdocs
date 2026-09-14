@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Cyklopočítač",
+  "description": "BikePilot — přehledný cyklopočítač pro iPhone.",
+  "hero": {
+    "eyebrow": "CYKLOPOČÍTAČ · IPHONE",
+    "headingLines": ["Jeď.", "Objevuj.", "Pamatuj."],
+    "lead": "BikePilot promění váš iPhone v přehledný cyklopočítač — s živými daty o jízdě, tepovými zónami, mapami, GPX navigací a jasným shrnutím jízdy.",
+    "ctaAlt": "Stáhnout z App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Data o jízdě", "text": "Rychlost, vzdálenost, čas, nadmořská výška a tep na přehledném displeji navrženém pro jízdu." },
+    { "number": "02", "title": "Navigace", "text": "Sledujte svou trasu na mapě, zaznamenávejte GPX jízdy a najděte cestu zpět domů." },
+    { "number": "03", "title": "Příběh jízdy", "text": "Po jízdě uvidíte na první pohled chytré shrnutí své jízdy." }
+  ]
+}

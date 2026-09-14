@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Fietscomputer",
+  "description": "BikePilot — een overzichtelijke fietscomputer voor iPhone.",
+  "hero": {
+    "eyebrow": "FIETSCOMPUTER · IPHONE",
+    "headingLines": ["Rijd.", "Verken.", "Onthoud."],
+    "lead": "BikePilot maakt van je iPhone een overzichtelijke fietscomputer — met live rijgegevens, hartslagzones, kaarten, GPX-navigatie en een duidelijke ritsamenvatting.",
+    "ctaAlt": "Downloaden in de App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Ritgegevens", "text": "Snelheid, afstand, tijd, hoogte en hartslag in een overzichtelijk dashboard, gemaakt om te fietsen." },
+    { "number": "02", "title": "Navigatie", "text": "Volg je route op de kaart, leg GPX-ritten vast en vind de weg terug naar huis." },
+    { "number": "03", "title": "Ritverhaal", "text": "Na de rit zie je in één oogopslag de slimme samenvatting van je rit." }
+  ]
+}

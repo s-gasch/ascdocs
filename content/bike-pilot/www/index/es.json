@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Ordenador de ciclismo",
+  "description": "BikePilot — un ordenador de ciclismo enfocado para iPhone.",
+  "hero": {
+    "eyebrow": "ORDENADOR DE CICLISMO · IPHONE",
+    "headingLines": ["Pedalea.", "Explora.", "Recuerda."],
+    "lead": "BikePilot convierte tu iPhone en un ordenador de ciclismo enfocado — con datos en vivo, zonas de frecuencia cardíaca, mapas, navegación GPX y un resumen claro de cada salida.",
+    "ctaAlt": "Descárgalo en el App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Datos de la ruta", "text": "Velocidad, distancia, tiempo, altitud y frecuencia cardíaca en un panel claro, diseñado para pedalear." },
+    { "number": "02", "title": "Navegación", "text": "Sigue tu ruta en el mapa, registra salidas GPX y encuentra el camino de vuelta a casa." },
+    { "number": "03", "title": "Historia de la ruta", "text": "Después de la salida, mira de un vistazo el resumen inteligente de tu ruta." }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Ordinateur de vélo",
+  "description": "BikePilot — un ordinateur de vélo épuré pour iPhone.",
+  "hero": {
+    "eyebrow": "ORDINATEUR DE VÉLO · IPHONE",
+    "headingLines": ["Roulez.", "Explorez.", "Souvenez-vous."],
+    "lead": "BikePilot transforme votre iPhone en un ordinateur de vélo épuré — avec des données en direct, des zones de fréquence cardiaque, des cartes, la navigation GPX et un résumé de sortie clair.",
+    "ctaAlt": "Télécharger dans l'App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Données de sortie", "text": "Vitesse, distance, temps, altitude et fréquence cardiaque dans un tableau de bord clair, conçu pour rouler." },
+    { "number": "02", "title": "Navigation", "text": "Suivez votre itinéraire sur la carte, enregistrez vos sorties GPX et retrouvez votre chemin." },
+    { "number": "03", "title": "Récit de sortie", "text": "Après la sortie, découvrez en un coup d'œil le résumé intelligent de votre trajet." }
+  ]
+}

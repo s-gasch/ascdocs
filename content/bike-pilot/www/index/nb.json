@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Sykkelcomputer",
+  "description": "BikePilot — en fokusert sykkelcomputer for iPhone.",
+  "hero": {
+    "eyebrow": "SYKKELCOMPUTER · IPHONE",
+    "headingLines": ["Sykle.", "Utforsk.", "Husk."],
+    "lead": "BikePilot gjør iPhone om til en fokusert sykkelcomputer — med sanntidsdata, pulssoner, kart, GPX-navigasjon og en tydelig turoppsummering.",
+    "ctaAlt": "Last ned fra App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Turdata", "text": "Fart, distanse, tid, høyde og puls i et tydelig dashbord laget for sykling." },
+    { "number": "02", "title": "Navigasjon", "text": "Følg ruten din på kartet, spor GPX-turer, og finn veien hjem igjen." },
+    { "number": "03", "title": "Turhistorie", "text": "Etter turen ser du den smarte oppsummeringen av turen din med et blikk." }
+  ]
+}

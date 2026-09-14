@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Cykeldator",
+  "description": "BikePilot — en fokuserad cykeldator för iPhone.",
+  "hero": {
+    "eyebrow": "CYKELDATOR · IPHONE",
+    "headingLines": ["Cykla.", "Utforska.", "Minns."],
+    "lead": "BikePilot förvandlar din iPhone till en fokuserad cykeldator — med livedata, pulszoner, kartor, GPX-navigering och en tydlig turöversikt.",
+    "ctaAlt": "Hämta från App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Turdata", "text": "Hastighet, distans, tid, höjd och puls i en tydlig instrumentpanel, gjord för cykling." },
+    { "number": "02", "title": "Navigering", "text": "Följ din rutt på kartan, spåra GPX-turer och hitta vägen hem igen." },
+    { "number": "03", "title": "Turberättelse", "text": "Efter turen ser du den smarta sammanfattningen av din tur med en snabb blick." }
+  ]
+}

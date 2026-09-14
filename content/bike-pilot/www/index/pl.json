@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Komputer rowerowy",
+  "description": "BikePilot — przejrzysty komputer rowerowy na iPhone'a.",
+  "hero": {
+    "eyebrow": "KOMPUTER ROWEROWY · IPHONE",
+    "headingLines": ["Jedź.", "Odkrywaj.", "Pamiętaj."],
+    "lead": "BikePilot zmienia Twój iPhone w przejrzysty komputer rowerowy — z danymi na żywo, strefami tętna, mapami, nawigacją GPX i czytelnym podsumowaniem przejazdu.",
+    "ctaAlt": "Pobierz w App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Dane przejazdu", "text": "Prędkość, dystans, czas, wysokość i tętno na przejrzystym pulpicie zaprojektowanym do jazdy." },
+    { "number": "02", "title": "Nawigacja", "text": "Śledź swoją trasę na mapie, rejestruj przejazdy GPX i znajdź drogę powrotną do domu." },
+    { "number": "03", "title": "Historia przejazdu", "text": "Po przejeździe zobacz na pierwszy rzut oka inteligentne podsumowanie swojej trasy." }
+  ]
+}

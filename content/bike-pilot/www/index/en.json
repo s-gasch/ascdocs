@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Cycling Computer",
+  "description": "BikePilot — a focused cycling computer for iPhone.",
+  "hero": {
+    "eyebrow": "CYCLING COMPUTER · IPHONE",
+    "headingLines": ["Ride.", "Explore.", "Remember."],
+    "lead": "BikePilot turns your iPhone into a focused cycling computer — with live ride data, heart-rate zones, maps, GPX navigation and a clear ride summary.",
+    "ctaAlt": "Download on the App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Ride data", "text": "Speed, distance, time, altitude and heart rate in a clear dashboard designed for riding." },
+    { "number": "02", "title": "Navigation", "text": "Follow your route on the map, track GPX rides and find your way back home." },
+    { "number": "03", "title": "Ride story", "text": "After the ride, see the smart summary of your ride at a glance." }
+  ]
+}

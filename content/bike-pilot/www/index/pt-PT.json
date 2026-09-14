@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Computador de ciclismo",
+  "description": "BikePilot — um computador de ciclismo focado para iPhone.",
+  "hero": {
+    "eyebrow": "COMPUTADOR DE CICLISMO · IPHONE",
+    "headingLines": ["Pedala.", "Explora.", "Recorda."],
+    "lead": "O BikePilot transforma o teu iPhone num computador de ciclismo focado — com dados em direto, zonas de frequência cardíaca, mapas, navegação GPX e um resumo claro do percurso.",
+    "ctaAlt": "Transferir na App Store"
+  },
+  "features": [
+    { "number": "01", "title": "Dados do percurso", "text": "Velocidade, distância, tempo, altitude e frequência cardíaca num painel claro, pensado para pedalar." },
+    { "number": "02", "title": "Navegação", "text": "Segue o teu percurso no mapa, regista percursos GPX e encontra o caminho de volta a casa." },
+    { "number": "03", "title": "Resumo do percurso", "text": "Depois do percurso, vê num relance o resumo inteligente da tua pedalada." }
+  ]
+}

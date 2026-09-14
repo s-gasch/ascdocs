@@ -1,0 +1,15 @@
+{
+  "title": "BikePilot — Bisiklet Bilgisayarı",
+  "description": "BikePilot — iPhone için sade bir bisiklet bilgisayarı.",
+  "hero": {
+    "eyebrow": "BİSİKLET BİLGİSAYARI · IPHONE",
+    "headingLines": ["Sür.", "Keşfet.", "Hatırla."],
+    "lead": "BikePilot, iPhone'unuzu; canlı sürüş verileri, kalp atış hızı bölgeleri, haritalar, GPX navigasyonu ve net bir sürüş özetiyle sade bir bisiklet bilgisayarına dönüştürür.",
+    "ctaAlt": "App Store'dan indirin"
+  },
+  "features": [
+    { "number": "01", "title": "Sürüş verileri", "text": "Hız, mesafe, süre, rakım ve kalp atış hızı; sürüş için tasarlanmış net bir panoda." },
+    { "number": "02", "title": "Navigasyon", "text": "Rotanızı haritada takip edin, GPX sürüşlerini kaydedin ve eve giden yolu bulun." },
+    { "number": "03", "title": "Sürüş hikayesi", "text": "Sürüşten sonra, sürüşünüzün akıllı özetini tek bakışta görün." }
+  ]
+}
