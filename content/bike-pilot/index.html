@@ -6,50 +6,55 @@
   <meta name="description" content="BikePilot — a focused cycling computer for iPhone.">
   <title>BikePilot — Cycling Computer</title>
   <link rel="stylesheet" href="css/index.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGMPRJN0SL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZGMPRJN0SL');
+  </script>
 </head>
 <body>
+  <div class="page-bg" aria-hidden="true"></div>
   <header class="site-header">
-    <a href="#">
-      <img class="logo" src="img/logo.png" alt="BikePilot">
-    </a>
-    <nav class="header-nav" aria-label="BikePilot documents">
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms-of-use.html">Terms of Use</a>
-      <a href="support.html">Support</a>
-    </nav>
+    <div class="header-inner">
+      <a href="#">
+        <img class="logo" src="img/logo.png" alt="BikePilot">
+      </a>
+      <nav class="header-nav" aria-label="BikePilot documents">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="eyebrow">CYCLING COMPUTER · iPHONE</div>
-      <h1>Ride.<br><em>Explore.</em><br>Remember.</h1>
-      <p class="lead">
-        BikePilot turns your iPhone into a focused cycling computer —
-        with live ride data, heart-rate zones, maps, GPX navigation and a clear ride summary.
-      </p>
-      <a class="app-store-badge" href="https://apps.apple.com/us/search?term=BikePilot" target="_blank" rel="noopener">
-        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store">
-      </a>
+      <div class="hero-copy">
+        <div class="eyebrow">CYCLING COMPUTER · iPHONE</div>
+        <h1>Ride.<br><em>Explore.</em><br>Remember.</h1>
+        <p class="lead">
+          BikePilot turns your iPhone into a focused cycling computer —
+          with live ride data, heart-rate zones, maps, GPX navigation and a clear ride summary.
+        </p>
+        <a class="app-store-badge" href="https://apps.apple.com/us/search?term=BikePilot" target="_blank" rel="noopener">
+          <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store">
+        </a>
+      </div>
+      <div class="hero-shots" aria-hidden="true">
+        <img class="hero-shot hero-shot-1" src="img/screenshots/01_dashboard_live.png" alt="">
+        <img class="hero-shot hero-shot-2" src="img/screenshots/02_navigation.png" alt="">
+        <img class="hero-shot hero-shot-3" src="img/screenshots/06_ride_summary.png" alt="">
+      </div>
     </section>
 
     <section class="features" aria-label="BikePilot features">
       <article><strong>01</strong><h2>Ride data</h2><p>Speed, distance, time, altitude and heart rate in a clear dashboard designed for riding.</p></article>
       <article><strong>02</strong><h2>Navigation</h2><p>Follow your route on the map, track GPX rides and find your way back home.</p></article>
       <article><strong>03</strong><h2>Ride story</h2><p>After the ride, see the smart summary of your ride at a glance.</p></article>
-    </section>
-
-    <section class="release">
-      <div>
-        <div class="eyebrow">LATEST RELEASE</div>
-        <h2>Built for the next ride.</h2>
-        <p>BikePilot is continuously refined around one simple idea: the right information, at the right moment, without getting in the way of riding.</p>
-      </div>
-      <div class="release-card">
-        <span>BIKEPILOT</span>
-        <strong>Latest release</strong>
-        <small>Available on the App Store</small>
-        <a class="app-store-badge release-badge" href="https://apps.apple.com/us/search?term=BikePilot" target="_blank" rel="noopener"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store"></a>
-      </div>
     </section>
   </main>
 

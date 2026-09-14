@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /formal/
+Disallow: /template/
+
+Sitemap: https://s-gasch.github.io/ascdocs/bike-pilot/sitemap.xml
